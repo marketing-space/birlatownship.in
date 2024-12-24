@@ -7,7 +7,7 @@ import { getSiteConfig } from "@/lib/config";
 
 export default function MobileActionBar() {
   const { onOpen } = useModal();
-  const { contact } = getSiteConfig();
+  const { contact, name } = getSiteConfig();
 
   return (
     <div className="fixed bottom-4 left-4 right-4 max-w-md mx-auto lg:hidden z-50">
@@ -43,7 +43,7 @@ export default function MobileActionBar() {
           className="flex gap-2 items-center justify-center h-14 rounded-none bg-primary text-white hover:bg-gray-50 rounded-r-full"
           onClick={() =>
             window.open(
-              "https://api.whatsapp.com/send?phone=+919521278201&text=I am Interested in Narang Privado at Thane. Please Send me details."
+              `https://api.whatsapp.com/send?phone=${contact.whatsapp}&text=I am Interested in ${name} at ${contact.address}. Please Send me details.`
             )
           }
         >

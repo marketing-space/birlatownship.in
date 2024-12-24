@@ -13,7 +13,7 @@ export default function DeveloperSection() {
         <div className="flex items-center justify-center mb-4">
           <Image
             src="/images/logo.svg"
-            alt="Runwal Group"
+            alt={name}
             width={200}
             height={200}
           />

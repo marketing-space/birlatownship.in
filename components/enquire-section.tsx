@@ -59,7 +59,7 @@ export default function EnquireSection({
   });
 
   const { onOpen } = useModal();
-  const { bookFreeVisit, callUs, formSubmission } = getSiteConfig();
+  const {  enquire, formSubmission } = getSiteConfig();
 
   async function handleSubmit(values: z.infer<typeof formSchema>) {
     try {
@@ -90,21 +90,23 @@ export default function EnquireSection({
     >
       <div className="flex flex-col h-full">
         <h2 className="text-xl font-semibold text-gray-900 mb-2">
-          Get The Best Quote
+          {enquire.title}
         </h2>
 
         {/* Quick Call Action */}
         {showCallUsButton && (
           <Button
             className="flex w-full items-center justify-start gap-2 h-auto py-3 mb-4"
-            onClick={() => window.open(`tel:${callUs.phone}`)}
+            onClick={() => window.open(`tel:${enquire.callUs.phone}`)}
           >
             <div className="flex items-center gap-2 rounded-full bg-white text-primary p-2">
               <Phone className="h-4 w-4" />
             </div>
             <div className="flex flex-col items-start text-left">
-              <span className="text-xs">{callUs.title}</span>
-              <span className="text-sm font-medium">{callUs.phone}</span>
+              <span className="text-xs">{enquire.callUs.title}</span>
+              <span className="text-sm font-medium">
+                {enquire.callUs.phone}
+              </span>
             </div>
           </Button>
         )}
@@ -198,8 +200,8 @@ export default function EnquireSection({
         {showFreeVisitButton && (
           <div className="flex flex-col items-center justify-center mt-4">
             <Image
-              src={bookFreeVisit.image.src}
-              alt={bookFreeVisit.image.alt}
+              src={enquire.bookFreeVisit.image.src}
+              alt={enquire.bookFreeVisit.image.alt}
               width={200}
               height={200}
               className="rounded-lg"
@@ -208,8 +210,8 @@ export default function EnquireSection({
               className="w-full mt-4 bg-primary relative overflow-hidden group"
               onClick={() =>
                 onOpen("enquiry", {
-                  title: bookFreeVisit.cta.title,
-                  description: bookFreeVisit.cta.description,
+                  title: enquire.bookFreeVisit.cta.title,
+                  description: enquire.bookFreeVisit.cta.description,
                 })
               }
               disabled={isSubmitting}
@@ -239,7 +241,7 @@ export default function EnquireSection({
                 }}
                 className="flex items-center justify-center w-full"
               >
-                {bookFreeVisit.cta.title}
+                {enquire.bookFreeVisit.cta.title}
               </motion.div>
             </Button>
           </div>

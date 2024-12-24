@@ -65,12 +65,6 @@ export const siteConfig = {
     },
   },
 
-  social: {
-    facebook: "https://facebook.com/narangprivado",
-    instagram: "https://instagram.com/narangprivado",
-    twitter: "https://twitter.com/narangprivado",
-  },
-
   branding: {
     logo: "/images/logo.svg",
     favicon: "/icon.png",
@@ -450,21 +444,24 @@ export const siteConfig = {
     },
   ],
 
-  bookFreeVisit: {
-    image: {
-      src: "/images/ride.png",
-      alt: "Book a Site Visit",
+  enquire: {
+    title: "Get The Best Quote",
+    bookFreeVisit: {
+      image: {
+        src: "/images/ride.png",
+        alt: "Book a Site Visit",
+      },
+      cta: {
+        title: "Book A Free Site Visit",
+        description: "Schedule at your convenience",
+      },
     },
-    cta: {
-      title: "Book A Free Site Visit",
-      description: "Schedule at your convenience",
-    },
-  },
 
-  callUs: {
-    title: "Call Us",
-    description: "Get in touch with our experts",
-    phone: "+91 98765 43210",
+    callUs: {
+      title: "Call Us",
+      description: "Get in touch with our experts",
+      phone: "+91 98765 43210",
+    },
   },
 
   legal: {
