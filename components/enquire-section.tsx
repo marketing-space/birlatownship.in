@@ -64,10 +64,6 @@ export default function EnquireSection({
   async function handleSubmit(values: z.infer<typeof formSchema>) {
     try {
       setIsSubmitting(true);
-      console.log(
-        process.env.NEXT_PUBLIC_LEAD_COLLECTION_MODE,
-        "LEAD_COLLECTION_MODE"
-      );
       await submitForm({
         name: values.name,
         email: values.email || "",
