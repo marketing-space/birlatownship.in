@@ -45,7 +45,7 @@ export default function PriceSection() {
                     <IndianRupee className="h-4 w-4" />
                     <span>{item.price}</span>
                     <span className="text-sm text-gray-500">
-                      {pricing.priceSuffix}
+                      {item.suffix}
                     </span>
                   </div>
                 </TableCell>
@@ -85,7 +85,7 @@ export default function PriceSection() {
             </div>
             <div className="flex justify-between items-center text-sm text-gray-600">
               <span>{item.carpetArea}</span>
-              <span>{pricing.priceSuffix}</span>
+              <span>{item.suffix}</span>
             </div>
             <div className="mt-2 self-end">
               <Button

@@ -135,42 +135,48 @@ export const siteConfig = {
     title: "Pricing Plans",
     description:
       "Choose from our range of luxurious 2, 3 & 4 BHK residences, each designed to offer the perfect blend of comfort and sophistication",
-    priceSuffix: "All Inclusive",
     prices: [
       {
         type: "2 BHK Regal",
         carpetArea: "737 Sq.ft.",
         price: "1.62 Cr",
+        suffix: "All Inclusive",
       },
       {
         type: "2 BHK Luxury",
         carpetArea: "800 Sq.ft.",
         price: "1.77 Cr",
+        suffix: "All Inclusive",
       },
       {
         type: "3 BHK Signature",
         carpetArea: "1070 Sq.ft.",
         price: "2.39 Cr",
+        suffix: "All Inclusive",
       },
       {
         type: "3 BHK Regal",
         carpetArea: "1128 Sq.ft.",
         price: "2.55 Cr",
+        suffix: "All Inclusive",
       },
       {
         type: "3 BHK Luxury",
         carpetArea: "1295 Sq.ft.",
         price: "2.95 Cr",
+        suffix: "All Inclusive",
       },
       {
         type: "4 BHK Imperial",
         carpetArea: "1486 Sq.ft.",
         price: "3.64 Cr",
+        suffix: "All Inclusive",
       },
       {
         type: "4 BHK Elite",
         carpetArea: "1616 Sq.ft.",
         price: "3.99 Cr",
+        suffix: "All Inclusive",
       },
     ],
     cta: {
