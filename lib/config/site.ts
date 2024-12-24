@@ -16,7 +16,7 @@ export const siteConfig = {
     "Founded in 1988, Narang Realty is a renowned family real estate business that develops residential and commercial properties. The firm focuses on delivering refined, luxury housing and has already served 2000+ home buyers to date. It has already delivered projects across 5 million+ sq. ft. and won 50+ real estate awards. From connected community living, to soaring skyscarpers, our buildings enhance lifestyles across the city. We are deeply committed to our mission of creating superior developments that enrich the city and transform lives",
   contact: {
     phone: "+919876543210",
-    whatsapp: "+919521278201",
+    whatsapp: "+919876543210",
     email: "sales@narangprivado.com",
     address: "Thane West, Mumbai, Maharashtra 400615",
   },
@@ -274,7 +274,7 @@ export const siteConfig = {
       },
       {
         title: "Multi-Purpose Sports Court",
-        image: "/images/amenities/multiPurposeSportsCourt0.webp",
+        image: "/images/amenities/multipurposeSportsCourt0.webp",
         description: "A space for multi-purpose sports and activities",
       },
       {
@@ -284,7 +284,7 @@ export const siteConfig = {
       },
       {
         title: "Kids Play Area",
-        image: "/images/amenities/kidsPlayArea0.webp",
+        image: "/images/amenities/kidsplayarea0.webp",
         description: "A safe and fun space for children to play",
       },
       {
@@ -600,8 +600,8 @@ export const siteConfig = {
       emailOptin: "1",
     },
     email: {
-      recipients: ["pvinod813@gmail.com"],
-      apiEndpoint: "/api/send-email", // Your email API endpoint
+      recipients: process.env.EMAIL_RECIPIENTS?.split(",") || [],
+      apiEndpoint: "/api/send-email",
       template: {
         subject: "New Enquiry from Narang Privado",
       },
