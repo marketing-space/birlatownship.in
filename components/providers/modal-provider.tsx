@@ -11,13 +11,11 @@ import { getSiteConfig } from "@/lib/config";
 import { useModal } from "@/lib/stores/use-modal-store";
 import { X } from "lucide-react";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import EnquireSection from "../enquire-section";
 import { Button } from "../ui/button";
 
 export const ModalProvider = () => {
-  const router = useRouter();
   const [isMounted, setIsMounted] = useState(false);
   const { isOpen, onClose, type, data } = useModal();
   const { branding, enquire, hero } = getSiteConfig();
@@ -27,7 +25,6 @@ export const ModalProvider = () => {
   }, []);
 
   const handleFormSubmit = () => {
-    router.push(`/thank-you`);
     onClose();
   };
 
