@@ -426,24 +426,6 @@ export const siteConfig = {
     ],
   },
 
-  enquiryFeatures: [
-    {
-      icon: Phone,
-      title: "Instant Call Back",
-      description: "Get a call from our experts",
-    },
-    {
-      icon: Car,
-      title: "Free Site Visit",
-      description: "Schedule at your convenience",
-    },
-    {
-      icon: IndianRupee,
-      title: "Unmatched Price",
-      description: "Best offers guaranteed",
-    },
-  ],
-
   enquire: {
     title: "Get The Best Quote",
     bookFreeVisit: {
@@ -462,6 +444,23 @@ export const siteConfig = {
       description: "Get in touch with our experts",
       phone: "+91 98765 43210",
     },
+    enquiryFeatures: [
+      {
+        icon: Phone,
+        title: "Instant Call Back",
+        description: "Get a call from our experts",
+      },
+      {
+        icon: Car,
+        title: "Free Site Visit",
+        description: "Schedule at your convenience",
+      },
+      {
+        icon: IndianRupee,
+        title: "Unmatched Price",
+        description: "Best offers guaranteed",
+      },
+    ],
   },
 
   legal: {

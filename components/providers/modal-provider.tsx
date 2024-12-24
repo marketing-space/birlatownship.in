@@ -20,7 +20,7 @@ export const ModalProvider = () => {
   const router = useRouter();
   const [isMounted, setIsMounted] = useState(false);
   const { isOpen, onClose, type, data } = useModal();
-  const { enquiryFeatures, branding, callUs, hero } = getSiteConfig();
+  const { branding, enquire, hero } = getSiteConfig();
 
   useEffect(() => {
     setIsMounted(true);
@@ -85,33 +85,35 @@ export const ModalProvider = () => {
                   {/* Features */}
                   <div className="space-y-6">
                     <h3 className="text-xl font-semibold">We Promise</h3>
-                    <div className="space-y-4">
-                      {enquiryFeatures.map((feature, index) => (
-                        <div
-                          key={index}
-                          className="flex items-start gap-3 group"
-                        >
-                          <div className="p-2 rounded-full bg-white/10 group-hover:bg-white/20 transition-colors">
-                            <feature.icon className="h-5 w-5" />
+                    {enquire.enquiryFeatures.length > 0 && (
+                      <div className="space-y-4">
+                        {enquire.enquiryFeatures.map((feature, index) => (
+                          <div
+                            key={index}
+                            className="flex items-start gap-3 group"
+                          >
+                            <div className="p-2 rounded-full bg-white/10 group-hover:bg-white/20 transition-colors">
+                              <feature.icon className="h-5 w-5" />
+                            </div>
+                            <div>
+                              <h4 className="font-medium">{feature.title}</h4>
+                              <p className="text-sm text-white/70">
+                                {feature.description}
+                              </p>
+                            </div>
                           </div>
-                          <div>
-                            <h4 className="font-medium">{feature.title}</h4>
-                            <p className="text-sm text-white/70">
-                              {feature.description}
-                            </p>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
+                        ))}
+                      </div>
+                    )}
                   </div>
 
                   {/* Contact */}
                   <div className="mt-auto pt-6">
                     <div className="text-sm text-white/70">
-                      {callUs.title}
+                      {enquire.callUs.title}
                     </div>
                     <div className="text-lg font-semibold">
-                      {callUs.phone}
+                      {enquire.callUs.phone}
                     </div>
                   </div>
                 </div>
@@ -178,19 +180,21 @@ export const ModalProvider = () => {
                 </DialogHeader>
 
                 {/* Quick Features */}
-                <div className="grid grid-cols-3 gap-2 my-4">
-                  {enquiryFeatures.map((feature, index) => (
-                    <div
-                      key={index}
-                      className="flex flex-col items-center text-center p-2 rounded-lg bg-muted/50"
-                    >
-                      <div className="p-2 rounded-full bg-primary/10 mb-2">
-                        <feature.icon className="h-5 w-5" />
+                {enquire.enquiryFeatures.length > 0 && (
+                  <div className="grid grid-cols-3 gap-2 my-4">
+                    {enquire.enquiryFeatures.map((feature, index) => (
+                      <div
+                        key={index}
+                        className="flex flex-col items-center text-center p-2 rounded-lg bg-muted/50"
+                      >
+                        <div className="p-2 rounded-full bg-primary/10 mb-2">
+                          <feature.icon className="h-5 w-5" />
+                        </div>
+                        <p className="text-xs font-medium">{feature.title}</p>
                       </div>
-                      <p className="text-xs font-medium">{feature.title}</p>
-                    </div>
-                  ))}
-                </div>
+                    ))}
+                  </div>
+                )}
 
                 <div className="mt-4">
                   <EnquireSection
