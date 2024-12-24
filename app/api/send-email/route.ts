@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
+export const maxDuration = 60;
+
 export async function POST(req: Request) {
   try {
     const body = await req.json();
@@ -11,7 +13,7 @@ export async function POST(req: Request) {
       // Your email service configuration
       host: process.env.SMTP_HOST,
       port: parseInt(process.env.SMTP_PORT || "587"),
-      secure: true,
+      secure: false,
       auth: {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASSWORD,

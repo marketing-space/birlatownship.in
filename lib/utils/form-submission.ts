@@ -4,7 +4,6 @@ type FormData = {
   name: string;
   email: string;
   phone: string;
-  type?: string;
 };
 
 async function submitToCRM(data: FormData) {
@@ -43,23 +42,20 @@ async function submitToCRM(data: FormData) {
     mode: "no-cors",
   });
 
-  if (!response.ok) {
-    throw new Error("CRM submission failed");
-  }
-
   return response;
 }
 
 async function submitToEmail(data: FormData) {
   const { email } = getSiteConfig().formSubmission;
 
+  console.log(process.env.NEXT_PUBLIC_EMAIL_RECIPIENTS);
   const response = await fetch(email.apiEndpoint, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      to: email.recipients,
+      to: process.env.NEXT_PUBLIC_EMAIL_RECIPIENTS,
       subject: email.template.subject,
       data: {
         ...data,
@@ -76,16 +72,9 @@ async function submitToEmail(data: FormData) {
 }
 
 export async function submitForm(data: FormData) {
-  const { type } = getSiteConfig().formSubmission;
-
-  try {
-    if (type === "crm") {
-      return await submitToCRM(data);
-    } else {
-      return await submitToEmail(data);
-    }
-  } catch (error) {
-    console.error("Form submission error:", error);
-    throw error;
+  if (process.env.NEXT_PUBLIC_LEAD_COLLECTION_MODE === "email") {
+    await submitToEmail(data);
+  } else {
+    await submitToCRM(data);
   }
 }
