@@ -27,7 +27,9 @@ export const ModalProvider = () => {
   }, []);
 
   const handleFormSubmit = () => {
-    router.push(`/thank-you?type=${"enquiry"}`);
+    if (process.env.NEXT_PUBLIC_LEAD_COLLECTION_MODE === "email") {
+      router.push(`/thank-you`);
+    }
     onClose();
   };
 
