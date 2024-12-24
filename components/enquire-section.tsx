@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { getSiteConfig } from "@/lib/config";
 import { useModal } from "@/lib/stores/use-modal-store";
 import { cn } from "@/lib/utils";
+import { submitForm } from "@/lib/utils/form-submission";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { motion } from "framer-motion";
 import { Loader2, Phone } from "lucide-react";
@@ -14,7 +15,6 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
 import { PhoneInput } from "./ui/phone-input";
-import { submitForm } from "@/lib/utils/form-submission";
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -59,12 +59,15 @@ export default function EnquireSection({
   });
 
   const { onOpen } = useModal();
-  const {  enquire, formSubmission } = getSiteConfig();
+  const { enquire, formSubmission } = getSiteConfig();
 
   async function handleSubmit(values: z.infer<typeof formSchema>) {
     try {
       setIsSubmitting(true);
-
+      console.log(
+        process.env.NEXT_PUBLIC_LEAD_COLLECTION_MODE,
+        "LEAD_COLLECTION_MODE"
+      );
       await submitForm({
         name: values.name,
         email: values.email || "",

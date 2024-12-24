@@ -587,7 +587,6 @@ export const siteConfig = {
   },
 
   formSubmission: {
-    type: process.env.LEAD_COLLECTION_MODE || "email", // or "email"
     crm: {
       formId: "__vtigerWebForm_67",
       publicId: "e8e83c63a249cfc8f6a7ba6c95455824",
@@ -600,7 +599,6 @@ export const siteConfig = {
       emailOptin: "1",
     },
     email: {
-      recipients: process.env.EMAIL_RECIPIENTS?.split(",") || [],
       apiEndpoint: "/api/send-email",
       template: {
         subject: "New Enquiry from Narang Privado",
