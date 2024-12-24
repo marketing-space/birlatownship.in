@@ -588,7 +588,7 @@ export const siteConfig = {
   },
 
   formSubmission: {
-    type: "email", // or "email"
+    type: process.env.LEAD_COLLECTION_MODE || "email", // or "email"
     crm: {
       formId: "__vtigerWebForm_67",
       publicId: "e8e83c63a249cfc8f6a7ba6c95455824",

@@ -9,12 +9,12 @@ export async function POST(req: Request) {
     // Configure your email transport
     const transporter = nodemailer.createTransport({
       // Your email service configuration
-      host: "email-smtp.us-east-1.amazonaws.com",
-      port: 587,
+      host: process.env.SMTP_HOST,
+      port: parseInt(process.env.SMTP_PORT || "587"),
       secure: false,
       auth: {
-        user: "AKIASMLEQIZA4NP7ZB53",
-        pass: "BHEXu6LFdRaKVJ0Ggkirl18PeQfLGGVaQ539k5Ly4MNL",
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASSWORD,
       },
     });
 
