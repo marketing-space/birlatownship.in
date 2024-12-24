@@ -4,14 +4,14 @@ import nodemailer from "nodemailer";
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const { to, subject, replyTo, data } = body;
+    const { to, subject, data } = body;
 
     // Configure your email transport
     const transporter = nodemailer.createTransport({
       // Your email service configuration
       host: process.env.SMTP_HOST,
       port: parseInt(process.env.SMTP_PORT || "587"),
-      secure: false,
+      secure: true,
       auth: {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASSWORD,
@@ -19,7 +19,7 @@ export async function POST(req: Request) {
     });
 
     await transporter.sendMail({
-      from: replyTo,
+      from: process.env.SMTP_USER,
       to,
       subject,
       html: `
@@ -27,7 +27,6 @@ export async function POST(req: Request) {
         <p><strong>Name:</strong> ${data.name}</p>
         <p><strong>Email:</strong> ${data.email}</p>
         <p><strong>Phone:</strong> ${data.phone}</p>
-        <p><strong>Type:</strong> ${data.type}</p>
         <p><strong>Date:</strong> ${data.date}</p>
       `,
     });

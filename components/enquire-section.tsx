@@ -69,7 +69,6 @@ export default function EnquireSection({
         name: values.name,
         email: values.email || "",
         phone: values.phone,
-        type: "enquiry",
       });
 
       onSubmit?.();

@@ -605,7 +605,6 @@ export const siteConfig = {
       apiEndpoint: "/api/send-email", // Your email API endpoint
       template: {
         subject: "New Enquiry from Narang Privado",
-        replyTo: "pvinod813+adsr@gmail.com",
       },
     },
   },

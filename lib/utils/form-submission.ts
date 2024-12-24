@@ -61,7 +61,6 @@ async function submitToEmail(data: FormData) {
     body: JSON.stringify({
       to: email.recipients,
       subject: email.template.subject,
-      replyTo: email.template.replyTo,
       data: {
         ...data,
         date: new Date().toLocaleString(),
