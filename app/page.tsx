@@ -9,7 +9,7 @@ import VirtualTourSection from "@/components/virtual-tour-section";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <HeroSection />
       <PriceSection />
       <SitePlanSection />
@@ -18,6 +18,6 @@ export default function Home() {
       <LocationSection />
       <VirtualTourSection />
       <DeveloperSection />
-    </div>
+    </>
   );
 }
