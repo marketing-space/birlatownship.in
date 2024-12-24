@@ -85,9 +85,9 @@ export default function EnquireSection({
     <aside
       className={cn(
         "bg-white w-full",
-        isModal ? "max-h-[90vh]" : "max-h-[calc(100vh-4rem)]",
-        "overflow-y-auto",
-        isModal ? "rounded-lg p-6" : "px-4 py-2",
+        isModal
+          ? "max-h-[90vh] rounded-lg p-6"
+          : "max-h-[calc(100vh-4rem)] px-4 py-2",
         className
       )}
     >
