@@ -11,8 +11,7 @@ import {
 } from "lucide-react";
 
 export const siteConfig = {
-  name: "Runwal Forest Tower",
-  description: "Luxury Apartments in Thane",
+  name: "Narang Privado",
   about:
     "Runwal Group is a leading real estate developer in India, known for its high-quality residential and commercial projects. Founded in 1978, Runwal Group excels in establishing sprawling residential complexes, retail shopping malls, and commercial spaces. With a mission of developing standout landmarks rather than mere living spaces, Runwal homes are known for their aesthetic designs, plush interiors, and central green landscaping. Over the course of 40 years, the firm has become a leading face in real estate and changed the Mumbai skyline.",
   contact: {
@@ -74,7 +73,7 @@ export const siteConfig = {
 
   branding: {
     logo: "/images/logo.svg",
-    favicon: "/favicon.ico",
+    favicon: "/icon.png",
     ogImage: "/og-image.jpg",
   },
 
@@ -95,6 +94,7 @@ export const siteConfig = {
         description:
           "Download the brochure to learn more about Narang Privado.",
       },
+      title: "Welcome to Narang Privado",
       description:
         "Experience living in a resort-like atmosphere only at Narang Privado, in Thane. This residential project offers Vastu-compliant 2, 3 & 4 BHK residences - attached with expansive balconies & large windows for cross ventilation. These homes are designed for a lavish lifestyle, with cozy master bedrooms, designer kitchens, and imported marble floors. 32+ amenities such as a clubhouse,swimming pool, pet park, a rock climbing wall, and a sports arena afford a luxury lifestyle. The inclusion of a serene forest walk, jacuzzi, tea pavilion, & more revives your daily lifestyle.Experience living in a resort-like atmosphere only at Narang Privado, in Thane. This residential project offers Vastu-compliant 2, 3 & 4 BHK residences - attached with expansive balconies & large windows for cross ventilation. These homes are designed for a lavish lifestyle, with cozy master bedrooms, designer kitchens, and imported marble floors. 32+ amenities such as a clubhouse,swimming pool, pet park, a rock climbing wall, and a sports arena afford a luxury lifestyle. The inclusion of a serene forest walk, jacuzzi, tea pavilion, & more revives your daily lifestyle. ",
     },
@@ -485,33 +485,7 @@ export const siteConfig = {
         },
       ],
     },
-    legalInfo: [
-      {
-        title: "Project Registration",
-        description:
-          "Project Registered under Government of India RERA Act 2016",
-      },
-      {
-        title: "Authorised Advertiser",
-        description:
-          "Government RERA Authorised Advertiser's: Home Bazaar Services Pvt Ltd, Registration No A5200000045, CIN U45400MH2013PTC242930.",
-      },
-      {
-        title: "RERA Numbers",
-        description:
-          "RERA Project Registration No.: P51800000818 | P51800001838 | P51800001137",
-      },
-      {
-        title: "Site Address",
-        description:
-          "Runwal Forest: Lal Bahadur Shastri Marg, Ambedkar Nagar, Kanjurmarg West, Bhandup West, Mumbai, Maharashtra 400078",
-      },
-      {
-        title: "Corporate Office",
-        description:
-          "Corporate Office: Runwal Group: 4th Floor, Runwal & Omkar Esquare, Off, Eastern Express Hwy, opp. Sion-Chunabhatti, Sion East, Signal, Mumbai, Maharashtra 400022",
-      },
-    ],
+    legalInfo: [],
     disclaimer:
       "We are an authorised marketing partner for this project.Provided content is given by respective owners and this website and content is for information purpose only and it does not constitute any offer to avail for any services.Prices mentioned are subject to change without prior notice and properties mentioned are subject to availability.You can expect a call, SMS or emails on details",
   },

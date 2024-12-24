@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Section } from "./ui/section";
 
 export default function DeveloperSection() {
-  const { legal, about } = getSiteConfig();
+  const { legal, about, name } = getSiteConfig();
   return (
     <Section id="developer" title="">
       <div className="flex flex-col gap-4">
@@ -20,7 +20,7 @@ export default function DeveloperSection() {
         </div>
         <div className="rounded-xl mb-4">
           <h2 className="text-2xl font-bold text-gray-900 mb-2">
-            About Runwal Group
+            About {name}
           </h2>
           <p className="text-gray-600 leading-relaxed">{about}</p>
         </div>
@@ -50,9 +50,7 @@ export default function DeveloperSection() {
               </div>
             ))}
           </div>
-          <p className="text-xs text-gray-600">
-            {legal.rera.description}
-          </p>
+          <p className="text-xs text-gray-600">{legal.rera.description}</p>
         </div>
 
         {/* Legal Information */}
@@ -61,23 +59,25 @@ export default function DeveloperSection() {
             <h3 className="text-sm font-bold text-gray-900 mb-2">
               Legal Information
             </h3>
-            <div className="space-y-2">
-              {legal.legalInfo.map((info, index) => (
-                <li
-                  key={index}
-                  className="bg-white list-none flex items-start gap-2"
-                >
-                  <div className="flex-shrink-0 mt-[4px]">
-                    <div className="w-2 h-2 rounded-full bg-primary" />
-                  </div>
-                  <div className="flex flex-col gap-0">
-                    <p className="text-[10px] text-gray-600">
-                      {info.description}
-                    </p>
-                  </div>
-                </li>
-              ))}
-            </div>
+            {legal.legalInfo?.length > 0 && (
+              <div className="space-y-2">
+                {legal.legalInfo?.map((info: any, index: number) => (
+                  <li
+                    key={index}
+                    className="bg-white list-none flex items-start gap-2"
+                  >
+                    <div className="flex-shrink-0 mt-[4px]">
+                      <div className="w-2 h-2 rounded-full bg-primary" />
+                    </div>
+                    <div className="flex flex-col gap-0">
+                      <p className="text-[10px] text-gray-600">
+                        {info.description}
+                      </p>
+                    </div>
+                  </li>
+                ))}
+              </div>
+            )}
           </div>
 
           {/* Disclaimer */}

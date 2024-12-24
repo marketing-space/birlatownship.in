@@ -104,27 +104,26 @@ export default function HeroSection() {
 
             <div className="border-t border-gray-200 pt-3">
               <p className="text-sm text-gray-600 text-center">
-                Luxurious 2, 3 & 4 BHK Starts At
+                {hero.offer.price.title}
               </p>
               <div className="flex items-center justify-center gap-1 text-xl font-bold text-gray-900">
                 <IndianRupee className="h-5 w-5" />
-                <span>1.62 Cr</span>
+                <span>{hero.offer.price.value}</span>
                 <span className="text-xs font-normal text-gray-600">
-                  All Inc
+                  {hero.offer.price.suffix}
                 </span>
               </div>
             </div>
             <Button
               onClick={() =>
                 onOpen("enquiry", {
-                  title: "Book A Free Site Visit",
-                  description:
-                    "Book a free site visit to experience the luxury of Narang Privado.",
+                  title: hero.offer.cta.title,
+                  description: hero.offer.cta.description,
                 })
               }
               className="w-full"
             >
-              Book A Free Site Visit
+              {hero.offer.cta.title}
             </Button>
           </div>
         </div>
@@ -223,7 +222,7 @@ export default function HeroSection() {
       <div className="flex items-start lg:items-center p-6 lg:p-12 bg-white overflow-y-auto">
         <div className="mx-auto lg:mx-0">
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">
-            Welcome to {name}
+            {hero.welcome.title}
           </h1>
           <div className="my-1 w-32 h-1 rounded-full bg-primary mb-4"></div>
           <div className="space-y-4 flex flex-col">
