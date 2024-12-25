@@ -77,7 +77,7 @@ export const ModalProvider = () => {
                       alt="Logo"
                       width={180}
                       height={50}
-                      className="brightness-0 invert"
+                      className="brightness bg-white p-2 rounded-md"
                     />
                   </div>
 

@@ -14,9 +14,9 @@ import { routes } from "./routes";
 const route = routes.default;
 
 export const siteConfig = {
-  name: "Narang Privado",
+  name: "Runwal 25 Hour Life",
   about:
-    "Founded in 1988, Narang Realty is a renowned family real estate business that develops residential and commercial properties. The firm focuses on delivering refined, luxury housing and has already served 2000+ home buyers to date. It has already delivered projects across 5 million+ sq. ft. and won 50+ real estate awards. From connected community living, to soaring skyscarpers, our buildings enhance lifestyles across the city. We are deeply committed to our mission of creating superior developments that enrich the city and transform lives",
+    "Founded in 1978, Runwal Group excels in establishing sprawling residential complexes, retail shopping malls, and commercial spaces. With a mission of developing standout landmarks rather than mere living spaces, Runwal homes are known for their aesthetic designs, plush interiors, and central green landscaping. Over the course of 40 years, the firm has become a leading face in real estate and changed the Mumbai skyline.",
   contact: {
     phone: "+919876543210",
     whatsapp: "+919876543210",
@@ -64,45 +64,42 @@ export const siteConfig = {
     ],
     cta: {
       title: "Download Brochure",
-      description: "Download the brochure to learn more about Narang Privado",
+      description:
+        "Download the brochure to learn more about Runwal 25 Hour Life",
     },
   },
 
   branding: {
-    logo: "/images/logo.svg",
-    favicon: "/icon.png",
-    ogImage: "/og-image.jpg",
+    logo: "/default/images/logo.svg",
+    favicon: "/default/icon.png",
+    ogImage: "/default/og-image.jpg",
   },
 
   hero: {
     banners: [
       {
-        src: "/images/banner-1.webp",
-        alt: "Narang Privado Exterior",
-      },
-      {
-        src: "/images/banner-2.webp",
-        alt: "Narang Privado Interior",
+        src: "/default/images/banner-1.png",
+        alt: "Runwal 25 Hour Life Exterior",
       },
     ],
     welcome: {
       cta: {
         title: "Download Brochure",
         description:
-          "Download the brochure to learn more about Narang Privado.",
+          "Download the brochure to learn more about Runwal 25 Hour Life.",
       },
-      title: "Welcome to Narang Privado",
-      description: `Experience living in a resort-like atmosphere only at Narang Privado, in Thane. This residential project offers Vastu-compliant 2, 3 &amp; 4 BHK residences - attached with expansive balconies &amp; large windows for cross ventilation. These homes are designed for a lavish lifestyle, with cozy master bedrooms, designer kitchens, and imported marble floors. 32+ amenities such as a clubhouse, swimming pool, pet park, a rock climbing wall, and a sports arena afford a luxury lifestyle. The inclusion of a serene forest walk, jacuzzi, tea pavilion, &amp; more revives your daily lifestyle. 
+      title: "Welcome to Runwal 25 hr Life",
+      description: `Introducing Runwal 25 Hour Life, an exceptional landmark in Thane offering a unique blend of residential, commercial, and retail spaces. Experience breathtaking city views from the balconies of our 1, 2, 3 BHK, and Jodi flats. With offices, entertainment options, and dining establishments right within the premises, your every need is catered to conveniently. Spanning over 2 acres, our expansive array of 70+ amenities includes a pet park, sky cafe, library, swimming pool, cricket pitch, fish ponds, floral tunnels, sunken gardens, and much more. Welcome to a lifestyle that exceeds expectations.
         
-      Located off Pokhran Road 1, Thane West - the project is nestled amidst the scenic Yeoor Hills and Sanjay Gandhi National Park.Close to urban facilities like the Korum Mall, Holy Cross High School, and Horizon Hospital - Narang Privado is the complete package! The strategic location also gives smooth travel times via the Eastern Express Highway & amp; Thane Railway Station - both within 10 - 15 minutes of reach.The upcoming Majiwada & amp; Cadbury metro stations are close by as well.With world - class homes in a peaceful location - Narang Privado is where you can enjoy beautiful, tranquil moments in your everyday life.`,
+      Being located just off Manpada Main Road, you live in proximity to renowned educational institutes, multispeciality hospitals, shopping malls, supermarkets, etc. The closest options for you are C P Goenka International School, R Mall, Bethany Hospital &amp; more. Your citywide connectivity will be super fast with Ghodbunder Road, Thane Railway Station, Eastern Express Highway, etc. So, a perfect package for all the lifestyle needs is awaited for you at - Runwal 25 Hour Life!`,
     },
     offer: {
-      title: "A LIMITED TIME OFFER",
-      location: "At Thane (W) by Narang Realty",
+      title: "Booking Open: Limited Time Only",
+      location: "At Manpada Thane by Runwal Group",
       points: [
-        { text: "Early Buy Discounts" },
-        { text: "Construction Linked Pay Plan" },
-        { text: "All Flats are Vastu-compliant" },
+        { text: "Pay 10% & Nothing Up to 3 Years" },
+        { text: "Book & Win a Trip to Barcelona" },
+        { text: "Assured Holiday Voucher on Booking" },
       ],
       cta: {
         title: "Book A Free Site Visit",
@@ -111,24 +108,20 @@ export const siteConfig = {
       features: [
         {
           title: "Land Parcel",
-          value: "6.20 Acres",
+          value: "21 Acres",
         },
         {
           title: "Floors",
-          value: "2B+3P+38 Storeys",
+          value: "50 Storeys",
         },
         {
           title: "Possession",
-          value: "Dec 2026",
-        },
-        {
-          title: "Ownership",
-          value: "Freehold",
+          value: "Dec 2027",
         },
       ],
       price: {
-        title: "Luxurious 2, 3 & 4 BHK Starts at",
-        value: "1.62 Cr",
+        title: "Luxurious 2, 3 BHK & Jodi Units Starts at",
+        value: "1.29 Cr*",
         suffix: "All Inc",
       },
     },
@@ -137,48 +130,54 @@ export const siteConfig = {
   pricing: {
     title: "Pricing Plans",
     description:
-      "Choose from our range of luxurious 2, 3 & 4 BHK residences, each designed to offer the perfect blend of comfort and sophistication",
+      "Choose from our range of luxurious 1, 2, 3 BHK residences, each designed to offer the perfect blend of comfort and sophistication",
     prices: [
       {
-        type: "2 BHK Regal",
-        carpetArea: "737 Sq.ft.",
-        price: "1.62 Cr",
+        type: "1 BHK",
+        carpetArea: "441 Sq.ft.",
+        price: "89 Lacs*",
         suffix: "All Inclusive",
       },
       {
-        type: "2 BHK Luxury",
-        carpetArea: "800 Sq.ft.",
-        price: "1.77 Cr",
+        type: "1 BHK",
+        carpetArea: "471 Sq.ft.",
+        price: "95 Lacs*",
         suffix: "All Inclusive",
       },
       {
-        type: "3 BHK Signature",
-        carpetArea: "1070 Sq.ft.",
-        price: "2.39 Cr",
+        type: "2 BHK",
+        carpetArea: "600 Sq.ft.",
+        price: "1.29 Cr*",
         suffix: "All Inclusive",
       },
       {
-        type: "3 BHK Regal",
-        carpetArea: "1128 Sq.ft.",
-        price: "2.55 Cr",
+        type: "2 BHK",
+        carpetArea: "634 Sq.ft.",
+        price: "1.36 Cr*",
         suffix: "All Inclusive",
       },
       {
-        type: "3 BHK Luxury",
-        carpetArea: "1295 Sq.ft.",
-        price: "2.95 Cr",
+        type: "3 BHK",
+        carpetArea: "951 Sq.ft.",
+        price: "1.98 Cr*",
         suffix: "All Inclusive",
       },
       {
-        type: "4 BHK Imperial",
-        carpetArea: "1486 Sq.ft.",
-        price: "3.64 Cr",
+        type: "3 BHK",
+        carpetArea: "962 Sq.ft.",
+        price: "2.13 Cr*",
         suffix: "All Inclusive",
       },
       {
-        type: "4 BHK Elite",
-        carpetArea: "1616 Sq.ft.",
-        price: "3.99 Cr",
+        type: "2+1 BHK Jodi",
+        carpetArea: "1049 Sq.ft.",
+        price: "2.26 Cr*",
+        suffix: "All Inclusive",
+      },
+      {
+        type: "2+2 BHK Jodi",
+        carpetArea: "1268 Sq.ft.",
+        price: "2.70 Cr*",
         suffix: "All Inclusive",
       },
     ],
@@ -188,8 +187,8 @@ export const siteConfig = {
     },
     detailPricing: {
       image: {
-        src: "/images/costing.webp",
-        alt: "Narang Privado Costing",
+        src: "/default/images/costing.webp",
+        alt: "Runwal 25 Hour Life Costing",
       },
       title: "Need Complete Costing Details?",
       description:
@@ -208,57 +207,62 @@ export const siteConfig = {
     masterPlan: {
       title: "Master Plan",
       image: {
-        src: "/images/floor-1.jpg",
+        src: "/default/images/master-plan.jpg",
         alt: "Master Plan",
       },
       cta: {
         title: "View Master Plan",
-        description: "Explore the layout of Narang Privado",
+        description: "Explore the layout of Runwal 25 Hour Life",
       },
     },
     floorPlans: {
-      categories: ["All", "2 BHK", "3 BHK", "4 BHK"],
+      categories: ["All", "1 BHK", "2 BHK", "2+1 BHK Jodi", "2+2 BHK Jodi"],
       title: "Floor Plans",
       plans: [
         {
-          type: "2 BHK-737 Sq.ft.",
-          image: "/images/floor-2.jpg",
+          type: "1 BHK-441 Sq.ft.",
+          image: "/default/images/floor-2.jpg",
+          category: "1 BHK",
+        },
+        {
+          type: "1 BHK-471 Sq.ft.",
+          image: "/default/images/floor-3.jpg",
+          category: "1 BHK",
+        },
+        {
+          type: "2 BHK-600 Sq.ft.",
+          image: "/default/images/floor-4.jpg",
           category: "2 BHK",
         },
         {
-          type: "2 BHK-800 Sq.ft.",
-          image: "/images/floor-3.jpg",
+          type: "2 BHK-634 Sq.ft.",
+          image: "/default/images/floor-5.jpg",
           category: "2 BHK",
         },
         {
-          type: "3 BHK-1070 Sq.ft.",
-          image: "/images/floor-4.jpg",
+          type: "3 BHK-951 Sq.ft.",
+          image: "/default/images/floor-6.jpg",
           category: "3 BHK",
         },
         {
-          type: "3 BHK-1128 Sq.ft.",
-          image: "/images/floor-5.jpg",
+          type: "3 BHK-962 Sq.ft.",
+          image: "/default/images/floor-7.jpg",
           category: "3 BHK",
         },
         {
-          type: "3 BHK-1295 Sq.ft.",
-          image: "/images/floor-6.jpg",
-          category: "3 BHK",
+          type: "2+1 BHK Jodi-1049 Sq.ft.",
+          image: "/default/images/floor-8.jpg",
+          category: "2+1 BHK Jodi",
         },
         {
-          type: "4 BHK-1486 Sq.ft.",
-          image: "/images/floor-7.jpg",
-          category: "4 BHK",
-        },
-        {
-          type: "4 BHK-1616 Sq.ft.",
-          image: "/images/floor-8.jpg",
-          category: "4 BHK",
+          type: "2+2 BHK Jodi-1268 Sq.ft.",
+          image: "/default/images/floor-8.jpg",
+          category: "2+2 BHK Jodi",
         },
       ],
       cta: {
         title: "Enquire Now",
-        description: "Explore the layout of Narang Privado",
+        description: "Explore the layout of Runwal 25 Hour Life",
       },
     },
   },
@@ -269,68 +273,58 @@ export const siteConfig = {
       "Discover a lifestyle enriched with premium amenities and facilities",
     cta: {
       title: "Download Amenities",
-      description: "Download the amenities of Narang Privado",
+      description: "Download the amenities of Runwal 25 Hour Life",
     },
     amenities: [
       {
-        title: "Banquet Clubhouse",
-        image: "/images/amenities/banquetClubhouse0.webp",
-        description: "A luxurious space for community gatherings and events",
-      },
-      {
-        title: "Indoor Games Room",
-        image: "/images/amenities/indoorGamesRoom0.webp",
-        description: "A space for indoor games and activities",
-      },
-      {
-        title: "Multi-Purpose Sports Court",
-        image: "/images/amenities/multipurposeSportsCourt0.webp",
-        description: "A space for multi-purpose sports and activities",
-      },
-      {
-        title: "Day Care",
-        image: "/images/amenities/daycare0.webp",
-        description: "Quality childcare and early education facilities",
-      },
-      {
-        title: "Kids Play Area",
-        image: "/images/amenities/kidsplayarea0.webp",
-        description: "A safe and fun space for children to play",
-      },
-      {
-        title: "Outdoor Gym",
-        image: "/images/amenities/outdoorGym0.webp",
-        description: "A space for outdoor exercise and fitness",
-      },
-      {
-        title: "Pet Park",
-        image: "/images/amenities/petPark0.webp",
-        description: "Pet friendly amenities",
-      },
-      {
-        title: "Rock Climbing Pool",
-        image: "/images/amenities/rockClimbingPool0.webp",
-        description: "A space for rock climbing and fitness",
-      },
-      {
-        title: "Walking Trail",
-        image: "/images/amenities/walkingTrail0.webp",
-        description: "A space for walking and fitness",
-      },
-      {
-        title: "Relaxation Lounge",
-        image: "/images/amenities/relaxationlounge0.webp",
-        description: "A space for relaxation and meditation",
+        title: "Sky Cafe",
+        image: "/default/images/amenities/sky-cafe.png",
+        description: "",
       },
       {
         title: "Swimming Pool",
-        image: "/images/amenities/swimmingPool0.webp",
-        description: "A space for swimming and fitness",
+        image: "/default/images/amenities/swimming-pool.png",
+        description: "",
       },
       {
-        title: "Yoga Corner",
-        image: "/images/amenities/yogaCorner0.webp",
-        description: "A space for yoga and meditation",
+        title: "Pet Park",
+        image: "/default/images/amenities/pet-park.png",
+        description: "",
+      },
+      {
+        title: "Sky Club",
+        image: "/default/images/amenities/sky-club.png",
+        description: "",
+      },
+      {
+        title: "Library",
+        image: "/default/images/amenities/library.png",
+        description: "",
+      },
+      {
+        title: "Banquet Hall",
+        image: "/default/images/amenities/banquet-hall.png",
+        description: "",
+      },
+      {
+        title: "Creche",
+        image: "/default/images/amenities/creche.png",
+        description: "",
+      },
+      {
+        title: "Picnic & BBQ Pavilion",
+        image: "/default/images/amenities/picnic-bbq-pavilion.png",
+        description: "",
+      },
+      {
+        title: "Theatre",
+        image: "/default/images/amenities/theatre.png",
+        description: "",
+      },
+      {
+        title: "Supermarket",
+        image: "/default/images/amenities/supermarket.png",
+        description: "",
       },
     ],
     stats: {
@@ -345,27 +339,27 @@ export const siteConfig = {
       "Experience luxury living through our carefully curated spaces",
     cta: {
       title: "Download Gallery",
-      description: "Download the gallery of Narang Privado",
+      description: "Download the gallery of Runwal 25 Hour Life",
     },
     images: [
       {
         title: "",
-        image: "/images/gallery/1.webp",
+        image: "/default/images/gallery/gallery-1.png",
         description: "Elegantly designed living spaces with premium finishes",
       },
       {
         title: "",
-        image: "/images/gallery/2.webp",
+        image: "/default/images/gallery/gallery-2.png",
         description: "Breathtaking views of landscaped gardens",
       },
       {
         title: "",
-        image: "/images/gallery/3.webp",
+        image: "/default/images/gallery/gallery-3.png",
         description: "Resort-style pool with premium amenities",
       },
       {
         title: "",
-        image: "/images/gallery/4.webp",
+        image: "/default/images/gallery/gallery-4.png",
         description: "Spacious bedrooms with modern aesthetics",
       },
     ],
@@ -375,35 +369,35 @@ export const siteConfig = {
     title: "Location",
     description: "Strategically located for your convenience",
     googleMapIframe:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.712330327652!2d72.95630957520868!3d19.207762982024168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9618a7c9955%3A0x5a364a2a0c44817f!2sNarang%20Privado!5e0!3m2!1sen!2sin!4v1734800553102!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60256.83190737612!2d72.930301!3d19.280105!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7baf133b94b85%3A0x13ee3ddf0c4ff0c5!2sRunwal%2025%20Hour%20Life!5e0!3m2!1sen!2sin!4v1689770913359!5m2!1sen!2sin",
     image: {
-      src: "/images/map.webp",
+      src: "/default/images/map.webp",
       alt: "Location Map",
     },
     landmarks: [
+      {
+        title: "Ghodbunder Road",
+        description: "1 Min",
+      },
+      {
+        title: "R Mall",
+        description: "1 Min",
+      },
+      {
+        title: "C P Goenka International School",
+        description: "8 Mins",
+      },
+      {
+        title: "Bethany Hospital",
+        description: "13 Mins",
+      },
       {
         title: "Eastern Express Highway",
         description: "8 Mins",
       },
       {
-        title: "Majiwada Metro Station",
-        description: "10 Mins",
-      },
-      {
         title: "Thane Railway Station",
-        description: "15 Mins",
-      },
-      {
-        title: "Upcoming Cadbury Metro Station",
-        description: "4 Mins",
-      },
-      {
-        title: "Jupiter Hospital",
-        description: "7 Mins",
-      },
-      {
-        title: "Korum Mall",
-        description: "5 Mins",
+        description: "20 Mins",
       },
     ],
     location: {
@@ -417,17 +411,18 @@ export const siteConfig = {
 
   virtualTour: {
     title: "Virtual Tour Request",
-    description: "Experience Narang Privado from the comfort of your home",
+    description: "Experience Runwal 25 hr Life from the comfort of your home",
     cta: {
       title: "Request Virtual Tour",
       description: "Schedule at your convenience",
     },
     image: {
-      src: "/images/banner-1.webp",
+      src: "/default/images/banner-1.png",
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",
-    videoDescription: "Experience Narang Privado from the comfort of your home",
+    videoDescription:
+      "Experience Runwal 25 hr Life from the comfort of your home",
     features: [
       {
         title: "360° Views",
@@ -448,7 +443,7 @@ export const siteConfig = {
     title: "Get The Best Quote",
     bookFreeVisit: {
       image: {
-        src: "/images/ride.png",
+        src: "/default/images/ride.png",
         alt: "Book a Site Visit",
       },
       cta: {
@@ -485,12 +480,17 @@ export const siteConfig = {
     rera: {
       title: "RERA Information",
       description:
-        "Narang Realty has been registered via MahaRERA registration number and is available on the website https://maharera.mahaonline.gov.in/ under registered projects.",
+        "Runwal 25 Hour has been registered via MahaRERA registration number: P51700048270, P51700048278 and is available on the website <a href='https://maharera.mahaonline.gov.in/'>https://maharera.mahaonline.gov.in/</a> under registered projects.",
       details: [
         {
-          title: "Narang Realty MahaRERA",
-          reraNumber: "P51700050065",
-          qrCode: "/images/barcode-1.webp",
+          title: "Runwal 25 Hour Life Tower B1",
+          reraNumber: "Project Maha RERA - P51700048270",
+          qrCode: "/default/images/barcode-1.webp",
+        },
+        {
+          title: "Runwal 25 Hour Life Tower C1",
+          reraNumber: "Project Maha RERA - P51700048278",
+          qrCode: "/default/images/barcode-2.webp",
         },
       ],
     },
@@ -522,13 +522,13 @@ export const siteConfig = {
       },
     ],
     disclaimer:
-      "We are an authorised marketing partner for this project.Provided content is given by respective owners and this website and content is for information purpose only and it does not constitute any offer to avail for any services.Prices mentioned are subject to change without prior notice and properties mentioned are subject to availability.You can expect a call, SMS or emails on details",
+      "The content is for information purposes only and does not constitute an offer to avail of any service. Prices mentioned are subject to change without notice and properties mentioned are subject to availability. Images for representation purposes only. This is the official website of authorized marketing partner. We may also send updates to the mobile number/email id registered with us. All Rights Reserved.",
   },
 
   seo: {
-    title: "Narang Privado | Luxury Apartments in Thane",
+    title: "Runwal 25 Hour Life | Luxury Apartments in Thane",
     description:
-      "Experience luxury living at Narang Privado, Thane. 2 & 3 BHK apartments with world-class amenities.",
+      "Experience luxury living at Runwal 25 Hour Life, Thane. 2 & 3 BHK apartments with world-class amenities.",
     keywords: [
       "luxury apartments",
       "thane west",
@@ -546,7 +546,7 @@ export const siteConfig = {
 
   termsAndConditions: {
     seo: {
-      title: "Narang Privado | Terms & Conditions",
+      title: "Runwal 25 Hour Life | Terms & Conditions",
       description:
         "Please read these terms and conditions carefully before using our website.",
     },
@@ -574,7 +574,7 @@ export const siteConfig = {
 
   privacyPolicy: {
     seo: {
-      title: "Narang Privado | Privacy Policy",
+      title: "Runwal 25 Hour Life | Privacy Policy",
       description: "This policy explains how we use your personal information.",
     },
     title: "Privacy Policy",
@@ -595,7 +595,7 @@ export const siteConfig = {
 
   cookiesPolicy: {
     seo: {
-      title: "Narang Privado | Cookies Policy",
+      title: "Runwal 25 Hour Life | Cookies Policy",
       description:
         "This policy explains how we use cookies and similar technologies on our website.",
     },
@@ -617,27 +617,27 @@ export const siteConfig = {
   },
   thankYou: {
     seo: {
-      title: "Narang Privado | Thank You",
-      description: "Thank you for your interest in Narang Privado",
+      title: "Runwal 25 Hour Life | Thank You",
+      description: "Thank you for your interest in Runwal 25 Hour Life",
     },
   },
 
   formSubmission: {
     crm: {
-      formId: "__vtigerWebForm_67",
-      publicId: "e8e83c63a249cfc8f6a7ba6c95455824",
+      formId: "__vtigerWebForm_26",
+      publicId: "b8102e824eab1729d73b906ae3ff9e8b",
       baseUrl: "https://company133638.od2.vtiger.com",
       __vtrftk: "sid:d0b203e8fb8ff53c5b3673fb24119e03ae930517,1680088576",
       __vtCurrency: "1",
-      name: "Narang-Privado",
-      cfLeadsProjectSite: "Narang Privado",
+      name: "Runwal Manpada Thane",
+      cfLeadsProjectSite: "Swaminarayan City",
       leadSource: "Web",
       emailOptin: "1",
     },
     email: {
       apiEndpoint: "/api/send-email",
       template: {
-        subject: "New Enquiry from Narang Privado",
+        subject: "New Enquiry from Runwal 25 Hour Life",
       },
     },
   },

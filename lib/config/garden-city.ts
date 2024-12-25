@@ -14,9 +14,9 @@ import { routes } from "./routes";
 const route = routes.Gardencity;
 
 export const gardenCityConfig = {
-  name: "Garden City",
+  name: "Runwal Gardens City",
   about:
-    "Founded in 1988, Garden City is a renowned family real estate business that develops residential and commercial properties. The firm focuses on delivering refined, luxury housing and has already served 2000+ home buyers to date. It has already delivered projects across 5 million+ sq. ft. and won 50+ real estate awards. From connected community living, to soaring skyscarpers, our buildings enhance lifestyles across the city. We are deeply committed to our mission of creating superior developments that enrich the city and transform lives",
+    "Founded in 1978, Runwal Group excels in establishing sprawling residential complexes, retail shopping malls, and commercial spaces. With a mission of developing standout landmarks rather than mere living spaces, Runwal homes are known for their aesthetic designs, plush interiors, and central green landscaping. Over the course of 40 years, the firm has become a leading face in real estate and changed the Mumbai skyline.",
   contact: {
     phone: "+919876543210",
     whatsapp: "+919876543210",
@@ -64,12 +64,13 @@ export const gardenCityConfig = {
     ],
     cta: {
       title: "Download Brochure",
-      description: "Download the brochure to learn more about Garden City",
+      description:
+        "Download the brochure to learn more about Runwal Gardens City",
     },
   },
 
   branding: {
-    logo: "/images/logo.svg",
+    logo: "/gardencity/images/logo.png",
     favicon: "/icon.png",
     ogImage: "/og-image.jpg",
   },
@@ -77,27 +78,28 @@ export const gardenCityConfig = {
   hero: {
     banners: [
       {
-        src: "/images/banner-1.webp",
-        alt: "Garden City Exterior",
+        src: "/gardencity/images/banner-3.webp",
+        alt: "Runwal Gardens City Interior",
       },
       {
-        src: "/images/banner-2.webp",
-        alt: "Garden City Interior",
+        src: "/gardencity/images/banner-2.webp",
+        alt: "Runwal Gardens City Interior",
       },
     ],
     welcome: {
       cta: {
         title: "Download Brochure",
-        description: "Download the brochure to learn more about Garden City.",
+        description:
+          "Download the brochure to learn more about Runwal Gardens City.",
       },
-      title: "Welcome to Garden City",
-      description: `Experience living in a resort-like atmosphere only at Garden City, in Thane. This residential project offers Vastu-compliant 2, 3 &amp; 4 BHK residences - attached with expansive balconies &amp; large windows for cross ventilation. These homes are designed for a lavish lifestyle, with cozy master bedrooms, designer kitchens, and imported marble floors. 32+ amenities such as a clubhouse, swimming pool, pet park, a rock climbing wall, and a sports arena afford a luxury lifestyle. The inclusion of a serene forest walk, jacuzzi, tea pavilion, &amp; more revives your daily lifestyle. 
-        
-      Located off Pokhran Road 1, Thane West - the project is nestled amidst the scenic Yeoor Hills and Sanjay Gandhi National Park.Close to urban facilities like the Korum Mall, Holy Cross High School, and Horizon Hospital - Garden City is the complete package! The strategic location also gives smooth travel times via the Eastern Express Highway & amp; Thane Railway Station - both within 10 - 15 minutes of reach.The upcoming Majiwada & amp; Cadbury metro stations are close by as well.With world - class homes in a peaceful location - Garden City is where you can enjoy beautiful, tranquil moments in your everyday life.`,
+      title: "Welcome to Runwal Gardens",
+      description: `A spectacular township amid the lush environs of Dombivli, Runwal Gardens brings every comfort and convenience right by your home! Its 1, 2, & 3 BHK modern apartments offer beautiful views and plush interiors. The property further houses a reputed school, supermarkets, malls, business spaces, and high street retail avenues. But what stand out are tons of lifestyle amenities! From a herb garden to a bonfire area and a doodle corner - there are luxuries you may have never imagined!
+
+      Living a grand lifestyle is the only option here with 34+ gardens, 3 clubhouses, 3 central parks, 3000+ trees, 70% open space & lot more features. And benefit from the 250+ exclusive cluster amenities presented to you. Just 6-30 minutes away key day-to-day necessities - Ira Global School, DMart, PVR Xperia Palava, LODHA Xperia Mall, ICON Hospital & Millennium Business Park. So, indulge yourself in the first-class lifestyle at the majestic landmark - Future Avenue, Runwal Garden City.`,
     },
     offer: {
-      title: "A LIMITED TIME OFFER",
-      location: "At Thane (W) by Garden City",
+      title: "Booking Open: Limited Time Only",
+      location: "At Dombivali by Runwal Group",
       points: [
         { text: "Early Buy Discounts" },
         { text: "Construction Linked Pay Plan" },
@@ -110,25 +112,21 @@ export const gardenCityConfig = {
       features: [
         {
           title: "Land Parcel",
-          value: "6.20 Acres",
+          value: "250 Acres",
         },
         {
           title: "Floors",
-          value: "2B+3P+38 Storeys",
+          value: "32 Storeys",
         },
         {
           title: "Possession",
-          value: "Dec 2026",
-        },
-        {
-          title: "Ownership",
-          value: "Freehold",
+          value: "Dec 25",
         },
       ],
       price: {
-        title: "Luxurious 2, 3 & 4 BHK Starts at",
-        value: "1.62 Cr",
-        suffix: "All Inc",
+        title: "Luxurious 1, 2 & 3 BHK Starts At",
+        value: "39 Lacs",
+        suffix: "Onwards",
       },
     },
   },
@@ -136,49 +134,67 @@ export const gardenCityConfig = {
   pricing: {
     title: "Pricing Plans",
     description:
-      "Choose from our range of luxurious 2, 3 & 4 BHK residences, each designed to offer the perfect blend of comfort and sophistication",
+      "Choose from our range of luxurious 1, 2, 3 BHK residences, each designed to offer the perfect blend of comfort and sophistication",
     prices: [
       {
-        type: "2 BHK Regal",
-        carpetArea: "737 Sq.ft.",
-        price: "1.62 Cr",
-        suffix: "All Inclusive",
+        type: "1 BHK",
+        carpetArea: "355 Sq.ft.",
+        price: "39 Lacs",
+        suffix: "Onwards",
       },
       {
-        type: "2 BHK Luxury",
-        carpetArea: "800 Sq.ft.",
-        price: "1.77 Cr",
-        suffix: "All Inclusive",
+        type: "1 BHK",
+        carpetArea: "386 Sq.ft.",
+        price: "42 Lacs",
+        suffix: "Onwards",
       },
       {
-        type: "3 BHK Signature",
-        carpetArea: "1070 Sq.ft.",
-        price: "2.39 Cr",
-        suffix: "All Inclusive",
+        type: "1 BHK",
+        carpetArea: "447 Sq.ft.",
+        price: "45 Lacs",
+        suffix: "Onwards",
       },
       {
-        type: "3 BHK Regal",
-        carpetArea: "1128 Sq.ft.",
-        price: "2.55 Cr",
-        suffix: "All Inclusive",
+        type: "2 BHK",
+        carpetArea: "533 Sq.ft.",
+        price: "57 Lacs",
+        suffix: "Onwards",
       },
       {
-        type: "3 BHK Luxury",
-        carpetArea: "1295 Sq.ft.",
-        price: "2.95 Cr",
-        suffix: "All Inclusive",
+        type: "2 BHK",
+        carpetArea: "568 Sq.ft.",
+        price: "61 Lacs",
+        suffix: "Onwards",
       },
       {
-        type: "4 BHK Imperial",
-        carpetArea: "1486 Sq.ft.",
-        price: "3.64 Cr",
-        suffix: "All Inclusive",
+        type: "2 BHK",
+        carpetArea: "598 Sq.ft.",
+        price: "65 Lacs",
+        suffix: "Onwards",
       },
       {
-        type: "4 BHK Elite",
-        carpetArea: "1616 Sq.ft.",
-        price: "3.99 Cr",
-        suffix: "All Inclusive",
+        type: "3 BHK",
+        carpetArea: "740 Sq.ft.",
+        price: "79 Lacs",
+        suffix: "Onwards",
+      },
+      {
+        type: "3 BHK",
+        carpetArea: "819 Sq.ft.",
+        price: "92 Lacs",
+        suffix: "Onwards",
+      },
+      {
+        type: "3 BHK",
+        carpetArea: "1018 Sq.ft.",
+        price: "1.30 Cr",
+        suffix: "Onwards",
+      },
+      {
+        type: "3 BHK",
+        carpetArea: "1254 Sq.ft.",
+        price: "1.65 Cr",
+        suffix: "Onwards",
       },
     ],
     cta: {
@@ -187,8 +203,8 @@ export const gardenCityConfig = {
     },
     detailPricing: {
       image: {
-        src: "/images/costing.webp",
-        alt: "Garden City Costing",
+        src: "/gardencity/images/costing.webp",
+        alt: "Runwal Gardens City Costing",
       },
       title: "Need Complete Costing Details?",
       description:
@@ -207,57 +223,62 @@ export const gardenCityConfig = {
     masterPlan: {
       title: "Master Plan",
       image: {
-        src: "/images/floor-1.jpg",
+        src: "/gardencity/images/master-plan.jpg",
         alt: "Master Plan",
       },
       cta: {
         title: "View Master Plan",
-        description: "Explore the layout of Garden City",
+        description: "Explore the layout of Runwal Gardens City",
       },
     },
     floorPlans: {
-      categories: ["All", "2 BHK", "3 BHK", "4 BHK"],
+      categories: ["All", "1 BHK", "2 BHK", "3 BHK"],
       title: "Floor Plans",
       plans: [
         {
-          type: "2 BHK-737 Sq.ft.",
-          image: "/images/floor-2.jpg",
+          type: "1 BHK-355 Sq.ft.",
+          image: "/gardencity/images/floor-1.jpg",
+          category: "1 BHK",
+        },
+        {
+          type: "1 BHK-379 Sq.ft.",
+          image: "/gardencity/images/floor-2.jpg",
+          category: "1 BHK",
+        },
+        {
+          type: "1 BHK-386 Sq.ft.",
+          image: "/gardencity/images/floor-3.jpg",
+          category: "1 BHK",
+        },
+        {
+          type: "1 BHK-533 Sq.ft.",
+          image: "/gardencity/images/floor-4.jpg",
+          category: "1 BHK",
+        },
+        {
+          type: "2 BHK-568 Sq.ft.",
+          image: "/gardencity/images/floor-5.jpg",
           category: "2 BHK",
         },
         {
-          type: "2 BHK-800 Sq.ft.",
-          image: "/images/floor-3.jpg",
+          type: "2 BHK-598 Sq.ft.",
+          image: "/gardencity/images/floor-6.jpg",
           category: "2 BHK",
         },
         {
-          type: "3 BHK-1070 Sq.ft.",
-          image: "/images/floor-4.jpg",
+          type: "3 BHK-740 Sq.ft.",
+          image: "/gardencity/images/floor-7.jpg",
           category: "3 BHK",
         },
         {
-          type: "3 BHK-1128 Sq.ft.",
-          image: "/images/floor-5.jpg",
+          type: "3 BHK-819 Sq.ft.",
+          image: "/gardencity/images/floor-8.jpg",
           category: "3 BHK",
-        },
-        {
-          type: "3 BHK-1295 Sq.ft.",
-          image: "/images/floor-6.jpg",
-          category: "3 BHK",
-        },
-        {
-          type: "4 BHK-1486 Sq.ft.",
-          image: "/images/floor-7.jpg",
-          category: "4 BHK",
-        },
-        {
-          type: "4 BHK-1616 Sq.ft.",
-          image: "/images/floor-8.jpg",
-          category: "4 BHK",
         },
       ],
       cta: {
         title: "Enquire Now",
-        description: "Explore the layout of Garden City",
+        description: "Explore the layout of Runwal Gardens City",
       },
     },
   },
@@ -268,68 +289,58 @@ export const gardenCityConfig = {
       "Discover a lifestyle enriched with premium amenities and facilities",
     cta: {
       title: "Download Amenities",
-      description: "Download the amenities of Garden City",
+      description: "Download the amenities of Runwal Gardens City",
     },
     amenities: [
       {
-        title: "Banquet Clubhouse",
-        image: "/images/amenities/banquetClubhouse0.webp",
-        description: "A luxurious space for community gatherings and events",
-      },
-      {
-        title: "Indoor Games Room",
-        image: "/images/amenities/indoorGamesRoom0.webp",
-        description: "A space for indoor games and activities",
-      },
-      {
-        title: "Multi-Purpose Sports Court",
-        image: "/images/amenities/multipurposeSportsCourt0.webp",
-        description: "A space for multi-purpose sports and activities",
-      },
-      {
-        title: "Day Care",
-        image: "/images/amenities/daycare0.webp",
-        description: "Quality childcare and early education facilities",
-      },
-      {
-        title: "Kids Play Area",
-        image: "/images/amenities/kidsplayarea0.webp",
-        description: "A safe and fun space for children to play",
-      },
-      {
-        title: "Outdoor Gym",
-        image: "/images/amenities/outdoorGym0.webp",
-        description: "A space for outdoor exercise and fitness",
-      },
-      {
-        title: "Pet Park",
-        image: "/images/amenities/petPark0.webp",
-        description: "Pet friendly amenities",
-      },
-      {
-        title: "Rock Climbing Pool",
-        image: "/images/amenities/rockClimbingPool0.webp",
-        description: "A space for rock climbing and fitness",
-      },
-      {
-        title: "Walking Trail",
-        image: "/images/amenities/walkingTrail0.webp",
-        description: "A space for walking and fitness",
-      },
-      {
-        title: "Relaxation Lounge",
-        image: "/images/amenities/relaxationlounge0.webp",
-        description: "A space for relaxation and meditation",
+        title: "Sky Cafe",
+        image: "/gardencity/images/amenities/sky-cafe.png",
+        description: "",
       },
       {
         title: "Swimming Pool",
-        image: "/images/amenities/swimmingPool0.webp",
-        description: "A space for swimming and fitness",
+        image: "/gardencity/images/amenities/swimming-pool.png",
+        description: "",
       },
       {
-        title: "Yoga Corner",
-        image: "/images/amenities/yogaCorner0.webp",
-        description: "A space for yoga and meditation",
+        title: "Pet Park",
+        image: "/gardencity/images/amenities/pet-park.png",
+        description: "",
+      },
+      {
+        title: "Sky Club",
+        image: "/gardencity/images/amenities/sky-club.png",
+        description: "",
+      },
+      {
+        title: "Library",
+        image: "/gardencity/images/amenities/library.png",
+        description: "",
+      },
+      {
+        title: "Banquet Hall",
+        image: "/gardencity/images/amenities/banquet-hall.png",
+        description: "",
+      },
+      {
+        title: "Creche",
+        image: "/gardencity/images/amenities/creche.png",
+        description: "",
+      },
+      {
+        title: "Picnic & BBQ Pavilion",
+        image: "/gardencity/images/amenities/picnic-bbq-pavilion.png",
+        description: "",
+      },
+      {
+        title: "Theatre",
+        image: "/gardencity/images/amenities/theatre.png",
+        description: "",
+      },
+      {
+        title: "Supermarket",
+        image: "/gardencity/images/amenities/supermarket.png",
+        description: "",
       },
     ],
     stats: {
@@ -344,27 +355,32 @@ export const gardenCityConfig = {
       "Experience luxury living through our carefully curated spaces",
     cta: {
       title: "Download Gallery",
-      description: "Download the gallery of Garden City",
+      description: "Download the gallery of Runwal Gardens City",
     },
     images: [
       {
         title: "",
-        image: "/images/gallery/1.webp",
+        image: "/gardencity/images/gallery/gallery-1.jpg",
         description: "Elegantly designed living spaces with premium finishes",
       },
       {
         title: "",
-        image: "/images/gallery/2.webp",
+        image: "/gardencity/images/gallery/gallery-2.jpg",
         description: "Breathtaking views of landscaped gardens",
       },
       {
         title: "",
-        image: "/images/gallery/3.webp",
+        image: "/gardencity/images/gallery/gallery-3.jpg",
         description: "Resort-style pool with premium amenities",
       },
       {
         title: "",
-        image: "/images/gallery/4.webp",
+        image: "/gardencity/images/gallery/gallery-4.png",
+        description: "Spacious bedrooms with modern aesthetics",
+      },
+      {
+        title: "",
+        image: "/gardencity/images/gallery/gallery-5.png",
         description: "Spacious bedrooms with modern aesthetics",
       },
     ],
@@ -374,35 +390,35 @@ export const gardenCityConfig = {
     title: "Location",
     description: "Strategically located for your convenience",
     googleMapIframe:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.712330327652!2d72.95630957520868!3d19.207762982024168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9618a7c9955%3A0x5a364a2a0c44817f!2sNarang%20Privado!5e0!3m2!1sen!2sin!4v1734800553102!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7536.548101745783!2d73.088077!3d19.183229!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1e855053847bb48c!2sRunwal%20Gardens!5e0!3m2!1sen!2sin!4v1633931142463!5m2!1sen!2sin",
     image: {
-      src: "/images/map.webp",
+      src: "/gardencity/images/map.webp",
       alt: "Location Map",
     },
     landmarks: [
       {
         title: "Eastern Express Highway",
-        description: "8 Mins",
+        description: "Approx 30 min drive",
       },
       {
-        title: "Majiwada Metro Station",
-        description: "10 Mins",
+        title: "Kalyan-Shilphata Road",
+        description: "4-6 Mins",
       },
       {
-        title: "Thane Railway Station",
-        description: "15 Mins",
+        title: "Airoli-Katai Tunnel Road",
+        description: "5-7 Mins",
       },
       {
-        title: "Upcoming Cadbury Metro Station",
-        description: "4 Mins",
+        title: "Dombivli Railway Station",
+        description: "15-20 Mins",
       },
       {
-        title: "Jupiter Hospital",
-        description: "7 Mins",
+        title: "Diva Railway Junction",
+        description: "20-25 Mins",
       },
       {
-        title: "Korum Mall",
-        description: "5 Mins",
+        title: " Navi Mumbai International Airport",
+        description: "Just 30 km drive",
       },
     ],
     location: {
@@ -416,17 +432,18 @@ export const gardenCityConfig = {
 
   virtualTour: {
     title: "Virtual Tour Request",
-    description: "Experience Garden City from the comfort of your home",
+    description: "Experience Runwal Gardens City from the comfort of your home",
     cta: {
       title: "Request Virtual Tour",
       description: "Schedule at your convenience",
     },
     image: {
-      src: "/images/banner-1.webp",
+      src: "/gardencity/images/banner-2.webp",
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",
-    videoDescription: "Experience Garden City from the comfort of your home",
+    videoDescription:
+      "Experience Runwal Gardens City from the comfort of your home",
     features: [
       {
         title: "360° Views",
@@ -453,7 +470,7 @@ export const gardenCityConfig = {
     title: "Get The Best Quote",
     bookFreeVisit: {
       image: {
-        src: "/images/ride.png",
+        src: "/gardencity/images/ride.png",
         alt: "Book a Site Visit",
       },
       cta: {
@@ -490,12 +507,12 @@ export const gardenCityConfig = {
     rera: {
       title: "RERA Information",
       description:
-        "Garden City has been registered via MahaRERA registration number and is available on the website https://maharera.mahaonline.gov.in/ under registered projects.",
+        "Runwal Gardens Dombivali has been registered via MahaRERA registration number: P51700022699 and is available on the website <a href='https://maharera.mahaonline.gov.in/'>https://maharera.mahaonline.gov.in/</a> under registered projects.",
       details: [
         {
-          title: "Garden City MahaRERA",
-          reraNumber: "P51700050065",
-          qrCode: "/images/barcode-1.webp",
+          title: "Runwal Gardens Dombivali",
+          reraNumber: "Project Maha RERA - P51700022699",
+          qrCode: "/gardencity/images/barcode-1.webp",
         },
       ],
     },
@@ -527,17 +544,17 @@ export const gardenCityConfig = {
       },
     ],
     disclaimer:
-      "We are an authorised marketing partner for this project.Provided content is given by respective owners and this website and content is for information purpose only and it does not constitute any offer to avail for any services.Prices mentioned are subject to change without prior notice and properties mentioned are subject to availability.You can expect a call, SMS or emails on details",
+      "The content is for information purposes only and does not constitute an offer to avail of any service. Prices mentioned are subject to change without notice and properties mentioned are subject to availability. Images for representation purposes only. This is the official website of authorized marketing partner. We may also send updates to the mobile number/email id registered with us. All Rights Reserved.",
   },
 
   seo: {
-    title: "Garden City | Luxury Apartments in Thane",
+    title: "Runwal Gardens Dombivali | Luxury Apartments in Thane",
     description:
-      "Experience luxury living at Garden City, Thane. 2 & 3 BHK apartments with world-class amenities.",
+      "Experience luxury living at Runwal Gardens Dombivali, Thane. 2 & 3 BHK apartments with world-class amenities.",
     keywords: [
       "luxury apartments",
       "thane west",
-      "Garden City",
+      "Runwal Gardens Dombivali",
       "2 bhk",
       "3 bhk",
     ],
@@ -545,7 +562,7 @@ export const gardenCityConfig = {
 
   termsAndConditions: {
     seo: {
-      title: "Garden City | Terms & Conditions",
+      title: "Runwal Gardens Dombivali | Terms & Conditions",
       description:
         "Please read these terms and conditions carefully before using our website.",
     },
@@ -573,7 +590,7 @@ export const gardenCityConfig = {
 
   privacyPolicy: {
     seo: {
-      title: "Garden City | Privacy Policy",
+      title: "Runwal Gardens Dombivali | Privacy Policy",
       description: "This policy explains how we use your personal information.",
     },
     title: "Privacy Policy",
@@ -594,7 +611,7 @@ export const gardenCityConfig = {
 
   cookiesPolicy: {
     seo: {
-      title: "Garden City | Cookies Policy",
+      title: "Runwal Gardens Dombivali | Cookies Policy",
       description:
         "This policy explains how we use cookies and similar technologies on our website.",
     },
@@ -617,27 +634,27 @@ export const gardenCityConfig = {
 
   thankYou: {
     seo: {
-      title: "Garden City | Thank You",
-      description: "Thank you for your interest in Garden City",
+      title: "Runwal Gardens Dombivali | Thank You",
+      description: "Thank you for your interest in Runwal Gardens Dombivali",
     },
   },
 
   formSubmission: {
     crm: {
-      formId: "__vtigerWebForm_67",
-      publicId: "e8e83c63a249cfc8f6a7ba6c95455824",
+      formId: "__vtigerWebForm_59",
+      publicId: "7d8ee9b19e759225721aa4c65c2381d7",
       baseUrl: "https://company133638.od2.vtiger.com",
       __vtrftk: "sid:d0b203e8fb8ff53c5b3673fb24119e03ae930517,1680088576",
       __vtCurrency: "1",
-      name: "Narang-Privado",
-      cfLeadsProjectSite: "Garden City",
+      name: "Runwal Gardens Dombivli",
+      cfLeadsProjectSite: "Swaminarayan City",
       leadSource: "Web",
       emailOptin: "1",
     },
     email: {
       apiEndpoint: "/api/send-email",
       template: {
-        subject: "New Enquiry from Garden City",
+        subject: "New Enquiry from Runwal Gardens City",
       },
     },
   },

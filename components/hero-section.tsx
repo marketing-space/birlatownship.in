@@ -36,7 +36,7 @@ export default function HeroSection() {
                     width="0"
                     height="0"
                     sizes="100vw"
-                    className="object-cover object-center w-full h-full"
+                    className="object-fill object-center w-full"
                     priority={index === 0}
                     quality={90}
                   />
