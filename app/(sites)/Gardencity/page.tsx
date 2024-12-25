@@ -10,10 +10,10 @@ import SitePlanSection from "@/components/site-plan-section";
 import VirtualTourSection from "@/components/virtual-tour-section";
 import { useAutoModal } from "@/lib/hooks/use-auto-modal";
 
-export default function Home() {
+export default function GardenCityPage() {
   useAutoModal(3000);
   return (
-    <>
+    <div>
       <HeroSection />
       <PriceSection />
       <SitePlanSection />
@@ -22,6 +22,6 @@ export default function Home() {
       <LocationSection />
       <VirtualTourSection />
       <DeveloperSection />
-    </>
+    </div>
   );
 }

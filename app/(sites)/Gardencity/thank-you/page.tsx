@@ -69,12 +69,12 @@ export default function ThankYouPage() {
   // Add redirect effect
   useEffect(() => {
     const redirectTimer = setTimeout(() => {
-      router.push(`/${site}/#home`);
+      router.push("/#home");
     }, countdown * 1000);
 
     // Cleanup timer
     return () => clearTimeout(redirectTimer);
-  }, [countdown, router, site]);
+  }, [countdown, router]);
 
   // Add countdown effect
   useEffect(() => {

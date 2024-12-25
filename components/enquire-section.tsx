@@ -16,6 +16,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
 import { PhoneInput } from "./ui/phone-input";
+import { useSite } from "@/lib/context/site-context";
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -61,17 +62,18 @@ export default function EnquireSection({
 
   const router = useRouter();
   const { onOpen } = useModal();
-  const { enquire, formSubmission } = getSiteConfig();
+  const { site } = useSite();
+  const { enquire, formSubmission } = getSiteConfig(site);
 
   async function handleSubmit(values: z.infer<typeof formSchema>) {
     try {
       setIsSubmitting(true);
-      await submitForm({
+      await submitForm(site || "", {
         name: values.name,
         email: values.email || "",
         phone: values.phone,
       });
-      router.push(`/thank-you`);
+      router.push(`${site}/thank-you`);
       onSubmit?.();
     } catch (error) {
       console.error("Form submission error:", error);

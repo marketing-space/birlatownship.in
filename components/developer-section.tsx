@@ -3,20 +3,17 @@
 import { getSiteConfig } from "@/lib/config";
 import Image from "next/image";
 import { Section } from "./ui/section";
+import { useSite } from "@/lib/context/site-context";
 
 export default function DeveloperSection() {
-  const { legal, about, name } = getSiteConfig();
+  const { site } = useSite();
+  const { legal, about, name } = getSiteConfig(site);
   return (
     <Section id="developer" title="">
       <div className="flex flex-col gap-4">
         {/* About Content */}
         <div className="flex items-center justify-center mb-4">
-          <Image
-            src="/images/logo.svg"
-            alt={name}
-            width={200}
-            height={200}
-          />
+          <Image src="/images/logo.svg" alt={name} width={200} height={200} />
         </div>
         <div className="rounded-xl mb-4">
           <h2 className="text-2xl font-bold text-gray-900 mb-2">

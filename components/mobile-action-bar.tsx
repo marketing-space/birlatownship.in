@@ -4,10 +4,12 @@ import { Button } from "@/components/ui/button";
 import { useModal } from "@/lib/stores/use-modal-store";
 import { MessageSquare, Phone } from "lucide-react";
 import { getSiteConfig } from "@/lib/config";
+import { useSite } from "@/lib/context/site-context";
 
 export default function MobileActionBar() {
   const { onOpen } = useModal();
-  const { contact, name } = getSiteConfig();
+  const { site } = useSite();
+  const { contact, name } = getSiteConfig(site);
 
   return (
     <div className="fixed bottom-4 left-4 right-4 max-w-md mx-auto lg:hidden z-50">

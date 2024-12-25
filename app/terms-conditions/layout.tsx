@@ -1,9 +1,12 @@
 import { getSiteConfig } from "@/lib/config";
+import { routes } from "@/lib/config/routes";
 import { Metadata } from "next";
 
+const route = routes.default;
+
 export const metadata: Metadata = {
-  title: `Terms and Conditions | ${getSiteConfig().name}`,
-  description: `Terms and Conditions for ${getSiteConfig().name}`,
+  title: getSiteConfig(route).termsAndConditions.seo.title,
+  description: getSiteConfig(route).termsAndConditions.seo.description,
 };
 
 export default function TermsConditionsLayout({

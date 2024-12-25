@@ -6,10 +6,12 @@ import Image from "next/image";
 import { Button } from "./ui/button";
 import { Section } from "./ui/section";
 import { getSiteConfig } from "@/lib/config";
+import { useSite } from "@/lib/context/site-context";
 
 export default function LocationSection() {
   const { onOpen } = useModal();
-  const { map } = getSiteConfig();
+  const { site } = useSite();
+  const { map } = getSiteConfig(site);
   return (
     <Section
       id="location"

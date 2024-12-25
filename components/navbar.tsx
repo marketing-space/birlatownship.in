@@ -3,12 +3,10 @@
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { getSiteConfig } from "@/lib/config";
+import { useSite } from "@/lib/context/site-context";
 import { useModal } from "@/lib/stores/use-modal-store";
 import { motion } from "framer-motion";
-import {
-  Download,
-  Menu
-} from "lucide-react";
+import { Download, Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import * as React from "react";
@@ -17,13 +15,16 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
   const [activeSection, setActiveSection] = React.useState("");
   const { onOpen } = useModal();
-  const { branding, name, navbar } = getSiteConfig();
+  const { site } = useSite();
+  const { name, navbar, branding } = getSiteConfig(site);
+
+  const siteRoute = site ? `/${site}` : "/";
 
   const handleClick = (
     e: React.MouseEvent<HTMLAnchorElement>,
     href: string
   ) => {
-    const targetId = href.replace("/#", "");
+    const targetId = href.replace(`${site}/#`, "");
     const element = document.getElementById(targetId);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
@@ -33,7 +34,9 @@ export default function Navbar() {
 
   React.useEffect(() => {
     const handleScroll = () => {
-      const sections = navbar.navItems.map((route) => route.href.replace("/#", ""));
+      const sections = navbar.navItems.map((route) =>
+        route.href.replace(`${siteRoute}/#`, "")
+      );
       if (window.scrollY === 0) {
         setActiveSection("home");
         return;
@@ -64,13 +67,13 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll);
     handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [siteRoute]);
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-white border-b shadow-sm">
       <div className="flex items-center just h-14 px-2 sm:px-4 mx-auto">
         {/* Logo - reduced size */}
-        <Link href="/" className="flex items-center">
+        <Link href={siteRoute} className="flex items-center">
           <Image
             src={branding.logo}
             alt={name}
@@ -89,14 +92,14 @@ export default function Navbar() {
               onClick={(e) => handleClick(e, route.href)}
               className={`text-sm font-medium transition-colors flex items-center gap-x-1 py-1 px-2 rounded-md relative
                 ${
-                  activeSection === route.href.replace("/#", "")
+                  activeSection === route.href.replace(`${siteRoute}/#`, "")
                     ? "text-primary bg-primary/5"
                     : "hover:text-primary hover:bg-primary/5"
                 }`}
             >
               <route.icon className="h-4 w-4 flex-shrink-0" />
               {route.label}
-              {activeSection === route.href.replace("/#", "") && (
+              {activeSection === route.href.replace(`${siteRoute}/#`, "") && (
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary rounded-full" />
               )}
             </Link>
@@ -131,9 +134,7 @@ export default function Navbar() {
                 }}
               />
               <Download className="mr-0.5 h-3.5 w-3.5" />
-              <span className="hidden sm:inline">
-                {navbar.cta.title}
-              </span>
+              <span className="hidden sm:inline">{navbar.cta.title}</span>
               <span className="sm:hidden">{navbar.cta.title}</span>
             </Button>
 
@@ -159,7 +160,7 @@ export default function Navbar() {
                   }}
                   className={`px-3 py-2 text-base transition-colors flex items-center gap-x-2 rounded-md
                     ${
-                      activeSection === route.href.replace("/#", "")
+                      activeSection === route.href.replace(`${siteRoute}/#`, "")
                         ? "text-primary bg-primary/5"
                         : "hover:text-primary hover:bg-primary/5"
                     }`}

@@ -14,9 +14,11 @@ import Image from "next/image";
 import { Section } from "@/components/ui/section";
 import { useModal } from "@/lib/stores/use-modal-store";
 import { getSiteConfig } from "@/lib/config";
+import { useSite } from "@/lib/context/site-context";
 
 export default function PriceSection() {
-  const { pricing } = getSiteConfig();
+  const { site } = useSite();
+  const { pricing } = getSiteConfig(site);
   const { onOpen } = useModal();
 
   return (
@@ -44,9 +46,7 @@ export default function PriceSection() {
                   <div className="flex items-center gap-1">
                     <IndianRupee className="h-4 w-4" />
                     <span>{item.price}</span>
-                    <span className="text-sm text-gray-500">
-                      {item.suffix}
-                    </span>
+                    <span className="text-sm text-gray-500">{item.suffix}</span>
                   </div>
                 </TableCell>
                 <TableCell>

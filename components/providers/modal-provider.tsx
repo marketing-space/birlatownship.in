@@ -14,11 +14,13 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import EnquireSection from "../enquire-section";
 import { Button } from "../ui/button";
+import { useSite } from "@/lib/context/site-context";
 
 export const ModalProvider = () => {
   const [isMounted, setIsMounted] = useState(false);
   const { isOpen, onClose, type, data } = useModal();
-  const { branding, enquire, hero } = getSiteConfig();
+  const { site } = useSite();
+  const { branding, enquire, hero } = getSiteConfig(site);
 
   useEffect(() => {
     setIsMounted(true);

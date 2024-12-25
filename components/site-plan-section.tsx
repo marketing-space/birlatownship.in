@@ -14,13 +14,13 @@ import { useState } from "react";
 import { Button } from "./ui/button";
 import { useModal } from "@/lib/stores/use-modal-store";
 import { getSiteConfig } from "@/lib/config";
+import { useSite } from "@/lib/context/site-context";
 export default function SitePlanSection() {
-  const { siteAndFloorPlan } = getSiteConfig();
+  const { site } = useSite();
+  const { siteAndFloorPlan } = getSiteConfig(site);
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const [selectedCategory, setSelectedCategory] = useState("All");
   const { onOpen } = useModal();
-
-  const categories = ["All", "2 BHK", "3 BHK", "4 BHK"];
 
   const filteredPlans =
     selectedCategory === "All"
@@ -83,7 +83,7 @@ export default function SitePlanSection() {
             {siteAndFloorPlan.floorPlans.title}
           </h3>
           <div className="flex flex-wrap gap-2">
-            {categories.map((category) => (
+            {siteAndFloorPlan.floorPlans.categories.map((category) => (
               <Button
                 key={category}
                 variant={selectedCategory === category ? "default" : "outline"}

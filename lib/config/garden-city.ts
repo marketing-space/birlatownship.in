@@ -11,12 +11,12 @@ import {
 } from "lucide-react";
 import { routes } from "./routes";
 
-const route = routes.default;
+const route = routes.Gardencity;
 
-export const siteConfig = {
-  name: "Narang Privado",
+export const gardenCityConfig = {
+  name: "Garden City",
   about:
-    "Founded in 1988, Narang Realty is a renowned family real estate business that develops residential and commercial properties. The firm focuses on delivering refined, luxury housing and has already served 2000+ home buyers to date. It has already delivered projects across 5 million+ sq. ft. and won 50+ real estate awards. From connected community living, to soaring skyscarpers, our buildings enhance lifestyles across the city. We are deeply committed to our mission of creating superior developments that enrich the city and transform lives",
+    "Founded in 1988, Garden City is a renowned family real estate business that develops residential and commercial properties. The firm focuses on delivering refined, luxury housing and has already served 2000+ home buyers to date. It has already delivered projects across 5 million+ sq. ft. and won 50+ real estate awards. From connected community living, to soaring skyscarpers, our buildings enhance lifestyles across the city. We are deeply committed to our mission of creating superior developments that enrich the city and transform lives",
   contact: {
     phone: "+919876543210",
     whatsapp: "+919876543210",
@@ -27,44 +27,44 @@ export const siteConfig = {
   navbar: {
     navItems: [
       {
-        href: `${route}/#home`,
+        href: `/${route}/#home`,
         label: "Home",
         icon: Home,
       },
       {
-        href: `${route}/#price`,
+        href: `/${route}/#price`,
         label: "Price",
         icon: IndianRupee,
       },
       {
-        href: `${route}/#site-plan`,
+        href: `/${route}/#site-plan`,
         label: "Site & Floor Plan",
         icon: LayoutPanelTop,
       },
       {
-        href: `${route}/#amenities`,
+        href: `/${route}/#amenities`,
         label: "Amenities",
         icon: Trees,
       },
       {
-        href: `${route}/#gallery`,
+        href: `/${route}/#gallery`,
         label: "Gallery",
         icon: ImageIcon,
       },
       {
-        href: `${route}/#location`,
+        href: `/${route}/#location`,
         label: "Location",
         icon: MapPin,
       },
       {
-        href: `${route}/#virtual-tour`,
+        href: `/${route}/#virtual-tour`,
         label: "Virtual Site Visit",
         icon: Video,
       },
     ],
     cta: {
       title: "Download Brochure",
-      description: "Download the brochure to learn more about Narang Privado",
+      description: "Download the brochure to learn more about Garden City",
     },
   },
 
@@ -78,27 +78,26 @@ export const siteConfig = {
     banners: [
       {
         src: "/images/banner-1.webp",
-        alt: "Narang Privado Exterior",
+        alt: "Garden City Exterior",
       },
       {
         src: "/images/banner-2.webp",
-        alt: "Narang Privado Interior",
+        alt: "Garden City Interior",
       },
     ],
     welcome: {
       cta: {
         title: "Download Brochure",
-        description:
-          "Download the brochure to learn more about Narang Privado.",
+        description: "Download the brochure to learn more about Garden City.",
       },
-      title: "Welcome to Narang Privado",
-      description: `Experience living in a resort-like atmosphere only at Narang Privado, in Thane. This residential project offers Vastu-compliant 2, 3 &amp; 4 BHK residences - attached with expansive balconies &amp; large windows for cross ventilation. These homes are designed for a lavish lifestyle, with cozy master bedrooms, designer kitchens, and imported marble floors. 32+ amenities such as a clubhouse, swimming pool, pet park, a rock climbing wall, and a sports arena afford a luxury lifestyle. The inclusion of a serene forest walk, jacuzzi, tea pavilion, &amp; more revives your daily lifestyle. 
+      title: "Welcome to Garden City",
+      description: `Experience living in a resort-like atmosphere only at Garden City, in Thane. This residential project offers Vastu-compliant 2, 3 &amp; 4 BHK residences - attached with expansive balconies &amp; large windows for cross ventilation. These homes are designed for a lavish lifestyle, with cozy master bedrooms, designer kitchens, and imported marble floors. 32+ amenities such as a clubhouse, swimming pool, pet park, a rock climbing wall, and a sports arena afford a luxury lifestyle. The inclusion of a serene forest walk, jacuzzi, tea pavilion, &amp; more revives your daily lifestyle. 
         
-      Located off Pokhran Road 1, Thane West - the project is nestled amidst the scenic Yeoor Hills and Sanjay Gandhi National Park.Close to urban facilities like the Korum Mall, Holy Cross High School, and Horizon Hospital - Narang Privado is the complete package! The strategic location also gives smooth travel times via the Eastern Express Highway & amp; Thane Railway Station - both within 10 - 15 minutes of reach.The upcoming Majiwada & amp; Cadbury metro stations are close by as well.With world - class homes in a peaceful location - Narang Privado is where you can enjoy beautiful, tranquil moments in your everyday life.`,
+      Located off Pokhran Road 1, Thane West - the project is nestled amidst the scenic Yeoor Hills and Sanjay Gandhi National Park.Close to urban facilities like the Korum Mall, Holy Cross High School, and Horizon Hospital - Garden City is the complete package! The strategic location also gives smooth travel times via the Eastern Express Highway & amp; Thane Railway Station - both within 10 - 15 minutes of reach.The upcoming Majiwada & amp; Cadbury metro stations are close by as well.With world - class homes in a peaceful location - Garden City is where you can enjoy beautiful, tranquil moments in your everyday life.`,
     },
     offer: {
       title: "A LIMITED TIME OFFER",
-      location: "At Thane (W) by Narang Realty",
+      location: "At Thane (W) by Garden City",
       points: [
         { text: "Early Buy Discounts" },
         { text: "Construction Linked Pay Plan" },
@@ -189,7 +188,7 @@ export const siteConfig = {
     detailPricing: {
       image: {
         src: "/images/costing.webp",
-        alt: "Narang Privado Costing",
+        alt: "Garden City Costing",
       },
       title: "Need Complete Costing Details?",
       description:
@@ -213,7 +212,7 @@ export const siteConfig = {
       },
       cta: {
         title: "View Master Plan",
-        description: "Explore the layout of Narang Privado",
+        description: "Explore the layout of Garden City",
       },
     },
     floorPlans: {
@@ -258,7 +257,7 @@ export const siteConfig = {
       ],
       cta: {
         title: "Enquire Now",
-        description: "Explore the layout of Narang Privado",
+        description: "Explore the layout of Garden City",
       },
     },
   },
@@ -269,7 +268,7 @@ export const siteConfig = {
       "Discover a lifestyle enriched with premium amenities and facilities",
     cta: {
       title: "Download Amenities",
-      description: "Download the amenities of Narang Privado",
+      description: "Download the amenities of Garden City",
     },
     amenities: [
       {
@@ -345,7 +344,7 @@ export const siteConfig = {
       "Experience luxury living through our carefully curated spaces",
     cta: {
       title: "Download Gallery",
-      description: "Download the gallery of Narang Privado",
+      description: "Download the gallery of Garden City",
     },
     images: [
       {
@@ -417,7 +416,7 @@ export const siteConfig = {
 
   virtualTour: {
     title: "Virtual Tour Request",
-    description: "Experience Narang Privado from the comfort of your home",
+    description: "Experience Garden City from the comfort of your home",
     cta: {
       title: "Request Virtual Tour",
       description: "Schedule at your convenience",
@@ -427,7 +426,7 @@ export const siteConfig = {
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",
-    videoDescription: "Experience Narang Privado from the comfort of your home",
+    videoDescription: "Experience Garden City from the comfort of your home",
     features: [
       {
         title: "360° Views",
@@ -442,6 +441,12 @@ export const siteConfig = {
         description: "Schedule your tour at your convenience",
       },
     ],
+  },
+
+  footer: {
+    termsConditions: { href: `/${route}/terms-conditions` },
+    privacyPolicy: { href: `/${route}/privacy-policy` },
+    cookiesPolicy: { href: `/${route}/cookies-policy` },
   },
 
   enquire: {
@@ -485,10 +490,10 @@ export const siteConfig = {
     rera: {
       title: "RERA Information",
       description:
-        "Narang Realty has been registered via MahaRERA registration number and is available on the website https://maharera.mahaonline.gov.in/ under registered projects.",
+        "Garden City has been registered via MahaRERA registration number and is available on the website https://maharera.mahaonline.gov.in/ under registered projects.",
       details: [
         {
-          title: "Narang Realty MahaRERA",
+          title: "Garden City MahaRERA",
           reraNumber: "P51700050065",
           qrCode: "/images/barcode-1.webp",
         },
@@ -526,27 +531,21 @@ export const siteConfig = {
   },
 
   seo: {
-    title: "Narang Privado | Luxury Apartments in Thane",
+    title: "Garden City | Luxury Apartments in Thane",
     description:
-      "Experience luxury living at Narang Privado, Thane. 2 & 3 BHK apartments with world-class amenities.",
+      "Experience luxury living at Garden City, Thane. 2 & 3 BHK apartments with world-class amenities.",
     keywords: [
       "luxury apartments",
       "thane west",
-      "narang realty",
+      "Garden City",
       "2 bhk",
       "3 bhk",
     ],
   },
 
-  footer: {
-    termsConditions: { href: `/terms-conditions` },
-    privacyPolicy: { href: `/privacy-policy` },
-    cookiesPolicy: { href: `/cookies-policy` },
-  },
-
   termsAndConditions: {
     seo: {
-      title: "Narang Privado | Terms & Conditions",
+      title: "Garden City | Terms & Conditions",
       description:
         "Please read these terms and conditions carefully before using our website.",
     },
@@ -574,7 +573,7 @@ export const siteConfig = {
 
   privacyPolicy: {
     seo: {
-      title: "Narang Privado | Privacy Policy",
+      title: "Garden City | Privacy Policy",
       description: "This policy explains how we use your personal information.",
     },
     title: "Privacy Policy",
@@ -595,7 +594,7 @@ export const siteConfig = {
 
   cookiesPolicy: {
     seo: {
-      title: "Narang Privado | Cookies Policy",
+      title: "Garden City | Cookies Policy",
       description:
         "This policy explains how we use cookies and similar technologies on our website.",
     },
@@ -615,10 +614,11 @@ export const siteConfig = {
       },
     ],
   },
+
   thankYou: {
     seo: {
-      title: "Narang Privado | Thank You",
-      description: "Thank you for your interest in Narang Privado",
+      title: "Garden City | Thank You",
+      description: "Thank you for your interest in Garden City",
     },
   },
 
@@ -630,17 +630,17 @@ export const siteConfig = {
       __vtrftk: "sid:d0b203e8fb8ff53c5b3673fb24119e03ae930517,1680088576",
       __vtCurrency: "1",
       name: "Narang-Privado",
-      cfLeadsProjectSite: "Narang Privado",
+      cfLeadsProjectSite: "Garden City",
       leadSource: "Web",
       emailOptin: "1",
     },
     email: {
       apiEndpoint: "/api/send-email",
       template: {
-        subject: "New Enquiry from Narang Privado",
+        subject: "New Enquiry from Garden City",
       },
     },
   },
 };
 
-export type SiteConfig = typeof siteConfig;
+export type GardenCitySiteConfig = typeof gardenCityConfig;

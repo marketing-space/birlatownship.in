@@ -2,13 +2,15 @@
 
 import { Section } from "@/components/ui/section";
 import { getSiteConfig } from "@/lib/config";
+import { useSite } from "@/lib/context/site-context";
 import { useModal } from "@/lib/stores/use-modal-store";
 import { Download } from "lucide-react";
 import Image from "next/image";
 
 export default function GallerySection() {
   const { onOpen } = useModal();
-  const { gallery } = getSiteConfig();
+  const { site } = useSite();
+  const { gallery } = getSiteConfig(site);
 
   return (
     <Section

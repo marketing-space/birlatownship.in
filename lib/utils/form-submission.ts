@@ -6,8 +6,8 @@ type FormData = {
   phone: string;
 };
 
-async function submitToCRM(data: FormData) {
-  const { crm } = getSiteConfig().formSubmission;
+async function submitToCRM(site: string, data: FormData) {
+  const { crm } = getSiteConfig(site).formSubmission;
   const formData = new FormData();
 
   // Add CRM specific fields
@@ -45,8 +45,8 @@ async function submitToCRM(data: FormData) {
   return response;
 }
 
-async function submitToEmail(data: FormData) {
-  const { email } = getSiteConfig().formSubmission;
+async function submitToEmail(site: string, data: FormData) {
+  const { email } = getSiteConfig(site).formSubmission;
 
   console.log(process.env.NEXT_PUBLIC_EMAIL_RECIPIENTS);
   const response = await fetch(email.apiEndpoint, {
@@ -71,10 +71,10 @@ async function submitToEmail(data: FormData) {
   return response;
 }
 
-export async function submitForm(data: FormData) {
+export async function submitForm(site: string, data: FormData) {
   if (process.env.NEXT_PUBLIC_LEAD_COLLECTION_MODE === "email") {
-    await submitToEmail(data);
+    await submitToEmail(site, data);
   } else {
-    await submitToCRM(data);
+    await submitToCRM(site, data);
   }
 }

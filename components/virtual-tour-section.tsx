@@ -6,11 +6,13 @@ import { useState } from "react";
 import { Section } from "./ui/section";
 import { useModal } from "@/lib/stores/use-modal-store";
 import { getSiteConfig } from "@/lib/config";
+import { useSite } from "@/lib/context/site-context";
 
 export default function VirtualTourSection() {
   const [isHovered, setIsHovered] = useState(false);
   const { onOpen } = useModal();
-  const { virtualTour } = getSiteConfig();
+  const { site } = useSite();
+  const { virtualTour } = getSiteConfig(site);
 
   return (
     <Section

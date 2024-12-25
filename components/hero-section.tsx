@@ -10,9 +10,11 @@ import { useModal } from "@/lib/stores/use-modal-store";
 import { motion } from "framer-motion";
 import { getSiteConfig } from "@/lib/config";
 import EnquireSection from "./enquire-section";
+import { useSite } from "@/lib/context/site-context";
 
 export default function HeroSection() {
-  const { name, hero } = getSiteConfig();
+  const { site } = useSite();
+  const { name, hero } = getSiteConfig(site);
 
   const plugin = React.useRef(
     Autoplay({ delay: 4000, stopOnInteraction: true })
