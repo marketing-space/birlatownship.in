@@ -1,10 +1,12 @@
-import { gardenCityConfig } from "@/lib/config/garden-city";
+import { lodhaAmaraSiteConfig } from "@/lib/config/lodha-amara";
 import { routes } from "./routes";
 import { siteConfig } from "./site";
+import { lodhaPremierSiteConfig } from "./lodha-premier";
 
 const configs = {
   [routes.default]: siteConfig,
-  [routes.Gardencity]: gardenCityConfig,
+  [routes.LodhaAmara]: lodhaAmaraSiteConfig,
+  [routes.LodhaPremier]: lodhaPremierSiteConfig,
 };
 
 export function getSiteConfig(site?: string) {

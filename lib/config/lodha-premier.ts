@@ -11,15 +11,15 @@ import {
 } from "lucide-react";
 import { routes } from "./routes";
 
-const route = routes.default;
+const route = routes.LodhaPremier;
 
-export const siteConfig = {
-  name: "Runwal 25 Hour Life",
+export const lodhaPremierSiteConfig = {
+  name: "Lodha Premier",
   about:
-    "Founded in 1978, Runwal Group excels in establishing sprawling residential complexes, retail shopping malls, and commercial spaces. With a mission of developing standout landmarks rather than mere living spaces, Runwal homes are known for their aesthetic designs, plush interiors, and central green landscaping. Over the course of 40 years, the firm has become a leading face in real estate and changed the Mumbai skyline.",
+    "One of India's leading real estate firms, the Lodha Group is renowned for building urban dream homes that offer refined living. The developer caters to all segments, from luxury to budget residences and has built iconic landmarks all across Mumbai, Thane, and Navi Mumbai. Lodha properties are known to feature quality interiors, state-of-the-art amenities, vast open spaces, and manicured green landscapes. A few of their standout properties are Lodha World Towers in Lower Parel, Lodha Palava in Dombivli, Lodha Crown in Thane, and Lodha Bellagio in Powai.",
   contact: {
-    phone: "+919876543210",
-    whatsapp: "+919876543210",
+    phone: "+919619095795",
+    whatsapp: "+919619095795",
     email: "sales@narangprivado.com",
     address: "Thane West, Mumbai, Maharashtra 400615",
   },
@@ -27,79 +27,77 @@ export const siteConfig = {
   navbar: {
     navItems: [
       {
-        href: `${route}/#home`,
+        href: `/${route}/#home`,
         label: "Home",
         icon: Home,
       },
       {
-        href: `${route}/#price`,
+        href: `/${route}/#price`,
         label: "Price",
         icon: IndianRupee,
       },
       {
-        href: `${route}/#site-plan`,
+        href: `/${route}/#site-plan`,
         label: "Site & Floor Plan",
         icon: LayoutPanelTop,
       },
       {
-        href: `${route}/#amenities`,
+        href: `/${route}/#amenities`,
         label: "Amenities",
         icon: Trees,
       },
       {
-        href: `${route}/#gallery`,
+        href: `/${route}/#gallery`,
         label: "Gallery",
         icon: ImageIcon,
       },
       {
-        href: `${route}/#location`,
+        href: `/${route}/#location`,
         label: "Location",
         icon: MapPin,
       },
       {
-        href: `${route}/#virtual-tour`,
+        href: `/${route}/#virtual-tour`,
         label: "Virtual Site Visit",
         icon: Video,
       },
     ],
     cta: {
       title: "Download Brochure",
-      description:
-        "Download the brochure to learn more about Runwal 25 Hour Life",
+      description: "Download the brochure to learn more about Lodha Amara",
     },
   },
 
   branding: {
-    logo: "/default/images/logo.svg",
-    favicon: "/default/icon.png",
-    ogImage: "/default/og-image.jpg",
+    logo: "/lodha-premier/images/logo.png",
+    favicon: "/lodha-premier/images/favicon.png",
+    ogImage: "/lodha-premier/images/og-image.jpg",
   },
 
   hero: {
     banners: [
       {
-        src: "/default/images/banner-1.png",
-        alt: "Runwal 25 Hour Life Exterior",
+        src: "/lodha-premier/images/banner-1.webp",
+        alt: "Lodha Amara Exterior",
       },
     ],
     welcome: {
       cta: {
         title: "Download Brochure",
-        description:
-          "Download the brochure to learn more about Runwal 25 Hour Life.",
+        description: "Download the brochure to learn more about Lodha Premier.",
       },
-      title: "Welcome to Runwal 25 hr Life",
-      description: `Introducing Runwal 25 Hour Life, an exceptional landmark in Thane offering a unique blend of residential, commercial, and retail spaces. Experience breathtaking city views from the balconies of our 1, 2, 3 BHK, and Jodi flats. With offices, entertainment options, and dining establishments right within the premises, your every need is catered to conveniently. Spanning over 2 acres, our expansive array of 70+ amenities includes a pet park, sky cafe, library, swimming pool, cricket pitch, fish ponds, floral tunnels, sunken gardens, and much more. Welcome to a lifestyle that exceeds expectations.
-        
-      Being located just off Manpada Main Road, you live in proximity to renowned educational institutes, multispeciality hospitals, shopping malls, supermarkets, etc. The closest options for you are C P Goenka International School, R Mall, Bethany Hospital &amp; more. Your citywide connectivity will be super fast with Ghodbunder Road, Thane Railway Station, Eastern Express Highway, etc. So, a perfect package for all the lifestyle needs is awaited for you at - Runwal 25 Hour Life!`,
+      title: "Welcome To Lodha Premier",
+      description: `Lodha Premier is a beautiful residential development project located at Manpada, Dombivli. Lodha Premier offers excellently created 1, 2 & 3 BHK lavishly furnished apartments with large sundecks, floor-to-ceiling windows, and designer bath fittingsnestled next to acres of forest greens. Exclusively, Lodha Premier Dombivli also comes along with an array of exceptional modern lifestyle amenities. It is an all-encompassing package that will comprise amenities such as a large sports complex, a school, a business district, a clubhouse, floral gardens, high street retail, and more.
+
+      Right on the Kalyan-Shil Road, the property itself is close to Dombivli Station, Airoli, and a metro station on the upcoming Kalyan-Taloja line. The locale also features the top essentials such as hospitals, shopping malls, banks, ATMs, and restaurants. Guardian School & Aims Hospital are 15-20 minutes away. Overall, Lodha Codename Premier offers a stunning self-sufficient township that brings the best of modernity to your fingertips.`,
     },
     offer: {
-      title: "Booking Open: Limited Time Only",
-      location: "At Manpada Thane by Runwal Group",
+      title: "Booking Open",
+      location: "At Dombivali by Lodha Group",
       points: [
-        { text: "Pay 10% & Nothing Up to 3 Years" },
-        { text: "Book & Win a Trip to Barcelona" },
-        { text: "Assured Holiday Voucher on Booking" },
+        { text: "Spot Booking Offer" },
+        { text: "Early Buy Discount" },
+        { text: "Zero Stamp Duty Benefit" },
       ],
       cta: {
         title: "Book A Free Site Visit",
@@ -108,21 +106,21 @@ export const siteConfig = {
       features: [
         {
           title: "Land Parcel",
-          value: "21 Acres",
+          value: "50 Acres",
         },
         {
           title: "Floors",
-          value: "50 Storeys",
+          value: "24 Storeys",
         },
         {
           title: "Possession",
-          value: "Dec 2027",
+          value: "Dec 2024",
         },
       ],
       price: {
-        title: "Luxurious 2, 3 BHK & Jodi Units Starts at",
-        value: "1.29 Cr*",
-        suffix: "All Inc",
+        title: "Luxurious 1, 2 & 3 Deck Flats Starts from",
+        value: "44.99 Lacs",
+        suffix: "Onwards",
       },
     },
   },
@@ -130,55 +128,49 @@ export const siteConfig = {
   pricing: {
     title: "Pricing Plans",
     description:
-      "Choose from our range of luxurious 1, 2, 3 BHK residences, each designed to offer the perfect blend of comfort and sophistication",
+      "Choose from our range of luxurious 2, 3 & 4 BHK residences, each designed to offer the perfect blend of comfort and sophistication",
     prices: [
       {
-        type: "1 BHK",
-        carpetArea: "441 Sq.ft.",
-        price: "89 Lacs*",
-        suffix: "All Inclusive",
+        type: "2 BHK Regal",
+        carpetArea: "737 Sq.ft.",
+        price: "1.62 Cr",
+        suffix: "Onwards",
       },
       {
         type: "1 BHK",
-        carpetArea: "471 Sq.ft.",
-        price: "95 Lacs*",
-        suffix: "All Inclusive",
+        carpetArea: "444 Sq.ft.",
+        price: "44.99 Lacs",
+        suffix: "Onwards",
+      },
+      {
+        type: "1 BHK with Deck",
+        carpetArea: "479 Sq.ft.",
+        price: "52.99 Lacs",
+        suffix: "Onwards",
       },
       {
         type: "2 BHK",
-        carpetArea: "600 Sq.ft.",
-        price: "1.29 Cr*",
-        suffix: "All Inclusive",
+        carpetArea: "572 Sq.ft.",
+        price: "60.99 Lacs",
+        suffix: "Onwards",
       },
       {
-        type: "2 BHK",
-        carpetArea: "634 Sq.ft.",
-        price: "1.36 Cr*",
-        suffix: "All Inclusive",
+        type: "2 BHK with deck",
+        carpetArea: "656 Sq.ft.",
+        price: "71.99 Lacs",
+        suffix: "Onwards",
       },
       {
-        type: "3 BHK",
-        carpetArea: "951 Sq.ft.",
-        price: "1.98 Cr*",
-        suffix: "All Inclusive",
+        type: "3 BHK Ultima with Deck",
+        carpetArea: "759 Sq.ft.",
+        price: "84.99 Lacs",
+        suffix: "Onwards",
       },
       {
-        type: "3 BHK",
-        carpetArea: "962 Sq.ft.",
-        price: "2.13 Cr*",
-        suffix: "All Inclusive",
-      },
-      {
-        type: "2+1 BHK Jodi",
-        carpetArea: "1049 Sq.ft.",
-        price: "2.26 Cr*",
-        suffix: "All Inclusive",
-      },
-      {
-        type: "2+2 BHK Jodi",
-        carpetArea: "1268 Sq.ft.",
-        price: "2.70 Cr*",
-        suffix: "All Inclusive",
+        type: "3 BHK Premium",
+        carpetArea: "960 Sq.ft.",
+        price: "1.08 Cr",
+        suffix: "Onwards",
       },
     ],
     cta: {
@@ -187,8 +179,8 @@ export const siteConfig = {
     },
     detailPricing: {
       image: {
-        src: "/default/images/costing.webp",
-        alt: "Runwal 25 Hour Life Costing",
+        src: "/lodha-premier/images/costing.jpg",
+        alt: "Lodha Amara Costing",
       },
       title: "Need Complete Costing Details?",
       description:
@@ -207,62 +199,52 @@ export const siteConfig = {
     masterPlan: {
       title: "Master Plan",
       image: {
-        src: "/default/images/master-plan.jpg",
+        src: "/lodha-premier/images/master-plan.jpg",
         alt: "Master Plan",
       },
       cta: {
         title: "View Master Plan",
-        description: "Explore the layout of Runwal 25 Hour Life",
+        description: "Explore the layout of Lodha Amara",
       },
     },
     floorPlans: {
-      categories: ["All", "1 BHK", "2 BHK", "2+1 BHK Jodi", "2+2 BHK Jodi"],
+      categories: ["All", "1 BHK", "2 BHK", "3 BHK"],
       title: "Floor Plans",
       plans: [
         {
-          type: "1 BHK-441 Sq.ft.",
-          image: "/default/images/floor-2.jpg",
+          type: "1 BHK-444 Sq.ft.",
+          image: "/lodha-premier/images/floor-1.jpg",
           category: "1 BHK",
         },
         {
-          type: "1 BHK-471 Sq.ft.",
-          image: "/default/images/floor-3.jpg",
+          type: "1 BHK-Deck-479 Sq.ft.",
+          image: "/lodha-premier/images/floor-2.jpg",
           category: "1 BHK",
         },
         {
-          type: "2 BHK-600 Sq.ft.",
-          image: "/default/images/floor-4.jpg",
+          type: "2 BHK-540 Sq.ft.",
+          image: "/lodha-premier/images/floor-3.jpg",
           category: "2 BHK",
         },
         {
-          type: "2 BHK-634 Sq.ft.",
-          image: "/default/images/floor-5.jpg",
+          type: "2 BHK-Deck-572 Sq.ft.",
+          image: "/lodha-premier/images/floor-4.jpg",
           category: "2 BHK",
         },
         {
-          type: "3 BHK-951 Sq.ft.",
-          image: "/default/images/floor-6.jpg",
+          type: "2 BHK-Ultima Deck-656 Sq.ft.",
+          image: "/lodha-premier/images/floor-5.jpg",
+          category: "2 BHK",
+        },
+        {
+          type: "3 BHK Optima-759 Sq.ft.",
+          image: "/lodha-premier/images/floor-6.jpg",
           category: "3 BHK",
-        },
-        {
-          type: "3 BHK-962 Sq.ft.",
-          image: "/default/images/floor-7.jpg",
-          category: "3 BHK",
-        },
-        {
-          type: "2+1 BHK Jodi-1049 Sq.ft.",
-          image: "/default/images/floor-8.jpg",
-          category: "2+1 BHK Jodi",
-        },
-        {
-          type: "2+2 BHK Jodi-1268 Sq.ft.",
-          image: "/default/images/floor-8.jpg",
-          category: "2+2 BHK Jodi",
         },
       ],
       cta: {
         title: "Enquire Now",
-        description: "Explore the layout of Runwal 25 Hour Life",
+        description: "Explore the layout of Lodha Amara",
       },
     },
   },
@@ -273,57 +255,62 @@ export const siteConfig = {
       "Discover a lifestyle enriched with premium amenities and facilities",
     cta: {
       title: "Download Amenities",
-      description: "Download the amenities of Runwal 25 Hour Life",
+      description: "Download the amenities of Lodha Amara",
     },
     amenities: [
       {
-        title: "Sky Cafe",
-        image: "/default/images/amenities/sky-cafe.png",
+        title: "Garden",
+        image: "/lodha-premier/images/amenities/GARDEN.webp",
+        description: "",
+      },
+      {
+        title: "Gymnasium",
+        image: "/lodha-premier/images/amenities/GYMNASIUM.webp",
+        description: "",
+      },
+      {
+        title: "Indoor Games Zone",
+        image: "/lodha-premier/images/amenities/INDOORGAMESZONE.webp",
+        description: "",
+      },
+      {
+        title: "Kids Play Area",
+        image: "/lodha-premier/images/amenities/KIDSPLAYAREA.webp",
+        description: "",
+      },
+      {
+        title: "Library & Cafe",
+        image: "/lodha-premier/images/amenities/LIBRARY&CAFE.webp",
+        description: "",
+      },
+      {
+        title: "Mini Theatre",
+        image: "/lodha-premier/images/amenities/MINITHEATRE.webp",
+        description: "",
+      },
+      {
+        title: "Retail",
+        image: "/lodha-premier/images/amenities/RETAIL.webp",
         description: "",
       },
       {
         title: "Swimming Pool",
-        image: "/default/images/amenities/swimming-pool.png",
+        image: "/lodha-premier/images/amenities/SWIMMINGPOOL.webp",
         description: "",
       },
       {
-        title: "Pet Park",
-        image: "/default/images/amenities/pet-park.png",
+        title: "Volleyball Court",
+        image: "/lodha-premier/images/amenities/VOLLEYBALLCOURT.webp",
         description: "",
       },
       {
-        title: "Sky Club",
-        image: "/default/images/amenities/sky-club.png",
+        title: "Walking Trail",
+        image: "/lodha-premier/images/amenities/WALKINGTRAIL.webp",
         description: "",
       },
       {
-        title: "Library",
-        image: "/default/images/amenities/library.png",
-        description: "",
-      },
-      {
-        title: "Banquet Hall",
-        image: "/default/images/amenities/banquet-hall.png",
-        description: "",
-      },
-      {
-        title: "Creche",
-        image: "/default/images/amenities/creche.png",
-        description: "",
-      },
-      {
-        title: "Picnic & BBQ Pavilion",
-        image: "/default/images/amenities/picnic-bbq-pavilion.png",
-        description: "",
-      },
-      {
-        title: "Theatre",
-        image: "/default/images/amenities/theatre.png",
-        description: "",
-      },
-      {
-        title: "Supermarket",
-        image: "/default/images/amenities/supermarket.png",
+        title: "World Class School",
+        image: "/lodha-premier/images/amenities/WORLDCLASSSCHOOL.webp",
         description: "",
       },
     ],
@@ -339,27 +326,27 @@ export const siteConfig = {
       "Experience luxury living through our carefully curated spaces",
     cta: {
       title: "Download Gallery",
-      description: "Download the gallery of Runwal 25 Hour Life",
+      description: "Download the gallery of Lodha Amara",
     },
     images: [
       {
         title: "",
-        image: "/default/images/gallery/gallery-1.webp",
+        image: "/lodha-premier/images/gallery/gallery-1.webp",
         description: "Elegantly designed living spaces with premium finishes",
       },
       {
         title: "",
-        image: "/default/images/gallery/gallery-2.webp",
+        image: "/lodha-premier/images/gallery/gallery-2.webp",
         description: "Breathtaking views of landscaped gardens",
       },
       {
         title: "",
-        image: "/default/images/gallery/gallery-3.webp",
+        image: "/lodha-premier/images/gallery/gallery-3.webp",
         description: "Resort-style pool with premium amenities",
       },
       {
         title: "",
-        image: "/default/images/gallery/gallery-4.webp",
+        image: "/lodha-premier/images/gallery/gallery-4.webp",
         description: "Spacious bedrooms with modern aesthetics",
       },
     ],
@@ -369,35 +356,35 @@ export const siteConfig = {
     title: "Location",
     description: "Strategically located for your convenience",
     googleMapIframe:
-      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60256.83190737612!2d72.930301!3d19.280105!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7baf133b94b85%3A0x13ee3ddf0c4ff0c5!2sRunwal%2025%20Hour%20Life!5e0!3m2!1sen!2sin!4v1689770913359!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15073.099507581815!2d73.0903641!3d19.1831929!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6c9b7d444660d20!2sLodha%20Codename%20Premier%20Dombivli!5e0!3m2!1sen!2sin!4v1637216125991!5m2!1sen!2sin",
     image: {
-      src: "/default/images/map.webp",
+      src: "/lodha-premier/images/map.jpg",
       alt: "Location Map",
     },
     landmarks: [
       {
-        title: "Ghodbunder Road",
-        description: "1 Min",
+        title: "D-Mart",
+        description: "5 Mins",
       },
       {
-        title: "R Mall",
-        description: "1 Min",
-      },
-      {
-        title: "C P Goenka International School",
+        title: "Guardian School",
         description: "8 Mins",
       },
       {
-        title: "Bethany Hospital",
-        description: "13 Mins",
+        title: "Kalyan-Shil Junction",
+        description: "15 Mins",
       },
       {
-        title: "Eastern Express Highway",
-        description: "8 Mins",
-      },
-      {
-        title: "Thane Railway Station",
+        title: "Dombivli Station",
         description: "20 Mins",
+      },
+      {
+        title: "Lodha Xperia Mall",
+        description: "10 Mins",
+      },
+      {
+        title: "Aims Hospital",
+        description: "10 Mins",
       },
     ],
     location: {
@@ -411,18 +398,17 @@ export const siteConfig = {
 
   virtualTour: {
     title: "Virtual Tour Request",
-    description: "Experience Runwal 25 hr Life from the comfort of your home",
+    description: "Experience Lodha Amara from the comfort of your home",
     cta: {
       title: "Request Virtual Tour",
       description: "Schedule at your convenience",
     },
     image: {
-      src: "/default/images/banner-1.png",
+      src: "/lodha-premier/images/banner-1.webp",
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",
-    videoDescription:
-      "Experience Runwal 25 hr Life from the comfort of your home",
+    videoDescription: "Experience Lodha Amara from the comfort of your home",
     features: [
       {
         title: "360° Views",
@@ -443,7 +429,7 @@ export const siteConfig = {
     title: "Get The Best Quote",
     bookFreeVisit: {
       image: {
-        src: "/default/images/ride.png",
+        src: "/lodha-premier/images/ride.png",
         alt: "Book a Site Visit",
       },
       cta: {
@@ -455,7 +441,7 @@ export const siteConfig = {
     callUs: {
       title: "Call Us",
       description: "Get in touch with our experts",
-      phone: "+91 98765 43210",
+      phone: "+91 96190-95795",
     },
     enquiryFeatures: [
       {
@@ -479,18 +465,12 @@ export const siteConfig = {
   legal: {
     rera: {
       title: "RERA Information",
-      description:
-        "Runwal 25 Hour has been registered via MahaRERA registration number: P51700048270, P51700048278 and is available on the website <a href='https://maharera.mahaonline.gov.in/'>https://maharera.mahaonline.gov.in/</a> under registered projects.",
+      description: "",
       details: [
         {
-          title: "Runwal 25 Hour Life Tower B1",
-          reraNumber: "Project Maha RERA - P51700048270",
-          qrCode: "/default/images/barcode-1.webp",
-        },
-        {
-          title: "Runwal 25 Hour Life Tower C1",
-          reraNumber: "Project Maha RERA - P51700048278",
-          qrCode: "/default/images/barcode-2.webp",
+          title: "",
+          reraNumber: "Rera No. P51700033751",
+          qrCode: "/lodha-premier/images/barcode-1.jpg",
         },
       ],
     },
@@ -526,27 +506,28 @@ export const siteConfig = {
   },
 
   seo: {
-    title: "Runwal 25 Hour Life | Luxury Apartments in Thane",
+    title:
+      "Lodha Premier by Lodha Group | Price, Floor Plans, Amenities | Request Brochure",
     description:
-      "Experience luxury living at Runwal 25 Hour Life, Thane. 2 & 3 BHK apartments with world-class amenities.",
+      "Experience luxury living at Lodha Premier, Thane. 2 & 3 BHK apartments with world-class amenities.",
     keywords: [
       "luxury apartments",
       "thane west",
-      "narang realty",
+      "lodha group",
       "2 bhk",
       "3 bhk",
     ],
   },
 
   footer: {
-    termsConditions: { href: `/terms-conditions` },
-    privacyPolicy: { href: `/privacy-policy` },
-    cookiesPolicy: { href: `/cookies-policy` },
+    termsConditions: { href: `/${route}/terms-conditions` },
+    privacyPolicy: { href: `/${route}/privacy-policy` },
+    cookiesPolicy: { href: `/${route}/cookies-policy` },
   },
 
   termsAndConditions: {
     seo: {
-      title: "Runwal 25 Hour Life | Terms & Conditions",
+      title: "Terms & Conditions | Lodha Amara",
       description:
         "Please read these terms and conditions carefully before using our website.",
     },
@@ -574,7 +555,7 @@ export const siteConfig = {
 
   privacyPolicy: {
     seo: {
-      title: "Runwal 25 Hour Life | Privacy Policy",
+      title: "Privacy Policy | Lodha Amara",
       description: "This policy explains how we use your personal information.",
     },
     title: "Privacy Policy",
@@ -595,7 +576,7 @@ export const siteConfig = {
 
   cookiesPolicy: {
     seo: {
-      title: "Runwal 25 Hour Life | Cookies Policy",
+      title: "Cookies Policy | Lodha Amara",
       description:
         "This policy explains how we use cookies and similar technologies on our website.",
     },
@@ -615,21 +596,22 @@ export const siteConfig = {
       },
     ],
   },
+
   thankYou: {
     seo: {
-      title: "Runwal 25 Hour Life | Thank You",
-      description: "Thank you for your interest in Runwal 25 Hour Life",
+      title: "Lodha Amara | Thank You",
+      description: "Thank you for your interest in Lodha Amara",
     },
   },
 
   formSubmission: {
     crm: {
-      formId: "__vtigerWebForm_26",
-      publicId: "b8102e824eab1729d73b906ae3ff9e8b",
+      formId: "__vtigerWebForm_6",
+      publicId: "5137fabea171ff2009e23603c5f4944e",
       baseUrl: "https://company133638.od2.vtiger.com",
       __vtrftk: "sid:d0b203e8fb8ff53c5b3673fb24119e03ae930517,1680088576",
       __vtCurrency: "1",
-      name: "Runwal Manpada Thane",
+      name: "Lodha Premier",
       cfLeadsProjectSite: "Swaminarayan City",
       leadSource: "Web",
       emailOptin: "1",
@@ -637,10 +619,10 @@ export const siteConfig = {
     email: {
       apiEndpoint: "/api/send-email",
       template: {
-        subject: "New Enquiry from Runwal 25 Hour Life",
+        subject: "New Enquiry from Lodha Amara",
       },
     },
   },
 };
 
-export type SiteConfig = typeof siteConfig;
+export type LodhaPremierSiteConfig = typeof lodhaPremierSiteConfig;

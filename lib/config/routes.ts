@@ -1,4 +1,5 @@
 export const routes = {
   default: "/",
-  Gardencity: "Gardencity",
+  LodhaAmara: "Lodha-Amara",
+  LodhaPremier: "Lodha-Premier",
 };
