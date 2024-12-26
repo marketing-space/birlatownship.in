@@ -145,7 +145,7 @@ export default function ThankYouPage() {
         >
           <Button
             className="gap-2 group relative overflow-hidden"
-            onClick={() => router.push("/#home")}
+            onClick={() => router.push(`/${site}/#home`)}
           >
             <motion.div
               className="absolute inset-0 bg-primary/10"
