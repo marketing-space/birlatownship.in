@@ -11,10 +11,10 @@ import {
 } from "lucide-react";
 import { routes } from "./routes";
 
-const route = routes.LodhaPremier;
+const route = routes.LodhaRegalia;
 
-export const lodhaPremierSiteConfig = {
-  name: "Lodha Premier",
+export const lodhaRegaliaSiteConfig = {
+  name: "Lodha Regalia",
   about:
     "One of India's leading real estate firms, the Lodha Group is renowned for building urban dream homes that offer refined living. The developer caters to all segments, from luxury to budget residences and has built iconic landmarks all across Mumbai, Thane, and Navi Mumbai. Lodha properties are known to feature quality interiors, state-of-the-art amenities, vast open spaces, and manicured green landscapes. A few of their standout properties are Lodha World Towers in Lower Parel, Lodha Palava in Dombivli, Lodha Crown in Thane, and Lodha Bellagio in Powai.",
   contact: {
@@ -64,40 +64,40 @@ export const lodhaPremierSiteConfig = {
     ],
     cta: {
       title: "Download Brochure",
-      description: "Download the brochure to learn more about Lodha Premier",
+      description: "Download the brochure to learn more about Lodha Regalia",
     },
   },
 
   branding: {
-    logo: "/lodha-premier/images/logo.png",
-    favicon: "/lodha-premier/images/favicon.png",
-    ogImage: "/lodha-premier/images/og-image.jpg",
+    logo: "/lodha-regalia/images/logo.png",
+    favicon: "/lodha-regalia/images/favicon.png",
+    ogImage: "/lodha-regalia/images/og-image.jpg",
   },
 
   hero: {
     banners: [
       {
-        src: "/lodha-premier/images/banner-1.webp",
-        alt: "Lodha Premier Exterior",
+        src: "/lodha-regalia/images/banner-1.webp",
+        alt: "Lodha Regalia Exterior",
       },
     ],
     welcome: {
       cta: {
         title: "Download Brochure",
-        description: "Download the brochure to learn more about Lodha Premier.",
+        description: "Download the brochure to learn more about Lodha Regalia.",
       },
-      title: "Welcome To Lodha Premier",
-      description: `Lodha Premier is a beautiful residential development project located at Manpada, Dombivli. Lodha Premier offers excellently created 1, 2 & 3 BHK lavishly furnished apartments with large sundecks, floor-to-ceiling windows, and designer bath fittingsnestled next to acres of forest greens. Exclusively, Lodha Premier Dombivli also comes along with an array of exceptional modern lifestyle amenities. It is an all-encompassing package that will comprise amenities such as a large sports complex, a school, a business district, a clubhouse, floral gardens, high street retail, and more.
+      title: "Welcome To Lodha Regalia",
+      description: `Set in the most prime location of Mulund, minutes from the Eastern Express Highway and at the doorstep of the rail station, Lodha Regalia offers high-rise living with stunning & limitless creek views, large, open green spaces, high-end amenities, excellent connectivity, and a truly upgraded lifestyle.
 
-      Right on the Kalyan-Shil Road, the property itself is close to Dombivli Station, Airoli, and a metro station on the upcoming Kalyan-Taloja line. The locale also features the top essentials such as hospitals, shopping malls, banks, ATMs, and restaurants. Guardian School & Aims Hospital are 15-20 minutes away. Overall, Lodha Codename Premier offers a stunning self-sufficient township that brings the best of modernity to your fingertips.`,
+      The project offers a quiet and soothing green residential area with larger residences for your family encompassing 60,000+ sq. ft. of open green landscape and a 10,000 sq. ft International standard club area with the finest amenities and facilities at your disposal. A never-before opportunity to live the Lodha Life in Mulund.`,
     },
     offer: {
       title: "Booking Open",
-      location: "At Dombivali by Lodha Group",
+      location: "At Mulund East by Lodha Group",
       points: [
-        { text: "Spot Booking Offer" },
-        { text: "Early Buy Discount" },
-        { text: "Zero Stamp Duty Benefit" },
+        { text: "Flexi Payment Plan" },
+        { text: "25 - 75 Builder Subvention" },
+        { text: "Pay 12.5% & Book Your Home" },
       ],
       cta: {
         title: "Book A Free Site Visit",
@@ -106,20 +106,20 @@ export const lodhaPremierSiteConfig = {
       features: [
         {
           title: "Land Parcel",
-          value: "50 Acres",
+          value: "2.4 Acres",
         },
         {
           title: "Floors",
-          value: "24 Storeys",
+          value: "G+37 Storeys",
         },
         {
           title: "Possession",
-          value: "Dec 2024",
+          value: "June 2025",
         },
       ],
       price: {
-        title: "Luxurious 1, 2 & 3 Deck Flats Starts from",
-        value: "44.99 Lacs",
+        title: "Luxurious 2 & 3 BHK Starts from",
+        value: "2.04 Cr",
         suffix: "Onwards",
       },
     },
@@ -131,40 +131,28 @@ export const lodhaPremierSiteConfig = {
       "Choose from our range of luxurious 2, 3 & 4 BHK residences, each designed to offer the perfect blend of comfort and sophistication",
     prices: [
       {
-        type: "1 BHK",
-        carpetArea: "444 Sq.ft.",
-        price: "44.99 Lacs",
-        suffix: "Onwards",
-      },
-      {
-        type: "1 BHK with Deck",
-        carpetArea: "479 Sq.ft.",
-        price: "49.99 Lacs",
-        suffix: "Onwards",
-      },
-      {
         type: "2 BHK",
-        carpetArea: "540 Sq.ft.",
-        price: "57.99 Lacs",
-        suffix: "Onwards",
+        carpetArea: "710 - 750 Sq.ft.",
+        price: "2.04 Cr +",
+        suffix: "",
       },
       {
-        type: "2 BHK with deck",
-        carpetArea: "572 - 656 Sq.ft.",
-        price: "63.99 Lacs",
-        suffix: "Onwards",
+        type: "2 BHK + Study",
+        carpetArea: "810 Sq.ft.",
+        price: "2.37 Cr +",
+        suffix: "",
       },
       {
-        type: "3 BHK Ultima with Deck",
-        carpetArea: "759 Sq.ft.",
-        price: "83.99 Lacs",
-        suffix: "Onwards",
+        type: "3 BHK",
+        carpetArea: "977 Sq.ft.",
+        price: "2.74 Cr +",
+        suffix: "",
       },
       {
-        type: "3 BHK Premium",
-        carpetArea: "960 Sq.ft.",
-        price: "1.09 Cr",
-        suffix: "Onwards",
+        type: "3 BHK + Study",
+        carpetArea: "1146 Sq.ft.",
+        price: "3.35 Cr +",
+        suffix: "",
       },
     ],
     cta: {
@@ -173,8 +161,8 @@ export const lodhaPremierSiteConfig = {
     },
     detailPricing: {
       image: {
-        src: "/lodha-premier/images/costing.jpg",
-        alt: "Lodha Premier Costing",
+        src: "/lodha-regalia/images/costing.jpg",
+        alt: "Lodha Regalia Costing",
       },
       title: "Need Complete Costing Details?",
       description:
@@ -193,52 +181,42 @@ export const lodhaPremierSiteConfig = {
     masterPlan: {
       title: "Master Plan",
       image: {
-        src: "/lodha-premier/images/master-plan.jpg",
+        src: "/lodha-regalia/images/master-plan.webp",
         alt: "Master Plan",
       },
       cta: {
         title: "View Master Plan",
-        description: "Explore the layout of Lodha Premier",
+        description: "Explore the layout of Lodha Regalia",
       },
     },
     floorPlans: {
-      categories: ["All", "1 BHK", "2 BHK", "3 BHK"],
+      categories: ["All", "2 BHK", "3 BHK"],
       title: "Floor Plans",
       plans: [
         {
-          type: "1 BHK-444 Sq.ft.",
-          image: "/lodha-premier/images/floor-1.jpg",
-          category: "1 BHK",
-        },
-        {
-          type: "1 BHK-Deck-479 Sq.ft.",
-          image: "/lodha-premier/images/floor-2.jpg",
-          category: "1 BHK",
-        },
-        {
-          type: "2 BHK-540 Sq.ft.",
-          image: "/lodha-premier/images/floor-3.jpg",
+          type: "2 BHK-750 Sq.ft.",
+          image: "/lodha-regalia/images/floor-1.jpg",
           category: "2 BHK",
         },
         {
-          type: "2 BHK-Deck-572 Sq.ft.",
-          image: "/lodha-premier/images/floor-4.jpg",
+          type: "2 BHK-Study 810 Sq.ft.",
+          image: "/lodha-regalia/images/floor-2.jpg",
           category: "2 BHK",
         },
         {
-          type: "2 BHK-Ultima Deck-656 Sq.ft.",
-          image: "/lodha-premier/images/floor-5.jpg",
-          category: "2 BHK",
+          type: "3 BHK-977 Sq.ft.",
+          image: "/lodha-regalia/images/floor-3.jpg",
+          category: "3 BHK",
         },
         {
-          type: "3 BHK Optima-759 Sq.ft.",
-          image: "/lodha-premier/images/floor-6.jpg",
+          type: "3 BHK-Study 1146 Sq.ft.",
+          image: "/lodha-regalia/images/floor-4.jpg",
           category: "3 BHK",
         },
       ],
       cta: {
         title: "Enquire Now",
-        description: "Explore the layout of Lodha Premier",
+        description: "Explore the layout of Lodha Regalia",
       },
     },
   },
@@ -249,62 +227,67 @@ export const lodhaPremierSiteConfig = {
       "Discover a lifestyle enriched with premium amenities and facilities",
     cta: {
       title: "Download Amenities",
-      description: "Download the amenities of Lodha Premier",
+      description: "Download the amenities of Lodha Regalia",
     },
     amenities: [
       {
+        title: "Cafe",
+        image: "/lodha-regalia/images/amenities/cafe.webp",
+        description: "",
+      },
+      {
+        title: "Exercise Lawn",
+        image: "/lodha-regalia/images/amenities/exercise-lawn.webp",
+        description: "",
+      },
+      {
         title: "Garden",
-        image: "/lodha-premier/images/amenities/GARDEN.webp",
+        image: "/lodha-regalia/images/amenities/garden.webp",
         description: "",
       },
       {
-        title: "Gymnasium",
-        image: "/lodha-premier/images/amenities/GYMNASIUM.webp",
+        title: "Gym",
+        image: "/lodha-regalia/images/amenities/gym.webp",
         description: "",
       },
       {
-        title: "Indoor Games Zone",
-        image: "/lodha-premier/images/amenities/INDOORGAMESZONE.webp",
+        title: "Indoor Game Room",
+        image: "/lodha-regalia/images/amenities/indoor-game-room.webp",
         description: "",
       },
       {
         title: "Kids Play Area",
-        image: "/lodha-premier/images/amenities/KIDSPLAYAREA.webp",
+        image: "/lodha-regalia/images/amenities/kids-play-area.webp",
         description: "",
       },
       {
-        title: "Library & Cafe",
-        image: "/lodha-premier/images/amenities/LIBRARY&CAFE.webp",
+        title: "Lap Pool",
+        image: "/lodha-regalia/images/amenities/lap-pool.webp",
         description: "",
       },
       {
-        title: "Mini Theatre",
-        image: "/lodha-premier/images/amenities/MINITHEATRE.webp",
+        title: "Multi-Purpose Hall",
+        image: "/lodha-regalia/images/amenities/multi-purpose-hall.webp",
         description: "",
       },
       {
-        title: "Retail",
-        image: "/lodha-premier/images/amenities/RETAIL.webp",
+        title: "Reflexology Path",
+        image: "/lodha-regalia/images/amenities/reflexology-path.webp",
         description: "",
       },
       {
-        title: "Swimming Pool",
-        image: "/lodha-premier/images/amenities/SWIMMINGPOOL.webp",
+        title: "Rock Climbing",
+        image: "/lodha-regalia/images/amenities/rock-climbing.webp",
         description: "",
       },
       {
-        title: "Volleyball Court",
-        image: "/lodha-premier/images/amenities/VOLLEYBALLCOURT.webp",
+        title: "Temple",
+        image: "/lodha-regalia/images/amenities/temple.webp",
         description: "",
       },
       {
-        title: "Walking Trail",
-        image: "/lodha-premier/images/amenities/WALKINGTRAIL.webp",
-        description: "",
-      },
-      {
-        title: "World Class School",
-        image: "/lodha-premier/images/amenities/WORLDCLASSSCHOOL.webp",
+        title: "Yoga Deck",
+        image: "/lodha-regalia/images/amenities/yoga-deck.webp",
         description: "",
       },
     ],
@@ -320,27 +303,27 @@ export const lodhaPremierSiteConfig = {
       "Experience luxury living through our carefully curated spaces",
     cta: {
       title: "Download Gallery",
-      description: "Download the gallery of Lodha Premier",
+      description: "Download the gallery of Lodha Regalia",
     },
     images: [
       {
         title: "",
-        image: "/lodha-premier/images/gallery/gallery-1.webp",
+        image: "/lodha-regalia/images/gallery/gallery-1.webp",
         description: "Elegantly designed living spaces with premium finishes",
       },
       {
         title: "",
-        image: "/lodha-premier/images/gallery/gallery-2.webp",
+        image: "/lodha-regalia/images/gallery/gallery-2.webp",
         description: "Breathtaking views of landscaped gardens",
       },
       {
         title: "",
-        image: "/lodha-premier/images/gallery/gallery-3.webp",
+        image: "/lodha-regalia/images/gallery/gallery-3.webp",
         description: "Resort-style pool with premium amenities",
       },
       {
         title: "",
-        image: "/lodha-premier/images/gallery/gallery-4.webp",
+        image: "/lodha-regalia/images/gallery/gallery-4.webp",
         description: "Spacious bedrooms with modern aesthetics",
       },
     ],
@@ -350,35 +333,35 @@ export const lodhaPremierSiteConfig = {
     title: "Location",
     description: "Strategically located for your convenience",
     googleMapIframe:
-      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15073.099507581815!2d73.0903641!3d19.1831929!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6c9b7d444660d20!2sLodha%20Codename%20Premier%20Dombivli!5e0!3m2!1sen!2sin!4v1637216125991!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7183.91413666859!2d72.9590764!3d19.1685111!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b975467590e9%3A0xfcceec239b14c680!2sCodename%20Limited%20Edition!5e1!3m2!1sen!2sin!4v1637478110041!5m2!1sen!2sin",
     image: {
-      src: "/lodha-premier/images/map.jpg",
+      src: "/lodha-regalia/images/map.webp",
       alt: "Location Map",
     },
     landmarks: [
       {
-        title: "D-Mart",
-        description: "5 Mins",
+        title: "Mulund Railway Station",
+        description: "2 Mins",
       },
       {
-        title: "Guardian School",
-        description: "8 Mins",
-      },
-      {
-        title: "Kalyan-Shil Junction",
+        title: "Fortis Hospital",
         description: "15 Mins",
       },
       {
-        title: "Dombivli Station",
-        description: "20 Mins",
+        title: "Bombay Presidency International School",
+        description: "2 Mins",
       },
       {
-        title: "Lodha Xperia Mall",
-        description: "10 Mins",
+        title: "R Mall",
+        description: "11 Mins",
       },
       {
-        title: "Aims Hospital",
-        description: "10 Mins",
+        title: "Kelkar College",
+        description: "5 Mins",
+      },
+      {
+        title: "Eastern Express Highway",
+        description: "5 Mins",
       },
     ],
     location: {
@@ -392,17 +375,17 @@ export const lodhaPremierSiteConfig = {
 
   virtualTour: {
     title: "Virtual Tour Request",
-    description: "Experience Lodha Premier from the comfort of your home",
+    description: "Experience Lodha Regalia from the comfort of your home",
     cta: {
       title: "Request Virtual Tour",
       description: "Schedule at your convenience",
     },
     image: {
-      src: "/lodha-premier/images/banner-1.webp",
+      src: "/lodha-regalia/images/banner-1.webp",
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",
-    videoDescription: "Experience Lodha Premier from the comfort of your home",
+    videoDescription: "Experience Lodha Regalia from the comfort of your home",
     features: [
       {
         title: "360° Views",
@@ -423,7 +406,7 @@ export const lodhaPremierSiteConfig = {
     title: "Get The Best Quote",
     bookFreeVisit: {
       image: {
-        src: "/lodha-premier/images/ride.png",
+        src: "/lodha-regalia/images/ride.png",
         alt: "Book a Site Visit",
       },
       cta: {
@@ -463,8 +446,8 @@ export const lodhaPremierSiteConfig = {
       details: [
         {
           title: "",
-          reraNumber: "Rera No. P51700033751",
-          qrCode: "/lodha-premier/images/barcode-1.jpg",
+          reraNumber: "Rera No. P51800018893",
+          qrCode: "/lodha-regalia/images/P51800018893.jpg",
         },
       ],
     },
@@ -501,12 +484,12 @@ export const lodhaPremierSiteConfig = {
 
   seo: {
     title:
-      "Lodha Premier by Lodha Group | Price, Floor Plans, Amenities | Request Brochure",
+      "Lodha Mulund by Lodha Group | Price, Floor Plans, Amenities | Request Brochure",
     description:
-      "Experience luxury living at Lodha Premier, Thane. 2 & 3 BHK apartments with world-class amenities.",
+      "Experience luxury living at Lodha Mulund. 2 & 3 BHK apartments with world-class amenities.",
     keywords: [
       "luxury apartments",
-      "thane west",
+      "lodha regalia",
       "lodha group",
       "2 bhk",
       "3 bhk",
@@ -521,7 +504,7 @@ export const lodhaPremierSiteConfig = {
 
   termsAndConditions: {
     seo: {
-      title: "Terms & Conditions | Lodha Premier",
+      title: "Terms & Conditions | Lodha Regalia",
       description:
         "Please read these terms and conditions carefully before using our website.",
     },
@@ -549,7 +532,7 @@ export const lodhaPremierSiteConfig = {
 
   privacyPolicy: {
     seo: {
-      title: "Privacy Policy | Lodha Premier",
+      title: "Privacy Policy | Lodha Regalia",
       description: "This policy explains how we use your personal information.",
     },
     title: "Privacy Policy",
@@ -570,7 +553,7 @@ export const lodhaPremierSiteConfig = {
 
   cookiesPolicy: {
     seo: {
-      title: "Cookies Policy | Lodha Premier",
+      title: "Cookies Policy | Lodha Regalia",
       description:
         "This policy explains how we use cookies and similar technologies on our website.",
     },
@@ -593,30 +576,30 @@ export const lodhaPremierSiteConfig = {
 
   thankYou: {
     seo: {
-      title: "Lodha Premier | Thank You",
-      description: "Thank you for your interest in Lodha Premier",
+      title: "Lodha Regalia | Thank You",
+      description: "Thank you for your interest in Lodha Regalia",
     },
   },
 
   formSubmission: {
     crm: {
-      formId: "__vtigerWebForm_6",
-      publicId: "5137fabea171ff2009e23603c5f4944e",
+      formId: "__vtigerWebForm_17",
+      publicId: "2e3cb6d8d5e7ec93204f093226ad1b89",
       baseUrl: "https://company133638.od2.vtiger.com",
-      __vtrftk: "sid:d0b203e8fb8ff53c5b3673fb24119e03ae930517,1680088576",
+      __vtrftk: "sid:5d5afefcd5c83459cb4f5ea107342e112292e0fb,1677153993",
       __vtCurrency: "1",
-      name: "Lodha Premier",
-      cfLeadsProjectSite: "Swaminarayan City",
+      name: "Lodha Regalia",
+      cfLeadsProjectSite: "Lodha Mulund",
       leadSource: "Web",
       emailOptin: "1",
     },
     email: {
       apiEndpoint: "/api/send-email",
       template: {
-        subject: "New Enquiry from Lodha Premier",
+        subject: "New Enquiry from Lodha Regalia",
       },
     },
   },
 };
 
-export type LodhaPremierSiteConfig = typeof lodhaPremierSiteConfig;
+export type LodhaRegaliaSiteConfig = typeof lodhaRegaliaSiteConfig;
