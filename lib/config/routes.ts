@@ -3,4 +3,5 @@ export const routes = {
   LodhaAmara: "Lodha-Amara",
   LodhaPremier: "Lodha-Premier",
   LodhaCrownThane: "Lodha-Crown-Thane",
+  LodhaHangingGardens: "Lodha-Hanging-Gardens",
 };

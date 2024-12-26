@@ -24,10 +24,10 @@ export default function SitePlanSection() {
 
   const filteredPlans =
     selectedCategory === "All"
-      ? siteAndFloorPlan.floorPlans.plans
-      : siteAndFloorPlan.floorPlans.plans.filter(
+      ? siteAndFloorPlan.floorPlans?.plans || []
+      : siteAndFloorPlan.floorPlans?.plans.filter(
           (plan) => plan.category === selectedCategory
-        );
+        ) || [];
 
   return (
     <Section
@@ -81,75 +81,80 @@ export default function SitePlanSection() {
       )}
 
       {/* Floor Plans Section */}
-      <div>
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
-          <h3 className="text-xl font-bold text-gray-900">
-            {siteAndFloorPlan.floorPlans.title}
-          </h3>
-          <div className="flex flex-wrap gap-2">
-            {siteAndFloorPlan.floorPlans.categories.map((category) => (
-              <Button
-                key={category}
-                variant={selectedCategory === category ? "default" : "outline"}
-                size="sm"
-                onClick={() => setSelectedCategory(category)}
-                className={`${
-                  selectedCategory === category
-                    ? "bg-primary "
-                    : "hover:text-primary hover:border-primary"
-                }`}
+      {siteAndFloorPlan.floorPlans && (
+        <div>
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+            <h3 className="text-xl font-bold text-gray-900">
+              {siteAndFloorPlan.floorPlans.title}
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {siteAndFloorPlan.floorPlans.categories.map((category) => (
+                <Button
+                  key={category}
+                  variant={
+                    selectedCategory === category ? "default" : "outline"
+                  }
+                  size="sm"
+                  onClick={() => setSelectedCategory(category)}
+                  className={`${
+                    selectedCategory === category
+                      ? "bg-primary "
+                      : "hover:text-primary hover:border-primary"
+                  }`}
+                >
+                  {category}
+                </Button>
+              ))}
+            </div>
+          </div>
+
+          {/* Floor Plans Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
+            {filteredPlans.map((plan, index) => (
+              <div
+                key={index}
+                className="relative aspect-[4/3] bg-gray-100 rounded-md overflow-hidden cursor-pointer group"
+                onMouseEnter={() => setHoveredIndex(index)}
+                onMouseLeave={() => setHoveredIndex(null)}
               >
-                {category}
-              </Button>
+                <Image
+                  src={plan.image}
+                  alt={`Floor Plan ${plan.type}`}
+                  fill
+                  className={`object-cover blur-[1px] transition-all duration-500 ${
+                    hoveredIndex === index ? "scale-105 blur-0" : "scale-100"
+                  }`}
+                />
+                {/* Type Label */}
+                <div className="absolute bottom-0 left-0 right-0 bg-primary text-white py-1.5 px-2">
+                  <p className="text-xs text-center font-medium">{plan.type}</p>
+                </div>
+                {/* Hover Overlay */}
+                <div
+                  className={`absolute inset-0 bg-black/20 flex items-center justify-center transition-all duration-300 ${
+                    hoveredIndex === index ? "opacity-100" : "opacity-0"
+                  }`}
+                >
+                  <Button
+                    size="sm"
+                    className="bg-white text-gray-900 hover:bg-gray-100"
+                    onClick={() =>
+                      onOpen("enquiry", {
+                        title: `Enquire About ${plan.type}`,
+                        description:
+                          siteAndFloorPlan.floorPlans.cta.description,
+                      })
+                    }
+                  >
+                    <Eye className="mr-0.5 h-3.5 w-3.5 hidden sm:block" />
+                    {siteAndFloorPlan.floorPlans.cta.title}
+                  </Button>
+                </div>
+              </div>
             ))}
           </div>
         </div>
-
-        {/* Floor Plans Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
-          {filteredPlans.map((plan, index) => (
-            <div
-              key={index}
-              className="relative aspect-[4/3] bg-gray-100 rounded-md overflow-hidden cursor-pointer group"
-              onMouseEnter={() => setHoveredIndex(index)}
-              onMouseLeave={() => setHoveredIndex(null)}
-            >
-              <Image
-                src={plan.image}
-                alt={`Floor Plan ${plan.type}`}
-                fill
-                className={`object-cover blur-[1px] transition-all duration-500 ${
-                  hoveredIndex === index ? "scale-105 blur-0" : "scale-100"
-                }`}
-              />
-              {/* Type Label */}
-              <div className="absolute bottom-0 left-0 right-0 bg-primary text-white py-1.5 px-2">
-                <p className="text-xs text-center font-medium">{plan.type}</p>
-              </div>
-              {/* Hover Overlay */}
-              <div
-                className={`absolute inset-0 bg-black/20 flex items-center justify-center transition-all duration-300 ${
-                  hoveredIndex === index ? "opacity-100" : "opacity-0"
-                }`}
-              >
-                <Button
-                  size="sm"
-                  className="bg-white text-gray-900 hover:bg-gray-100"
-                  onClick={() =>
-                    onOpen("enquiry", {
-                      title: `Enquire About ${plan.type}`,
-                      description: siteAndFloorPlan.floorPlans.cta.description,
-                    })
-                  }
-                >
-                  <Eye className="mr-0.5 h-3.5 w-3.5 hidden sm:block" />
-                  {siteAndFloorPlan.floorPlans.cta.title}
-                </Button>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+      )}
     </Section>
   );
 }
