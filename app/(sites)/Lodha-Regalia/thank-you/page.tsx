@@ -74,7 +74,7 @@ export default function ThankYouPage() {
 
     // Cleanup timer
     return () => clearTimeout(redirectTimer);
-  }, [countdown, router]);
+  }, [countdown, router, site]);
 
   // Add countdown effect
   useEffect(() => {
