@@ -6,4 +6,5 @@ export const routes = {
   LodhaHangingGardens: "Lodha-Hanging-Gardens",
   LodhaPokhran: "Lodha-Pokhran",
   LodhaRegalia: "Lodha-Regalia",
+  LodhaUpperThane: "Lodha-UpperThane",
 };

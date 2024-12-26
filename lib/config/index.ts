@@ -6,6 +6,7 @@ import { lodhaCrownThaneSiteConfig } from "./lodha-crown-thane";
 import { lodhaHangingGardensSiteConfig } from "./lodha-hanging-gardens";
 import { lodhaPokhranSiteConfig } from "./lodha-pokhran";
 import { lodhaRegaliaSiteConfig } from "./lodha-regalia";
+import { lodhaUpperThaneSiteConfig } from "./lodha-upper-thane";
 
 const configs = {
   [routes.default]: siteConfig,
@@ -15,6 +16,7 @@ const configs = {
   [routes.LodhaHangingGardens]: lodhaHangingGardensSiteConfig,
   [routes.LodhaPokhran]: lodhaPokhranSiteConfig,
   [routes.LodhaRegalia]: lodhaRegaliaSiteConfig,
+  [routes.LodhaUpperThane]: lodhaUpperThaneSiteConfig,
 };
 
 export function getSiteConfig(site?: string) {
