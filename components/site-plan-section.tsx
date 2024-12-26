@@ -36,45 +36,49 @@ export default function SitePlanSection() {
       subtitle={siteAndFloorPlan.description}
     >
       {/* Master Plan Section */}
-      <div className="mb-8">
-        <h3 className="text-xl font-bold text-gray-900 mb-4">
-          {siteAndFloorPlan.masterPlan.title}
-        </h3>
-        <Dialog>
-          <DialogTrigger asChild>
-            <div className="relative aspect-video max-w-2xl mx-auto bg-gray-100 rounded-lg overflow-hidden group cursor-pointer">
-              <Image
-                src={siteAndFloorPlan.masterPlan.image.src}
-                alt={siteAndFloorPlan.masterPlan.image.alt}
-                fill
-                className="object-cover transition-all duration-500 group-hover:blur-sm group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-black/50 opacity-100 group-hover:bg-black/40 transition-all duration-300 flex items-center justify-center">
-                <Button
-                  className="bg-white text-gray-900 hover:bg-gray-100 shadow-lg"
-                  size="lg"
-                >
-                  <Eye className="mr-2 h-5 w-5" />
-                  {siteAndFloorPlan.masterPlan.cta.title}
-                </Button>
+      {siteAndFloorPlan.masterPlan && (
+        <div className="mb-8">
+          <h3 className="text-xl font-bold text-gray-900 mb-4">
+            {siteAndFloorPlan.masterPlan.title}
+          </h3>
+          <Dialog>
+            <DialogTrigger asChild>
+              <div className="relative aspect-video max-w-2xl mx-auto bg-gray-100 rounded-lg overflow-hidden group cursor-pointer">
+                <Image
+                  src={siteAndFloorPlan.masterPlan?.image.src || ""}
+                  alt={siteAndFloorPlan.masterPlan?.image.alt || ""}
+                  fill
+                  className="object-cover transition-all duration-500 group-hover:blur-sm group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-black/50 opacity-100 group-hover:bg-black/40 transition-all duration-300 flex items-center justify-center">
+                  <Button
+                    className="bg-white text-gray-900 hover:bg-gray-100 shadow-lg"
+                    size="lg"
+                  >
+                    <Eye className="mr-2 h-5 w-5" />
+                    {siteAndFloorPlan.masterPlan?.cta.title}
+                  </Button>
+                </div>
               </div>
-            </div>
-          </DialogTrigger>
-          <DialogContent className="max-w-3xl">
-            <DialogHeader>
-              <DialogTitle>{siteAndFloorPlan.masterPlan.title}</DialogTitle>
-            </DialogHeader>
-            <div className="relative aspect-video mt-2">
-              <Image
-                src={siteAndFloorPlan.masterPlan.image.src}
-                alt={siteAndFloorPlan.masterPlan.image.alt}
-                fill
-                className="object-contain rounded-lg"
-              />
-            </div>
-          </DialogContent>
-        </Dialog>
-      </div>
+            </DialogTrigger>
+            <DialogContent className="max-w-3xl">
+              <DialogHeader>
+                <DialogTitle>
+                  {siteAndFloorPlan.masterPlan?.title || ""}
+                </DialogTitle>
+              </DialogHeader>
+              <div className="relative aspect-video mt-2">
+                <Image
+                  src={siteAndFloorPlan.masterPlan?.image.src || ""}
+                  alt={siteAndFloorPlan.masterPlan?.image.alt || ""}
+                  fill
+                  className="object-contain rounded-lg"
+                />
+              </div>
+            </DialogContent>
+          </Dialog>
+        </div>
+      )}
 
       {/* Floor Plans Section */}
       <div>

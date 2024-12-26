@@ -2,11 +2,13 @@ import { lodhaAmaraSiteConfig } from "@/lib/config/lodha-amara";
 import { routes } from "./routes";
 import { siteConfig } from "./site";
 import { lodhaPremierSiteConfig } from "./lodha-premier";
+import { lodhaCrownThaneSiteConfig } from "./lodha-crown-thane";
 
 const configs = {
   [routes.default]: siteConfig,
   [routes.LodhaAmara]: lodhaAmaraSiteConfig,
   [routes.LodhaPremier]: lodhaPremierSiteConfig,
+  [routes.LodhaCrownThane]: lodhaCrownThaneSiteConfig,
 };
 
 export function getSiteConfig(site?: string) {
