@@ -71,7 +71,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-white border-b shadow-sm">
-      <div className="flex items-center just h-14 px-2 sm:px-4 mx-auto">
+      <div className="flex items-center h-14 p-2 sm:px-4 mx-auto">
         {/* Logo - reduced size */}
         <Link href={siteRoute} className="flex items-center">
           <Image
