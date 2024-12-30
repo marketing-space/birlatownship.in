@@ -480,7 +480,7 @@ export const siteConfig = {
     rera: {
       title: "RERA Information",
       description:
-        "Runwal 25 Hour has been registered via MahaRERA registration number: P51700048270, P51700048278 and is available on the website <a href='https://maharera.mahaonline.gov.in/'>https://maharera.mahaonline.gov.in/</a> under registered projects.",
+        "Runwal 25 Hour has been registered via MahaRERA registration number: P51700048270, P51700048278 and is available on the website https://maharera.mahaonline.gov.in/ under registered projects.",
       details: [
         {
           title: "Runwal 25 Hour Life Tower B1",
