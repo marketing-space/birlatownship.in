@@ -16,14 +16,14 @@ const route = routes.LodhaUpperThane;
 export const lodhaUpperThaneSiteConfig = {
   name: "Lodha Casa Verdura",
   about:
-    "LANDMARKS THAT MEET GLOBAL STANDARDS Whether it’s transforming the skyline of Mumbai with one of India’s most iconic landmarks, crafting some of the most desirable residences in London, creating a world-class destination in the heart of Mumbai, or delivering India’s No.1 smart city#, one name is transforming the way we live with landmarks of global standards: Lodha. More than 2,000 associates work relentlessly to create developments of exceptional quality with a passion for delivering the finest homes, offices and retail. Our passion is to create landmarks that meet global standards, epitomise the values of our family, and are built on a legacy of trust spanning 3 decades. Every one of our developments delivers world-class design and uncompromised quality, and is benchmarked against the highest standards of service.",
+    "LANDMARKS THAT MEET GLOBAL STANDARDS Whether it's transforming the skyline of Mumbai with one of India's most iconic landmarks, crafting some of the most desirable residences in London, creating a world-class destination in the heart of Mumbai, or delivering India's No.1 smart city#, one name is transforming the way we live with landmarks of global standards: Lodha. More than 2,000 associates work relentlessly to create developments of exceptional quality with a passion for delivering the finest homes, offices and retail. Our passion is to create landmarks that meet global standards, epitomise the values of our family, and are built on a legacy of trust spanning 3 decades. Every one of our developments delivers world-class design and uncompromised quality, and is benchmarked against the highest standards of service.",
   contact: {
     phone: "+919619095795",
     whatsapp: "+919619095795",
-    email: "sales@narangprivado.com",
-    address: "Thane West, Mumbai, Maharashtra 400615",
+    address:
+      "Thane - Dombivli Link Rd, off Mumbai - Nashik Expressway, Anjur, Mumbai - 421302",
   },
-
+  gtmId: "GTM-TL2M74M",
   navbar: {
     navItems: [
       {
@@ -254,7 +254,8 @@ export const lodhaUpperThaneSiteConfig = {
       },
       {
         title: "Multi-Purpose Court",
-        image: "/lodha-upper-thane/images/amenities/multi-purpose-sports-court.webp",
+        image:
+          "/lodha-upper-thane/images/amenities/multi-purpose-sports-court.webp",
         description: "",
       },
       {
@@ -421,7 +422,7 @@ export const lodhaUpperThaneSiteConfig = {
     callUs: {
       title: "Call Us",
       description: "Get in touch with our experts",
-      phone: "+91 96190-95795",
+      phone: "+91 96190 95795",
     },
     enquiryFeatures: [
       {
@@ -467,18 +468,12 @@ export const lodhaUpperThaneSiteConfig = {
       },
       {
         title: "RERA Numbers",
-        description:
-          "RERA Project Registration No.: P51800000818 | P51800001838 | P51800001137",
+        description: "RERA Project Registration No.: P51700055789",
       },
       {
         title: "Site Address",
         description:
-          "Runwal Forest: Lal Bahadur Shastri Marg, Ambedkar Nagar, Kanjurmarg West, Bhandup West, Mumbai, Maharashtra 400078",
-      },
-      {
-        title: "Corporate Office",
-        description:
-          "Corporate Office: Runwal Group: 4th Floor, Runwal & Omkar Esquare, Off, Eastern Express Hwy, opp. Sion-Chunabhatti, Sion East, Signal, Mumbai, Maharashtra 400022",
+          "Lodha Upper Thane: Thane - Dombivli Link Rd, off Mumbai - Nashik Expressway, Anjur, Mumbai - 421302",
       },
     ],
     disclaimer:

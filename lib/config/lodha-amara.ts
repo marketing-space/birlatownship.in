@@ -18,12 +18,12 @@ export const lodhaAmaraSiteConfig = {
   about:
     "One of India's leading real estate firms, the Lodha Group is renowned for building urban dream homes that offer refined living. The developer caters to all segments, from luxury to budget residences and has built iconic landmarks all across Mumbai, Thane, and Navi Mumbai. Lodha properties are known to feature quality interiors, state-of-the-art amenities, vast open spaces, and manicured green landscapes. A few of their standout properties are Lodha World Towers in Lower Parel, Lodha Palava in Dombivli, Lodha Crown in Thane, and Lodha Bellagio in Powai.",
   contact: {
-    phone: "+919876543210",
-    whatsapp: "+919876543210",
-    email: "sales@narangprivado.com",
-    address: "Thane West, Mumbai, Maharashtra 400615",
+    phone: "+919619095795",
+    whatsapp: "+919619095795",
+    address:
+      "Kolshet Rd, Kolshet Industrial Area, Thane West, Thane, Maharashtra 400607",
   },
-
+  gtmId: "GTM-54RP9RX",
   navbar: {
     navItems: [
       {
@@ -430,7 +430,7 @@ export const lodhaAmaraSiteConfig = {
     callUs: {
       title: "Call Us",
       description: "Get in touch with our experts",
-      phone: "+91 98765 43210",
+      phone: "+91 96190 95795",
     },
     enquiryFeatures: [
       {
@@ -487,22 +487,17 @@ export const lodhaAmaraSiteConfig = {
       {
         title: "Authorised Advertiser",
         description:
-          "Government RERA Authorised Advertiser's: Home Bazaar Services Pvt Ltd, Registration No A5200000045, CIN U45400MH2013PTC242930.",
+          "Government RERA Authorised Advertiser's: Marketing Space Pvt Ltd, Registration No A51700000595, CIN U74999MH2016PTC288144",
       },
       {
         title: "RERA Numbers",
         description:
-          "RERA Project Registration No.: P51800000818 | P51800001838 | P51800001137",
+          "RERA Project Registration No.: P51700020164 / P51700020128 / P51700018579 / P51700020157",
       },
       {
         title: "Site Address",
         description:
-          "Runwal Forest: Lal Bahadur Shastri Marg, Ambedkar Nagar, Kanjurmarg West, Bhandup West, Mumbai, Maharashtra 400078",
-      },
-      {
-        title: "Corporate Office",
-        description:
-          "Corporate Office: Runwal Group: 4th Floor, Runwal & Omkar Esquare, Off, Eastern Express Hwy, opp. Sion-Chunabhatti, Sion East, Signal, Mumbai, Maharashtra 400022",
+          "Lodha Amara: Kolshet Rd, Kolshet Industrial Area, Thane West, Thane, Maharashtra 400607",
       },
     ],
     disclaimer:
@@ -513,14 +508,8 @@ export const lodhaAmaraSiteConfig = {
     title:
       "Lodha Amara by Lodha Group | Price, Floor Plans, Amenities | Request Brochure",
     description:
-      "Experience luxury living at Lodha Amara, Thane. 2 & 3 BHK apartments with world-class amenities.",
-    keywords: [
-      "luxury apartments",
-      "thane west",
-      "lodha group",
-      "2 bhk",
-      "3 bhk",
-    ],
+      "Experience luxury living at Lodha Amara, 2 & 3 BHK apartments with world-class amenities.",
+    keywords: ["luxury apartments", "lodha group", "2 bhk", "3 bhk"],
   },
 
   footer: {

@@ -8,10 +8,15 @@ import LocationSection from "@/components/location-section";
 import PriceSection from "@/components/price-section";
 import SitePlanSection from "@/components/site-plan-section";
 import VirtualTourSection from "@/components/virtual-tour-section";
+import { getSiteConfig } from "@/lib/config";
+import { useSite } from "@/lib/context/site-context";
 import { useAutoModal } from "@/lib/hooks/use-auto-modal";
+import { GoogleTagManager } from "@next/third-parties/google";
 
-export default function GardenCityPage() {
+export default function LodhaHangingGardensPage() {
   useAutoModal(3000);
+  const { site } = useSite();
+  const { gtmId } = getSiteConfig(site);
   return (
     <div>
       <HeroSection />
@@ -22,6 +27,7 @@ export default function GardenCityPage() {
       <LocationSection />
       <VirtualTourSection />
       <DeveloperSection />
+      <GoogleTagManager gtmId={gtmId} />
     </div>
   );
 }

@@ -23,7 +23,7 @@ export const siteConfig = {
     email: "sales@narangprivado.com",
     address: "Thane West, Mumbai, Maharashtra 400615",
   },
-
+  gtmId: "GTM-54RP9RX",
   navbar: {
     navItems: [
       {
