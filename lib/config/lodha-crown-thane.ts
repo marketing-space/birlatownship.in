@@ -20,10 +20,9 @@ export const lodhaCrownThaneSiteConfig = {
   contact: {
     phone: "+919619095795",
     whatsapp: "+919619095795",
-    email: "sales@narangprivado.com",
-    address: "Thane West, Mumbai, Maharashtra 400615",
+    address: "Akbar Camp Road, Road, Kolshet, Mumbai, Maharashtra 400607",
   },
-
+  gtmId: "GTM-N89SLN8",
   navbar: {
     navItems: [
       {
@@ -367,7 +366,7 @@ export const lodhaCrownThaneSiteConfig = {
     callUs: {
       title: "Call Us",
       description: "Get in touch with our experts",
-      phone: "+91 96190-95795",
+      phone: "+91 96190 95795",
     },
     enquiryFeatures: [
       {
@@ -409,22 +408,16 @@ export const lodhaCrownThaneSiteConfig = {
       {
         title: "Authorised Advertiser",
         description:
-          "Government RERA Authorised Advertiser's: Home Bazaar Services Pvt Ltd, Registration No A5200000045, CIN U45400MH2013PTC242930.",
+          "Government RERA Authorised Advertiser's: Marketing Space Pvt Ltd, Registration No A51700000595, CIN U74999MH2016PTC288144",
       },
       {
         title: "RERA Numbers",
-        description:
-          "RERA Project Registration No.: P51800000818 | P51800001838 | P51800001137",
+        description: "RERA Project Registration No.: P51700046037",
       },
       {
         title: "Site Address",
         description:
-          "Runwal Forest: Lal Bahadur Shastri Marg, Ambedkar Nagar, Kanjurmarg West, Bhandup West, Mumbai, Maharashtra 400078",
-      },
-      {
-        title: "Corporate Office",
-        description:
-          "Corporate Office: Runwal Group: 4th Floor, Runwal & Omkar Esquare, Off, Eastern Express Hwy, opp. Sion-Chunabhatti, Sion East, Signal, Mumbai, Maharashtra 400022",
+          "Lodha Crown: Akbar Camp Road, Road, Kolshet, Mumbai, Maharashtra 400607",
       },
     ],
     disclaimer:
@@ -436,13 +429,7 @@ export const lodhaCrownThaneSiteConfig = {
       "LODHA CROWN KOLSHET | Price, Floor Plans, Amenities | Request Brochure",
     description:
       "Experience luxury living at Lodha Crown Kolshet, Thane. 2 & 3 BHK apartments with world-class amenities.",
-    keywords: [
-      "luxury apartments",
-      "thane west",
-      "lodha group",
-      "2 bhk",
-      "3 bhk",
-    ],
+    keywords: ["luxury apartments", "lodha group", "2 bhk", "3 bhk"],
   },
 
   footer: {
