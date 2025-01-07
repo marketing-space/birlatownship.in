@@ -16,7 +16,7 @@ export default function VirtualTourSection() {
 
   return (
     <Section
-      id="virtual-tour"
+      id="sitevisit"
       title={virtualTour.title}
       subtitle={virtualTour.description}
     >

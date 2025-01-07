@@ -31,7 +31,7 @@ export default function SitePlanSection() {
 
   return (
     <Section
-      id="site-plan"
+      id="sitefloorplan"
       title={siteAndFloorPlan.title}
       subtitle={siteAndFloorPlan.description}
     >
