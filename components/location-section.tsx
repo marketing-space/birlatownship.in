@@ -95,41 +95,6 @@ export default function LocationSection() {
           ))}
         </div>
       </div>
-
-      {/* Contact Address */}
-      {/* <div className="mt-12 bg-white rounded-lg shadow-lg p-6 sm:p-8">
-            <div className="flex flex-col sm:flex-row items-start gap-6">
-              <div className="flex-1">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">
-                  Visit Our Sales Office
-                </h3>
-                <p className="text-gray-600">
-                  Narang Privado, Near Bhandup Railway Station,
-                  <br />
-                  LBS Marg, Bhandup West,
-                  <br />
-                  Mumbai, Maharashtra 400078
-                </p>
-                <Button 
-                  className="mt-6 bg-primary  text-white"
-                  onClick={() => window.open("tel:+919876543210")}
-                >
-                  Contact Sales Team
-                </Button>
-              </div>
-              <div className="flex-1">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">
-                  Business Hours
-                </h3>
-                <div className="space-y-2 text-gray-600">
-                  <p>Monday - Saturday</p>
-                  <p className="font-medium">10:00 AM - 7:00 PM</p>
-                  <p className="mt-4">Sunday</p>
-                  <p className="font-medium">By Appointment Only</p>
-                </div>
-              </div>
-            </div>
-          </div> */}
     </Section>
   );
 }

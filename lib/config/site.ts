@@ -18,9 +18,8 @@ export const siteConfig = {
   about:
     "Founded in 1978, Runwal Group excels in establishing sprawling residential complexes, retail shopping malls, and commercial spaces. With a mission of developing standout landmarks rather than mere living spaces, Runwal homes are known for their aesthetic designs, plush interiors, and central green landscaping. Over the course of 40 years, the firm has become a leading face in real estate and changed the Mumbai skyline.",
   contact: {
-    phone: "+919876543210",
-    whatsapp: "+919876543210",
-    email: "sales@narangprivado.com",
+    phone: "+919619095795",
+    whatsapp: "+919619095795",
     address: "Thane West, Mumbai, Maharashtra 400615",
   },
   gtmId: "GTM-54RP9RX",
@@ -455,7 +454,7 @@ export const siteConfig = {
     callUs: {
       title: "Call Us",
       description: "Get in touch with our experts",
-      phone: "+91 98765 43210",
+      phone: "+91 96190 95795",
     },
     enquiryFeatures: [
       {
