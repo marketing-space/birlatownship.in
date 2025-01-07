@@ -22,7 +22,7 @@ export default function PriceSection() {
   const { onOpen } = useModal();
 
   return (
-    <Section id="price" title={pricing.title} subtitle={pricing.description}>
+    <Section id="pricing" title={pricing.title} subtitle={pricing.description}>
       {/* Price Table - Desktop */}
       <div className="hidden sm:block bg-white rounded-lg shadow-lg overflow-hidden">
         <Table>

@@ -32,12 +32,12 @@ export const lodhaPokhranSiteConfig = {
         icon: Home,
       },
       {
-        href: `/${route}/#price`,
+        href: `/${route}/#pricing`,
         label: "Price",
         icon: IndianRupee,
       },
       {
-        href: `/${route}/#site-plan`,
+        href: `/${route}/#sitefloorplan`,
         label: "Site & Floor Plan",
         icon: LayoutPanelTop,
       },
@@ -57,7 +57,7 @@ export const lodhaPokhranSiteConfig = {
         icon: MapPin,
       },
       {
-        href: `/${route}/#virtual-tour`,
+        href: `/${route}/#sitevisit`,
         label: "Virtual Site Visit",
         icon: Video,
       },
