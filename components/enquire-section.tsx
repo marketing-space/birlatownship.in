@@ -94,7 +94,7 @@ export default function EnquireSection({
       )}
     >
       <div className="bg-white pb-2 z-10">
-        <h2 className="text-lg font-semibold text-gray-900">{enquire.title}</h2>
+        <h2 className="text-lg font-semibold text-center text-gray-900">{enquire.title}</h2>
 
         {showCallUsButton && (
           <div
@@ -130,13 +130,10 @@ export default function EnquireSection({
                   <FormItem>
                     <FormControl>
                       <Input
-                        placeholder="Enter your name"
+                        placeholder="Enter Your Name"
                         {...field}
                         required
-                        className={cn(
-                          "bg-white border-gray-200",
-                          form.formState.errors.name && "border-red-500 !ring-0"
-                        )}
+                        className="bg-white border-gray-200"
                       />
                     </FormControl>
                   </FormItem>
@@ -151,14 +148,10 @@ export default function EnquireSection({
                     <FormControl className="w-full">
                       <PhoneInput
                         defaultCountry="IN"
-                        placeholder="Enter phone number"
+                        placeholder="Enter Phone Number"
                         {...field}
                         required
-                        className={cn(
-                          "bg-white border-gray-200",
-                          form.formState.errors.phone &&
-                            "border-red-500 !ring-0"
-                        )}
+                        className="bg-white border-gray-200"
                       />
                     </FormControl>
                   </FormItem>
@@ -172,7 +165,7 @@ export default function EnquireSection({
                   <FormItem>
                     <FormControl>
                       <Input
-                        placeholder="Enter your email (optional)"
+                        placeholder="Enter Your Email (optional)"
                         {...field}
                         type="email"
                         className="bg-white border-gray-200"
@@ -184,7 +177,7 @@ export default function EnquireSection({
 
               <Button
                 type="submit"
-                className="w-full bg-primary"
+                className="w-full bg-primary mb-4"
                 disabled={isSubmitting}
               >
                 {isSubmitting ? (
@@ -199,57 +192,57 @@ export default function EnquireSection({
             </form>
           </Form>
         </div>
-
-        {showFreeVisitButton && (
-          <div className="flex flex-col gap-3 mt-auto">
-            <div className="flex items-center gap-3 bg-gray-100 p-2.5 rounded-lg">
-              <div className="relative flex-shrink-0 w-[60px] h-[60px] sm:w-[80px] sm:h-[80px]">
-                <Image
-                  src={enquire.bookFreeVisit.image.src}
-                  alt={enquire.bookFreeVisit.image.alt}
-                  fill
-                  className="rounded-md object-cover"
-                  sizes="(max-width: 640px) 60px, 80px"
-                />
-              </div>
-              <div className="flex-1 min-w-0">
-                <h3 className="text-sm font-medium text-gray-900">
-                  {enquire.bookFreeVisit.cta.title}
-                </h3>
-                <p className="text-xs text-gray-500 line-clamp-2 mt-0.5">
-                  {enquire.bookFreeVisit.cta.description}
-                </p>
-              </div>
-            </div>
-
-            <Button
-              className="w-full bg-primary relative overflow-hidden h-10"
-              onClick={() =>
-                onOpen("enquiry", {
-                  title: enquire.bookFreeVisit.cta.title,
-                  description: enquire.bookFreeVisit.cta.description,
-                })
-              }
-              disabled={isSubmitting}
-            >
-              <span className="relative z-10 text-sm font-medium">
-                Book Free Site Visit
-              </span>
-              <motion.div
-                className="absolute inset-0 bg-gradient-to-r from-primary-600/0 via-primary-600/30 to-primary-600/0"
-                animate={{
-                  x: ["-100%", "100%"],
-                }}
-                transition={{
-                  duration: 1.5,
-                  repeat: Infinity,
-                  ease: "linear",
-                }}
-              />
-            </Button>
-          </div>
-        )}
       </div>
+
+      {showFreeVisitButton && (
+        <div className="flex flex-col gap-8 mt-10">
+          <div className="flex items-center gap-3 bg-gray-100 p-2.5 rounded-lg">
+            <div className="relative flex-shrink-0 w-[60px] h-[60px] sm:w-[80px] sm:h-[80px]">
+              <Image
+                src={enquire.bookFreeVisit.image.src}
+                alt={enquire.bookFreeVisit.image.alt}
+                fill
+                className="rounded-md object-cover"
+                sizes="(max-width: 640px) 60px, 80px"
+              />
+            </div>
+            <div className="flex-1 min-w-0">
+              <h3 className="text-sm font-medium text-gray-900">
+                {enquire.bookFreeVisit.cta.title}
+              </h3>
+              <p className="text-xs text-gray-500 line-clamp-2 mt-0.5">
+                {enquire.bookFreeVisit.cta.description}
+              </p>
+            </div>
+          </div>
+
+          <Button
+            className="w-full bg-primary relative overflow-hidden h-10"
+            onClick={() =>
+              onOpen("enquiry", {
+                title: enquire.bookFreeVisit.cta.title,
+                description: enquire.bookFreeVisit.cta.description,
+              })
+            }
+            disabled={isSubmitting}
+          >
+            <span className="relative z-10 text-sm font-medium">
+              Book Free Site Visit
+            </span>
+            <motion.div
+              className="absolute inset-0 bg-gradient-to-r from-primary-600/0 via-primary-600/30 to-primary-600/0"
+              animate={{
+                x: ["-100%", "100%"],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                ease: "linear",
+              }}
+            />
+          </Button>
+        </div>
+      )}
     </aside>
   );
 }
