@@ -69,19 +69,19 @@ export const lodhaStellaSiteConfig = {
   },
 
   branding: {
-    logo: "/lodha-Stella/images/logo.png",
-    favicon: "/lodha-Stella/images/Favicon.png",
-    ogImage: "/lodha-Stella/images/og-image.jpg",
+    logo: "/lodha-stella/images/logo.png",
+    favicon: "/lodha-stella/images/Favicon.png",
+    ogImage: "/lodha-stella/images/og-image.jpg",
   },
 
   hero: {
     banners: [
       {
-        src: "/lodha-Stella/images/banner-1.webp",
+        src: "/lodha-stella/images/banner-1.webp",
         alt: "Lodha Stella Exterior",
       },
       {
-        src: "/lodha-Stella/images/banner-2.webp",
+        src: "/lodha-stella/images/banner-2.webp",
         alt: "Lodha Stella Exterior",
       },
     ],
@@ -189,7 +189,7 @@ export const lodhaStellaSiteConfig = {
     },
     detailPricing: {
       image: {
-        src: "/lodha-Stella/images/costing.webp",
+        src: "/lodha-stella/images/costing.webp",
         alt: "Lodha Stella Costing",
       },
       title: "Need Complete Costing Details?",
@@ -209,7 +209,7 @@ export const lodhaStellaSiteConfig = {
     masterPlan: {
       title: "Master Plan",
       image: {
-        src: "/lodha-Stella/images/master-plan.jpg",
+        src: "/lodha-stella/images/master-plan.jpg",
         alt: "Master Plan",
       },
       cta: {
@@ -223,42 +223,42 @@ export const lodhaStellaSiteConfig = {
       plans: [
         {
           type: "3 BHK-1319 Sq.ft.",
-          image: "/lodha-Stella/images/floor-1.jpg",
+          image: "/lodha-stella/images/floor-1.jpg",
           category: "3 BHK",
         },
         {
           type: "4 BHK-1585 Sq.ft.",
-          image: "/lodha-Stella/images/floor-2.jpg",
+          image: "/lodha-stella/images/floor-2.jpg",
           category: "4 BHK",
         },
         {
           type: "4 BHK-2568 + 453 Sq.ft.",
-          image: "/lodha-Stella/images/floor-3.jpg",
+          image: "/lodha-stella/images/floor-3.jpg",
           category: "4 BHK",
         },
         {
           type: "4 BHK-3172 + 533 Sq.ft.",
-          image: "/lodha-Stella/images/floor-4.jpg",
+          image: "/lodha-stella/images/floor-4.jpg",
           category: "4 BHK",
         },
         {
           type: "4 BHK-2638 Sq.ft.",
-          image: "/lodha-Stella/images/floor-1.jpg",
+          image: "/lodha-stella/images/floor-1.jpg",
           category: "4 BHK",
         },
         {
           type: "5 BHK-3170 Sq.ft.",
-          image: "/lodha-Stella/images/floor-2.jpg",
+          image: "/lodha-stella/images/floor-2.jpg",
           category: "5 BHK",
         },
         {
           type: "4 BHK-3313 Sq.ft.",
-          image: "/lodha-Stella/images/floor-1.jpg",
+          image: "/lodha-stella/images/floor-1.jpg",
           category: "4 BHK",
         },
         {
           type: "5 BHK-3849 Sq.ft.",
-          image: "/lodha-Stella/images/floor-2.jpg",
+          image: "/lodha-stella/images/floor-2.jpg",
           category: "5 BHK",
         },
       ],
@@ -280,62 +280,62 @@ export const lodhaStellaSiteConfig = {
     amenities: [
       {
         title: "Badminton Court",
-        image: "/lodha-Stella/images/amenities/6.png",
+        image: "/lodha-stella/images/amenities/6.png",
         description: "",
       },
       {
         title: "Cricket Pitch",
-        image: "/lodha-Stella/images/amenities/1.png",
+        image: "/lodha-stella/images/amenities/1.png",
         description: "",
       },
       {
         title: "Indoor Games Room",
-        image: "/lodha-Stella/images/amenities/2.png",
+        image: "/lodha-stella/images/amenities/2.png",
         description: "",
       },
       {
         title: "Grand Clubhouse",
-        image: "/lodha-Stella/images/amenities/3.png",
+        image: "/lodha-stella/images/amenities/3.png",
         description: "",
       },
       {
         title: "Kids Play Area",
-        image: "/lodha-Stella/images/amenities/5.png",
+        image: "/lodha-stella/images/amenities/5.png",
         description: "",
       },
       {
         title: "Gym",
-        image: "/lodha-Stella/images/amenities/8.png",
+        image: "/lodha-stella/images/amenities/8.png",
         description: "",
       },
       {
         title: "Indoor Pool",
-        image: "/lodha-Stella/images/amenities/1.png",
+        image: "/lodha-stella/images/amenities/1.png",
         description: "",
       },
       {
         title: "Multiple Party Hall",
-        image: "/lodha-Stella/images/amenities/7.png",
+        image: "/lodha-stella/images/amenities/7.png",
         description: "",
       },
       {
         title: "Pool Side Cafe",
-        image: "/lodha-Stella/images/amenities/9.png",
+        image: "/lodha-stella/images/amenities/9.png",
         description: "",
       },
       {
         title: "Pool Side Deck",
-        image: "/lodha-Stella/images/amenities/4.png",
+        image: "/lodha-stella/images/amenities/4.png",
         description: "",
       },
       {
         title: "Lawn party",
-        image: "/lodha-Stella/images/amenities/party.webp",
+        image: "/lodha-stella/images/amenities/party.webp",
         description: "",
       },
       {
         title: "Carrom & Chess Room",
-        image: "/lodha-Stella/images/amenities/Carrom & Chess Room.png",
+        image: "/lodha-stella/images/amenities/Carrom & Chess Room.png",
         description: "",
       },
     ],
@@ -356,22 +356,22 @@ export const lodhaStellaSiteConfig = {
     images: [
       {
         title: "",
-        image: "/lodha-Stella/images/gallery/g1.png",
+        image: "/lodha-stella/images/gallery/g1.png",
         description: "Elegantly designed living spaces with premium finishes",
       },
       {
         title: "",
-        image: "/lodha-Stella/images/gallery/g2.png",
+        image: "/lodha-stella/images/gallery/g2.png",
         description: "Breathtaking views of landscaped gardens",
       },
       {
         title: "",
-        image: "/lodha-Stella/images/gallery/g3.png",
+        image: "/lodha-stella/images/gallery/g3.png",
         description: "Resort-style pool with premium amenities",
       },
       {
         title: "",
-        image: "/lodha-Stella/images/gallery/g4.png",
+        image: "/lodha-stella/images/gallery/g4.png",
         description: "Spacious bedrooms with modern aesthetics",
       },
     ],
@@ -383,7 +383,7 @@ export const lodhaStellaSiteConfig = {
     googleMapIframe:
     "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7534.965801111333!2d72.977762!3d19.217775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9e06c39cf9f%3A0x28d4cfaf9873e170!2sLodha%20Stella%2C%20Kapurbawdi%2C%20Thane!5e0!3m2!1sen!2sin!4v1736423989717!5m2!1sen!2sin",
     image: {
-      src: "/lodha-Stella/images/map.webp",
+      src: "/lodha-stella/images/map.webp",
       alt: "Location Map",
     },
     landmarks: [
@@ -429,7 +429,7 @@ export const lodhaStellaSiteConfig = {
       description: "Schedule at your convenience",
     },
     image: {
-      src: "/lodha-Stella/images/banner-1.webp",
+      src: "/lodha-stella/images/banner-1.webp",
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",
@@ -454,7 +454,7 @@ export const lodhaStellaSiteConfig = {
     title: "Get The Best Quote",
     bookFreeVisit: {
       image: {
-        src: "/lodha-Stella/images/ride.png",
+        src: "/lodha-stella/images/ride.png",
         alt: "Book a Site Visit",
       },
       cta: {
@@ -495,7 +495,7 @@ export const lodhaStellaSiteConfig = {
         {
           title: "",
           reraNumber: "Rera No. P51700053017",
-          qrCode: "/lodha-Stella/images/barcode-1.webp",
+          qrCode: "/lodha-stella/images/barcode-1.webp",
         },
       ],
     },

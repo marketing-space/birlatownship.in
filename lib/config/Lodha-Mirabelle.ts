@@ -69,20 +69,20 @@ export const lodhaMirabelleSiteConfig = {
   },
 
   branding: {
-    logo: "/lodha-Mirabelle/images/logo.png",
-    favicon: "/lodha-Mirabelle/images/favicon.png",
-    ogImage: "/lodha-Mirabelle/images/og-image.jpg",
+    logo: "/lodha-mirabelle/images/logo.png",
+    favicon: "/lodha-mirabelle/images/favicon.png",
+    ogImage: "/lodha-mirabelle/images/og-image.jpg",
   },
 
   hero: {
     banners: [
       {
-        src: "/lodha-Mirabelle/images/banner-1.webp",
-        alt: "Lodha Mirabelle Exterior",
+        src: "/lodha-mirabelle/images/banner-1.webp",
+        alt: "Lodha mirabelle Exterior",
       },
       {
-        src: "/lodha-Mirabelle/images/banner-2.webp",
-        alt: "Lodha Mirabelle Exterior",
+        src: "/lodha-mirabelle/images/banner-2.webp",
+        alt: "Lodha mirabelle Exterior",
       },
     ],
     welcome: {
@@ -160,7 +160,7 @@ export const lodhaMirabelleSiteConfig = {
     },
     detailPricing: {
       image: {
-        src: "/lodha-Mirabelle/images/costing.webp",
+        src: "/lodha-mirabelle/images/costing.webp",
         alt: "Lodha Mirabelle Costing",
       },
       title: "Need Complete Costing Details?",
@@ -180,7 +180,7 @@ export const lodhaMirabelleSiteConfig = {
     masterPlan: {
       title: "Master Plan",
       image: {
-        src: "/lodha-Mirabelle/images/master-plan.png",
+        src: "/lodha-mirabelle/images/master-plan.png",
         alt: "Master Plan",
       },
       cta: {
@@ -194,17 +194,17 @@ export const lodhaMirabelleSiteConfig = {
       plans: [
         {
           type: "2.5 BHK-1485 Sq.ft.",
-          image: "/lodha-Mirabelle/images/floor-1.jpg",
+          image: "/lodha-mirabelle/images/floor-1.jpg",
           category: "2.5 BHK",
         },
         {
           type: "3.5 BHK-2070 Sq.ft.",
-          image: "/lodha-Mirabelle/images/floor-2.jpg",
+          image: "/lodha-mirabelle/images/floor-2.jpg",
           category: "3.5 BHK",
         },
         {
           type: "4 BHK-2650 Sq.ft.",
-          image: "/lodha-Mirabelle/images/floor-3.jpg",
+          image: "/lodha-mirabelle/images/floor-3.jpg",
           category: "4 BHK",
         },
       ],
@@ -226,62 +226,62 @@ export const lodhaMirabelleSiteConfig = {
     amenities: [
       {
         title: "Badminton Court",
-        image: "/lodha-Mirabelle/images/amenities/1.png",
+        image: "/lodha-mirabelle/images/amenities/1.png",
         description: "",
       },
       {
         title: "Cricket Pitch",
-        image: "/lodha-Mirabelle/images/amenities/2.png",
+        image: "/lodha-mirabelle/images/amenities/2.png",
         description: "",
       },
       {
         title: "Ganesha Temple",
-        image: "/lodha-Mirabelle/images/amenities/3.png",
+        image: "/lodha-mirabelle/images/amenities/3.png",
         description: "",
       },
       {
         title: "Grand Clubhouse",
-        image: "/lodha-Mirabelle/images/amenities/4.png",
+        image: "/lodha-mirabelle/images/amenities/4.png",
         description: "",
       },
       {
         title: "Kids Play Area",
-        image: "/lodha-Mirabelle/images/amenities/5.png",
+        image: "/lodha-mirabelle/images/amenities/5.png",
         description: "",
       },
       {
         title: "Gym",
-        image: "/lodha-Mirabelle/images/amenities/6.png",
+        image: "/lodha-mirabelle/images/amenities/6.png",
         description: "",
       },
       {
         title: "Indoor Pool",
-        image: "/lodha-Mirabelle/images/amenities/7.png",
+        image: "/lodha-mirabelle/images/amenities/7.png",
         description: "",
       },
       {
         title: "Multiple Party Hall",
-        image: "/lodha-Mirabelle/images/amenities/8.png",
+        image: "/lodha-mirabelle/images/amenities/8.png",
         description: "",
       },
       {
         title: "Pool Side Cafe",
-        image: "/lodha-Mirabelle/images/amenities/9.png",
+        image: "/lodha-mirabelle/images/amenities/9.png",
         description: "",
       },
       {
         title: "Pool Side Deck",
-        image: "/lodha-Mirabelle/images/amenities/10.png",
+        image: "/lodha-mirabelle/images/amenities/10.png",
         description: "",
       },
       {
         title: "Carrom & Chess Room",
-        image: "/lodha-Mirabelle/images/amenities/Carrom & Chess Room.png",
+        image: "/lodha-mirabelle/images/amenities/Carrom & Chess Room.png",
         description: "",
       },
       {
         title: "Lawn Party",
-        image: "/lodha-Mirabelle/images/amenities/party.webp",
+        image: "/lodha-mirabelle/images/amenities/party.webp",
         description: "",
       },
     ],
@@ -302,22 +302,22 @@ export const lodhaMirabelleSiteConfig = {
     images: [
       {
         title: "",
-        image: "/lodha-Mirabelle/images/gallery/g1.png",
+        image: "/lodha-mirabelle/images/gallery/g1.png",
         description: "Elegantly designed living spaces with premium finishes",
       },
       {
         title: "",
-        image: "/lodha-Mirabelle/images/gallery/g2.png",
+        image: "/lodha-mirabelle/images/gallery/g2.png",
         description: "Breathtaking views of landscaped gardens",
       },
       {
         title: "",
-        image: "/lodha-Mirabelle/images/gallery/g3.png",
+        image: "/lodha-mirabelle/images/gallery/g3.png",
         description: "Resort-style pool with premium amenities",
       },
       {
         title: "",
-        image: "/lodha-Mirabelle/images/gallery/g4.png",
+        image: "/lodha-mirabelle/images/gallery/g4.png",
         description: "Spacious bedrooms with modern aesthetics",
       },
     ],
@@ -329,7 +329,7 @@ export const lodhaMirabelleSiteConfig = {
     googleMapIframe:
     "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62188.577099529546!2d77.62485900000001!3d13.049285!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17a01194648d%3A0xed823b0974c3a189!2sLodha%20Manyata%20Tech-%20Park!5e0!3m2!1sen!2sin!4v1736412908132!5m2!1sen!2sin",
     image: {
-      src: "/lodha-Mirabelle/images/map.webp",
+      src: "/lodha-mirabelle/images/map.webp",
       alt: "Location Map",
     },
     landmarks: [
@@ -375,7 +375,7 @@ export const lodhaMirabelleSiteConfig = {
       description: "Schedule at your convenience",
     },
     image: {
-      src: "/lodha-Mirabelle/images/banner-1.webp",
+      src: "/lodha-mirabelle/images/banner-1.webp",
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",
@@ -400,7 +400,7 @@ export const lodhaMirabelleSiteConfig = {
     title: "Get The Best Quote",
     bookFreeVisit: {
       image: {
-        src: "/lodha-Mirabelle/images/ride.png",
+        src: "/lodha-mirabelle/images/ride.png",
         alt: "Book a Site Visit",
       },
       cta: {
@@ -441,7 +441,7 @@ export const lodhaMirabelleSiteConfig = {
         {
           title: "",
           reraNumber: "Rera No. PRM/KA/RERA/1251/309/PR/131023/006321",
-          qrCode: "/lodha-Mirabelle/images/barcode-1.webp",
+          qrCode: "/lodha-mirabelle/images/barcode-1.webp",
         },
       ],
     },
