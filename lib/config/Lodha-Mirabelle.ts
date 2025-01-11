@@ -91,9 +91,7 @@ export const lodhaMirabelleSiteConfig = {
         description: "Download the brochure to learn more about Lodha Mirabelle.",
       },
       title: "Welcome To Lodha Mirabelle Thane",
-      description: `Nestled in the lush environs of Kolshet road, Lodha Mirabelle stands as a premium residential destination in Thane, coveted by discerning homebuyers. Expanding across 40 acres, Amara unfolds in three distinct phases, with the inaugural phase nearing its fulfillment. Presenting an array of 1 to 3 BHK configurations, each meticulously crafted floor plan maximizes space utility and elevates resident convenience. Complementing contemporary lifestyles, the project features tailored amenities including dedicated clubhouses for every zone, an invigorating swimming pool, and more. For those in pursuit of a meticulously planned development by a trusted developer in a prime locale, Amara emerges as the quintessential choice.
-        
-      Live in a home with optimal space planning. Presenting thoughtfully designed Air Conditioned^ homes at Amara with superior design to ensure more privacy. With spacious residences in the lush locale of Thane, Lodha Amara bridges the gap between city and nature and gives you a life replete with both!`,
+      description: `Introducing Lodha Mirabelle, a 19-acre urban sanctuary where luxury and nature coexist harmoniously. Immerse yourself in the peaceful ambiance of the lush central park, and enjoy the opulence of a 45,000 sq. ft. clubhouse designed for both relaxation and entertainment. At Lodha Mirabelle, every aspect of our thoughtfully crafted residences reflects a seamless blend of elegance and nature. Start each day with the tranquil beauty of serene landscapes, embracing a lifestyle where luxury meets the natural world in perfect harmony.`,
     },
     offer: {
       title: "Booking Open",
