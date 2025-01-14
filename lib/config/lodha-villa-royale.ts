@@ -292,7 +292,7 @@ export const lodhaVillaRoyaleSiteConfig = {
       },
     ],
     stats: {
-      title: "32+ World-Class Amenities",
+      title: "40+ World-Class Amenities",
       description: "Everything you need for a luxurious lifestyle",
     },
   },
