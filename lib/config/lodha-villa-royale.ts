@@ -132,7 +132,7 @@ export const lodhaVillaRoyaleSiteConfig = {
   pricing: {
     title: "Pricing Plans",
     description:
-      "Choose from our range of luxurious 2, 3 & 4 BHK residences, each designed to offer the perfect blend of comfort and sophistication",
+    "Choose from our range of luxurious plot and villa residences, each designed to offer the perfect blend of comfort and sophistication.",
     prices: [
       {
         type: "Plot",
