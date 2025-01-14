@@ -160,7 +160,7 @@ export const lodhaVillaRoyaleSiteConfig = {
       },
       {
         type: "Plot + Bareshell Villa",
-        carpetArea: "200 sq yd",
+        carpetArea: "200 sq. yds",
         price: "₹3.2 Cr",
         suffix: "Onwards",
       },
