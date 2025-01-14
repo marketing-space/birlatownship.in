@@ -70,7 +70,7 @@ export const lodhaHangingGardensSiteConfig = {
 
   branding: {
     logo: "/lodha-hanging-gardens/images/logo.svg",
-    favicon: "/lodha-hanging-gardens/images/favicon.png",
+    favicon: "/lodha-hanging-gardens/images/icon.png",
     ogImage: "/lodha-hanging-gardens/images/og-image.jpg",
   },
 

@@ -11,19 +11,19 @@ import {
 } from "lucide-react";
 import { routes } from "./routes";
 
-const route = routes.LodhaMirabelle;
+const route = routes.LodhaVillaRoyale;
 
-export const lodhaMirabelleSiteConfig = {
-  name: "Lodha Mirabelle",
+export const lodhaVillaRoyaleSiteConfig = {
+  name: "Lodha Villa Royale",
   about:
-    "Introducing Lodha Mirabelle – a 19-acre urban sanctuary where nature and luxury converge. Enjoy peace and relaxation in the lush central park, alongside a 45,000 sq. ft. clubhouse designed for your leisure and entertainment. At Lodha Mirabelle, find the ultimate retreat from the bustle of the city. Our meticulously crafted residences blend elegance with natural beauty, redefining modern living. Awaken each day to breathtaking landscapes and experience the seamless fusion of luxury and nature in every aspect of your home..",
+    "One of India's leading real estate firms, the Lodha Group is renowned for building urban dream homes that offer refined living. The developer caters to all segments, from luxury to budget residences and has built iconic landmarks all across Mumbai, Thane, and Navi Mumbai. Lodha properties are known to feature quality interiors, state-of-the-art amenities, vast open spaces, and manicured green landscapes. A few of their standout properties are Lodha World Towers in Lower Parel, Lodha Palava in Dombivli, Lodha Crown in Thane, and Lodha Bellagio in Powai.",
   contact: {
     phone: "+919619095795",
     whatsapp: "+919619095795",
     address:
       "Kolshet Rd, Kolshet Industrial Area, Thane West, Thane, Maharashtra 400607",
   },
-  gtmId: "GTM-52HN2BZN",
+  gtmId: "GTM-54RP9RX",
   navbar: {
     navItems: [
       {
@@ -64,43 +64,44 @@ export const lodhaMirabelleSiteConfig = {
     ],
     cta: {
       title: "Download Brochure",
-      description: "Download the brochure to learn more about Lodha Mirabelle.",
+      description: "Download the brochure to learn more about Lodha Villa Royale.",
     },
   },
 
   branding: {
-    logo: "/lodha-mirabelle/images/logo.png",
-    favicon: "/lodha-mirabelle/images/icon.png",
-    ogImage: "/lodha-mirabelle/images/og-image.jpg",
+    logo: "/lodha-villa-royale/images/logo.svg",
+    favicon: "/lodha-villa-royale/images/icon.png",
+    ogImage: "/lodha-villa-royale/images/og-image.jpg",
   },
 
   hero: {
     banners: [
       {
-        src: "/lodha-mirabelle/images/banner-1.webp",
-        alt: "Lodha mirabelle Exterior",
+        src: "/lodha-villa-royale/images/banner-1.webp",
+        alt: "Lodha villa Royale Exterior",
       },
       {
-        src: "/lodha-mirabelle/images/banner-2.webp",
-        alt: "Lodha mirabelle Exterior",
+        src: "/lodha-villa-royale/images/banner-2.webp",
+        alt: "Lodha villa Royale Exterior",
       },
     ],
     welcome: {
       cta: {
         title: "Download Brochure",
-        description: "Download the brochure to learn more about Lodha Mirabelle.",
+        description: "Download the brochure to learn more about Lodha Villa Royale.",
       },
-      title: "Welcome To Lodha Mirabelle Thane",
-      description: `Introducing Lodha Mirabelle, a 19-acre urban sanctuary where luxury and nature coexist harmoniously. Immerse yourself in the peaceful ambiance of the lush central park, and enjoy the opulence of a 45,000 sq. ft. clubhouse designed for both relaxation and entertainment. At Lodha Mirabelle, every aspect of our thoughtfully crafted residences reflects a seamless blend of elegance and nature. Start each day with the tranquil beauty of serene landscapes, embracing a lifestyle where luxury meets the natural world in perfect harmony.`,
+      title: "Welcome To Lodha Villa Royale Thane",
+      description: `Lodha Villa Royale is an exquisite gated community offering luxurious villas in Palava, Dombivli. Nestled in a lush landscape, it features Vastu-compliant plots and customizable bareshell villas with flexible layouts, allowing residents to personalize their living spaces. The community is adorned with expansive open areas, tree-lined avenues, and a variety of amenities, including a café, swimming pool, meditation zone, library, kids’ playground, business center, gymnasium, multipurpose court, banquet hall, and more.
+
+      The vibrant neighborhood of Lodha Villa Royale boasts robust infrastructure, with educational institutions like Lodha World School, EVA World School, Ira Global School, and St. Therese Convent School nearby. Health facilities such as Genesis Multispeciality Hospital and Bijankur Hospital, along with shopping destinations like Lodha Xperia Mall, Casa Rio Cricket Ground, and Dmart, are easily accessible. Connectivity is enhanced by Kalyan-Shilphata Road and Panvel Mumbra Road, offering convenient routes to Thane and Panvel. The forthcoming Airoli Katai Naka Freeway will reduce travel time to Airoli to just 15 minutes, and the upcoming Navi Mumbai International Airport is a mere 30-minute drive away. Lodha Villa Royale provides an aspirational setting to craft your ideal home in Palava.`,
     },
     offer: {
-      title: "Booking Open",
-      location: "At Manyata Teck Park by Lodha Group",
+      title: "Exclusive Launch Offer",
+      location: "At Thane by Lodha Group",
       points: [
-        { text: "Spot Booking Offers" },
-        { text: "Lavish Clubhouse" },
-        { text: "Premium Amenities" },
-        { text: "Flexi Payment Plan" },
+        { text: "Flexi Payment Plan - 25:25:50" },
+        { text: "50% Savings, 100 % Better Life!" },
+        { text: "Spot Discounts Upto ₹8 Lacs" },
       ],
       cta: {
         title: "Book A Free Site Visit",
@@ -109,20 +110,20 @@ export const lodhaMirabelleSiteConfig = {
       features: [
         {
           title: "Land Parcel",
-          value: "10 Acres",
+          value: " 21 Acres",
         },
         {
           title: "Floors",
-          value: "40 Storeys",
+          value: "G+ 1 Storeys",
         },
         {
           title: "Possession",
-          value: "Dec 2025",
+          value: "Dec 2023",
         },
       ],
       price: {
-        title: "Luxurious 2.5, 3.5 & 4 BHK Starts from",
-        value: "2.30 Cr*",
+        title: "Premium Plot + Bareshell Villa Starts from",
+        value: "₹ 2.05 Cr",
         suffix: "Onwards",
       },
     },
@@ -131,24 +132,36 @@ export const lodhaMirabelleSiteConfig = {
   pricing: {
     title: "Pricing Plans",
     description:
-      "Choose from our range of luxurious 2.5, 3.5 & 4 BHK residences, each designed to offer the perfect blend of comfort and sophistication",
+      "Choose from our range of luxurious 2, 3 & 4 BHK residences, each designed to offer the perfect blend of comfort and sophistication",
     prices: [
       {
-        type: "2.5 BHK",
-        carpetArea: "1485 Sq.ft.",
-        price: "2.3 Lacs",
+        type: "Plot",
+        carpetArea: "250 sq. yds",
+        price: "₹2.05 Cr",
         suffix: "Onwards",
       },
       {
-        type: "3.5 BHK",
-        carpetArea: "2070 Sq.ft.",
-        price: "1.05 Cr",
+        type: "Plot",
+        carpetArea: "350 sq. yds",
+        price: "₹2.97 Cr",
         suffix: "Onwards",
       },
       {
-        type: "4 BHK",
-        carpetArea: "2650 Sq.ft.",
-        price: "1.17 Cr",
+        type: "Plot",
+        carpetArea: "450 sq. yds",
+        price: "₹3.69 Cr",
+        suffix: "Onwards",
+      },
+      {
+        type: "Plot",
+        carpetArea: "600 sq. yds",
+        price: "₹6.56 Cr",
+        suffix: "Onwards",
+      },
+      {
+        type: "Plot + Bareshell Villa",
+        carpetArea: "200 sq yd",
+        price: "₹3.2 Cr",
         suffix: "Onwards",
       },
     ],
@@ -158,8 +171,8 @@ export const lodhaMirabelleSiteConfig = {
     },
     detailPricing: {
       image: {
-        src: "/lodha-mirabelle/images/costing.webp",
-        alt: "Lodha Mirabelle Costing",
+        src: "/lodha-villa-royale/images/costing.jpg",
+        alt: "Lodha Villa Royale Costing",
       },
       title: "Need Complete Costing Details?",
       description:
@@ -178,37 +191,32 @@ export const lodhaMirabelleSiteConfig = {
     masterPlan: {
       title: "Master Plan",
       image: {
-        src: "/lodha-mirabelle/images/master-plan.png",
+        src: "/lodha-villa-royale/images/master-plan.webp",
         alt: "Master Plan",
       },
       cta: {
         title: "View Master Plan",
-        description: "Explore the layout of Lodha Mirabelle",
+        description: "Explore the layout of Lodha Villa Royale",
       },
     },
     floorPlans: {
-      categories: ["All", "2.5 BHK", "3.5 BHK", "4 BHK"],
+      categories: ["All", "Plot"],
       title: "Floor Plans",
       plans: [
         {
-          type: "2.5 BHK-1485 Sq.ft.",
-          image: "/lodha-mirabelle/images/floor-1.jpg",
-          category: "2.5 BHK",
+          type: "Grand 250 Sq. Yards Ground Floor",
+          image: "/lodha-villa-royale/images/floor-1.jpg",
+          category: "Plot",
         },
         {
-          type: "3.5 BHK-2070 Sq.ft.",
-          image: "/lodha-mirabelle/images/floor-2.jpg",
-          category: "3.5 BHK",
-        },
-        {
-          type: "4 BHK-2650 Sq.ft.",
-          image: "/lodha-mirabelle/images/floor-3.jpg",
-          category: "4 BHK",
+          type: "Grand 250 Sq. Yards First Floor",
+          image: "/lodha-villa-royale/images/floor-2.jpg",
+          category: "Plot",
         },
       ],
       cta: {
         title: "Enquire Now",
-        description: "Explore the layout of Lodha Mirabelle",
+        description: "Explore the layout of Lodha Villa Royale",
       },
     },
   },
@@ -219,67 +227,67 @@ export const lodhaMirabelleSiteConfig = {
       "Discover a lifestyle enriched with premium amenities and facilities",
     cta: {
       title: "Download Amenities",
-      description: "Download the amenities of Lodha Mirabelle",
+      description: "Download the amenities of Lodha Villa Royale",
     },
     amenities: [
       {
         title: "Badminton Court",
-        image: "/lodha-mirabelle/images/amenities/1.png",
+        image: "/lodha-villa-royale/images/amenities/BADMINTONCOURT.webp",
         description: "",
       },
       {
         title: "Cricket Pitch",
-        image: "/lodha-mirabelle/images/amenities/2.png",
+        image: "/lodha-villa-royale/images/amenities/CRICKETPITCH.webp",
         description: "",
       },
       {
         title: "Ganesha Temple",
-        image: "/lodha-mirabelle/images/amenities/3.png",
+        image: "/lodha-villa-royale/images/amenities/GANESHATEMPLE.webp",
         description: "",
       },
       {
-        title: "Grand Clubhouse",
-        image: "/lodha-mirabelle/images/amenities/4.png",
+        title: "Lawn Party Area",
+        image: "/lodha-villa-royale/images/amenities/party.webp",
         description: "",
       },
       {
         title: "Kids Play Area",
-        image: "/lodha-mirabelle/images/amenities/5.png",
+        image: "/lodha-villa-royale/images/amenities/KIDSPLAYAREA.webp",
         description: "",
       },
       {
         title: "Gym",
-        image: "/lodha-mirabelle/images/amenities/6.png",
+        image: "/lodha-villa-royale/images/amenities/GYM.webp",
         description: "",
       },
       {
         title: "Indoor Pool",
-        image: "/lodha-mirabelle/images/amenities/7.png",
+        image: "/lodha-villa-royale/images/amenities/INDOORPOOL.webp",
         description: "",
       },
       {
         title: "Multiple Party Hall",
-        image: "/lodha-mirabelle/images/amenities/8.png",
+        image: "/lodha-villa-royale/images/amenities/MULTIPLEPARTYHALL.webp",
         description: "",
       },
       {
         title: "Pool Side Cafe",
-        image: "/lodha-mirabelle/images/amenities/9.png",
+        image: "/lodha-villa-royale/images/amenities/POOLSIDECAFE.webp",
         description: "",
       },
       {
         title: "Pool Side Deck",
-        image: "/lodha-mirabelle/images/amenities/10.png",
+        image: "/lodha-villa-royale/images/amenities/POOLSIDEDECK.webp",
         description: "",
       },
       {
-        title: "Carrom & Chess Room",
-        image: "/lodha-mirabelle/images/amenities/Carrom & Chess Room.png",
+        title: "Private Theatre",
+        image: "/lodha-villa-royale/images/amenities/PRIVATETHEATRE.webp",
         description: "",
       },
       {
-        title: "Lawn Party",
-        image: "/lodha-mirabelle/images/amenities/party.webp",
+        title: "Private Woods",
+        image: "/lodha-villa-royale/images/amenities/PRIVATEWOODS.webp",
         description: "",
       },
     ],
@@ -295,27 +303,27 @@ export const lodhaMirabelleSiteConfig = {
       "Experience luxury living through our carefully curated spaces",
     cta: {
       title: "Download Gallery",
-      description: "Download the gallery of Lodha Mirabelle",
+      description: "Download the gallery of Lodha Villa Royale",
     },
     images: [
       {
         title: "",
-        image: "/lodha-mirabelle/images/gallery/g1.png",
+        image: "/lodha-villa-royale/images/gallery/g1.webp",
         description: "Elegantly designed living spaces with premium finishes",
       },
       {
         title: "",
-        image: "/lodha-mirabelle/images/gallery/g2.png",
+        image: "/lodha-villa-royale/images/gallery/g2.webp",
         description: "Breathtaking views of landscaped gardens",
       },
       {
         title: "",
-        image: "/lodha-mirabelle/images/gallery/g3.png",
+        image: "/lodha-villa-royale/images/gallery/g3.webp",
         description: "Resort-style pool with premium amenities",
       },
       {
         title: "",
-        image: "/lodha-mirabelle/images/gallery/g4.png",
+        image: "/lodha-villa-royale/images/gallery/g4.webp",
         description: "Spacious bedrooms with modern aesthetics",
       },
     ],
@@ -325,35 +333,35 @@ export const lodhaMirabelleSiteConfig = {
     title: "Location",
     description: "Strategically located for your convenience",
     googleMapIframe:
-    "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62188.577099529546!2d77.62485900000001!3d13.049285!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17a01194648d%3A0xed823b0974c3a189!2sLodha%20Manyata%20Tech-%20Park!5e0!3m2!1sen!2sin!4v1736412908132!5m2!1sen!2sin",
+    "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d45931.3134417171!2d73.112744!3d19.163592!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7956bb71bcfaf%3A0xc5fa83806e4c2ad0!2sLodha%20Villa%20Royale%2C%20Palava!5e1!3m2!1sen!2sin!4v1736834235744!5m2!1sen!2sin",
     image: {
-      src: "/lodha-mirabelle/images/map.webp",
+      src: "/lodha-villa-royale/images/map.webp",
       alt: "Location Map",
     },
     landmarks: [
       {
-        title: "Airport",
-        description: "30 Mins",
-      },
-      {
-        title: "Proposed Nagavara metro station",
-        description: "2 Mins",
-      },
-      {
-        title: "Orchid Internation School",
+        title: "Kalyan Shilphata Road",
         description: "5 Mins",
       },
       {
-        title: "Elements Mall",
-        description: "5 Mins",
+        title: "Panvel Mumbra Road",
+        description: "15 Mins",
       },
       {
-        title: "Manipal Hospital",
+        title: "Shil Phata Mahape Road",
         description: "20 Mins",
       },
       {
-        title: "Thane Railway Station",
+        title: "Airoli",
         description: "20 Mins",
+      },
+      {
+        title: "Dmart",
+        description: "15 Mins",
+      },
+      {
+        title: "Navi Mumbai International Airport",
+        description: "40 Mins",
       },
     ],
     location: {
@@ -367,17 +375,17 @@ export const lodhaMirabelleSiteConfig = {
 
   virtualTour: {
     title: "Virtual Tour Request",
-    description: "Experience Lodha Mirabelle from the comfort of your home",
+    description: "Experience Lodha Villa Royale from the comfort of your home",
     cta: {
       title: "Request Virtual Tour",
       description: "Schedule at your convenience",
     },
-    image: {
-      src: "/lodha-mirabelle/images/banner-1.webp",
+    image: { 
+      src: "/lodha-villa-royale/images/banner-1.webp",
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",
-    videoDescription: "Experience Lodha Mirabelle from the comfort of your home",
+    videoDescription: "Experience Lodha Villa Royale from the comfort of your home",
     features: [
       {
         title: "360° Views",
@@ -398,7 +406,7 @@ export const lodhaMirabelleSiteConfig = {
     title: "Get The Best Quote",
     bookFreeVisit: {
       image: {
-        src: "/lodha-mirabelle/images/ride.png",
+        src: "/lodha-villa-royale/images/ride.png",
         alt: "Book a Site Visit",
       },
       cta: {
@@ -437,9 +445,9 @@ export const lodhaMirabelleSiteConfig = {
       description: "",
       details: [
         {
-          title: "",
-          reraNumber: "Rera No. PRM/KA/RERA/1251/309/PR/131023/006321",
-          qrCode: "/lodha-mirabelle/images/barcode-1.webp",
+          title: "Lodha Villa Royale Palava",
+          reraNumber: "Rera No. P51700047245",
+          qrCode: "/lodha-villa-royale/images/qr.webp",
         },
       ],
     },
@@ -457,12 +465,12 @@ export const lodhaMirabelleSiteConfig = {
       {
         title: "RERA Numbers",
         description:
-          "RERA Project Registration No.:  PRM/KA/RERA/1251/309/PR/131023/006321",
+          "RERA Project Registration No.: P51700047245",
       },
       {
         title: "Site Address",
         description:
-          "Lodha Mirabelle: 2, Thanisandra Main Rd, Bharath Nagar, Manayata Tech Park, Thanisandra, Bengaluru, Karnataka 560045",
+          "Lodha Villa Royale Dombivli: Lodha Villa Royale, Central Avenue, Palava City, Maharashtra 421204.",
       },
     ],
     disclaimer:
@@ -471,9 +479,9 @@ export const lodhaMirabelleSiteConfig = {
 
   seo: {
     title:
-      "Lodha Mirabelle by Lodha Group | Price, Floor Plans, Amenities | Request Brochure",
+      "Lodha Villa Royale by Lodha Group | Price, Floor Plans, Amenities | Request Brochure",
     description:
-      "Experience luxury living at Lodha Mirabelle, 2.5 , 3.5 & 4 BHK apartments with world-class amenities.",
+      "Experience luxury living at Lodha Villa Royale, 2 & 3 BHK apartments with world-class amenities.",
     keywords: ["luxury apartments", "lodha group", "2 bhk", "3 bhk"],
   },
 
@@ -485,7 +493,7 @@ export const lodhaMirabelleSiteConfig = {
 
   termsAndConditions: {
     seo: {
-      title: "Terms & Conditions | Lodha Mirabelle",
+      title: "Terms & Conditions | Lodha Villa Royale",
       description:
         "Please read these terms and conditions carefully before using our website.",
     },
@@ -513,7 +521,7 @@ export const lodhaMirabelleSiteConfig = {
 
   privacyPolicy: {
     seo: {
-      title: "Privacy Policy | Lodha Mirabelle",
+      title: "Privacy Policy | Lodha Villa Royale",
       description: "This policy explains how we use your personal information.",
     },
     title: "Privacy Policy",
@@ -534,7 +542,7 @@ export const lodhaMirabelleSiteConfig = {
 
   cookiesPolicy: {
     seo: {
-      title: "Cookies Policy | Lodha Mirabelle",
+      title: "Cookies Policy | Lodha Villa Royale",
       description:
         "This policy explains how we use cookies and similar technologies on our website.",
     },
@@ -557,19 +565,19 @@ export const lodhaMirabelleSiteConfig = {
 
   thankYou: {
     seo: {
-      title: "Lodha Mirabelle | Thank You",
-      description: "Thank you for your interest in Lodha Mirabelle",
+      title: "Lodha Villa Royale | Thank You",
+      description: "Thank you for your interest in Lodha Villa Royale.",
     },
   },
 
   formSubmission: {
     crm: {
-      formId: "__vtigerWebForm_89",
-      publicId: "df7776d385adb5cfe84b8edf769f8eeb",
+      formId: "__vtigerWebForm_5",
+      publicId: "d7f104ebf1da61121dd7da950c50ae21",
       baseUrl: "https://company133638.od2.vtiger.com",
       __vtrftk: "sid:d0b203e8fb8ff53c5b3673fb24119e03ae930517,1680088576",
       __vtCurrency: "1",
-      name: "Lodha Mirabelle",
+      name: "Lodha Villa Royale",
       cfLeadsProjectSite: "Swaminarayan City",
       leadSource: "Web",
       emailOptin: "1",
@@ -577,10 +585,10 @@ export const lodhaMirabelleSiteConfig = {
     email: {
       apiEndpoint: "/api/send-email",
       template: {
-        subject: "New Enquiry from Lodha Mirabelle",
+        subject: "New Enquiry from Lodha Villa Royale",
       },
     },
   },
 };
 
-export type LodhaMirabelleSiteConfig = typeof lodhaMirabelleSiteConfig;
+export type LodhaVillaRoyaleSiteConfig = typeof lodhaVillaRoyaleSiteConfig;
