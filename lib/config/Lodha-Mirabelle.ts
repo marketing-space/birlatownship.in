@@ -16,7 +16,7 @@ const route = routes.LodhaMirabelle;
 export const lodhaMirabelleSiteConfig = {
   name: "Lodha Mirabelle",
   about:
-    "Introducing Lodha Mirabelle – a 19-acre urban sanctuary where nature and luxury converge. Enjoy peace and relaxation in the lush central park, alongside a 45,000 sq. ft. clubhouse designed for your leisure and entertainment. At Lodha Mirabelle, find the ultimate retreat from the bustle of the city. Our meticulously crafted residences blend elegance with natural beauty, redefining modern living. Awaken each day to breathtaking landscapes and experience the seamless fusion of luxury and nature in every aspect of your home..",
+    "One of India's leading real estate firms, the Lodha Group is renowned for building urban dream homes that offer refined living. The developer caters to all segments, from luxury to budget residences and has built iconic landmarks all across Mumbai, Thane, and Navi Mumbai. Lodha properties are known to feature quality interiors, state-of-the-art amenities, vast open spaces, and manicured green landscapes. A few of their standout properties are Lodha World Towers in Lower Parel, Lodha Palava in Dombivli, Lodha Crown in Thane, and Lodha Bellagio in Powai.",
   contact: {
     phone: "+919619095795",
     whatsapp: "+919619095795",

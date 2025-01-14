@@ -16,7 +16,7 @@ const route = routes.LodhaStella;
 export const lodhaStellaSiteConfig = {
   name: "Lodha Stella",
   about:
-    "Experience luxurious living at Lodha Stella, an exclusive residential enclave in Kapurbawdi, Thane. Offering spacious 3, 4, and 5 BHK vastu-compliant residences, complete with master bedrooms, duplex options, study rooms, and deck areas, this project redefines modern comfort. The 14,000 sq. ft. clubhouse, featuring a swimming pool, gym, and indoor games room, adds to the array of amenities. With 60% open space and a serene Ganesh Temple, the complex offers a tranquil environment.Conveniently located just 2 minutes from the Eastern Express Highway, Lodha Stella ensures effortless connectivity via Ghodbunder Road. Esteemed schools like St Joseph’s English High School and C.P. Goenka School, along with Currae Speciality Hospital, are easily accessible. Additionally, popular entertainment hubs like Viviana Mall and Korum Mall are nearby. Combining world-class amenities with a prime location, Lodha Stella offers the perfect residential experience.",
+    "One of India's leading real estate firms, the Lodha Group is renowned for building urban dream homes that offer refined living. The developer caters to all segments, from luxury to budget residences and has built iconic landmarks all across Mumbai, Thane, and Navi Mumbai. Lodha properties are known to feature quality interiors, state-of-the-art amenities, vast open spaces, and manicured green landscapes. A few of their standout properties are Lodha World Towers in Lower Parel, Lodha Palava in Dombivli, Lodha Crown in Thane, and Lodha Bellagio in Powai.",
   contact: {
     phone: "+919619095795",
     whatsapp: "+919619095795",
