@@ -21,7 +21,7 @@ export const lodhaMirabelleSiteConfig = {
     phone: "+919619095795",
     whatsapp: "+919619095795",
     address:
-      "Kolshet Rd, Kolshet Industrial Area, Thane West, Thane, Maharashtra 400607",
+      "Kolshet Rd,Thane West",
   },
   gtmId: "GTM-52HN2BZN",
   navbar: {

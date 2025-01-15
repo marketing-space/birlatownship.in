@@ -20,7 +20,7 @@ export const lodhaHangingGardensSiteConfig = {
   contact: {
     phone: "+919619095795",
     whatsapp: "+919619095795",
-    address: "Taloja By Pass Road, Palava City, Dombivli, Maharashtra 421204",
+    address: "Dombivli",
   },
   gtmId: "GTM-KRLWXJXW",
   navbar: {

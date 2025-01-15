@@ -21,7 +21,7 @@ export const lodhaPokhranSiteConfig = {
     phone: "+919619095795",
     whatsapp: "+919619095795",
     address:
-      "Pokhran Road, Khewra Cir Marg, off Ghodbunder Road, Manpada, Thane West, Maharashtra 400607",
+      "Pokhran Road, Thane West",
   },
   gtmId: "GTM-5P4FW3M",
   navbar: {

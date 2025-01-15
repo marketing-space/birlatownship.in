@@ -20,7 +20,7 @@ export const lodhaCrownThaneSiteConfig = {
   contact: {
     phone: "+919619095795",
     whatsapp: "+919619095795",
-    address: "Akbar Camp Road, Road, Kolshet, Mumbai, Maharashtra 400607",
+    address: "Kolshet Road Thane W",
   },
   gtmId: "GTM-N89SLN8",
   navbar: {

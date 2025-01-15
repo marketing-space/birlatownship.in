@@ -21,7 +21,7 @@ export const lodhaRegaliaSiteConfig = {
     phone: "+919619095795",
     whatsapp: "+919619095795",
     address:
-      "Gopal Krishna Gokhale Rd, Shree Ji Society, Hanuman Chowk, Mulund East, Mumbai, Maharashtra 400081",
+      " Mulund East",
   },
   gtmId: "GTM-WVQ7GSQ",
   navbar: {

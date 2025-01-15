@@ -21,7 +21,7 @@ export const lodhaVillaRoyaleSiteConfig = {
     phone: "+919619095795",
     whatsapp: "+919619095795",
     address:
-      "Kolshet Rd, Kolshet Industrial Area, Thane West, Thane, Maharashtra 400607",
+      "Dombivli East",
   },
   gtmId: "GTM-NXFXPQG",
   navbar: {
