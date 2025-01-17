@@ -21,7 +21,7 @@ export const lodhaUpperThaneSiteConfig = {
     phone: "+919619095795",
     whatsapp: "+919619095795",
     address:
-      "Thane - Dombivli Link Rd, off Mumbai - Nashik Expressway, Anjur, Mumbai - 421302",
+      "Thane - Dombivli Link Rd",
   },
   gtmId: "GTM-TL2M74M",
   navbar: {
@@ -78,7 +78,11 @@ export const lodhaUpperThaneSiteConfig = {
   hero: {
     banners: [
       {
-        src: "/lodha-upper-thane/images/banner-1.webp",
+        src: "/lodha-upper-thane/images/banner-1.png",
+        alt: "Lodha Upper Thane Exterior",
+      },
+      {
+        src: "/lodha-upper-thane/images/banner-2.png",
         alt: "Lodha Upper Thane Exterior",
       },
     ],
@@ -384,7 +388,7 @@ export const lodhaUpperThaneSiteConfig = {
       description: "Schedule at your convenience",
     },
     image: {
-      src: "/lodha-upper-thane/images/banner-1.webp",
+      src: "/lodha-upper-thane/images/banner-1.png",
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",

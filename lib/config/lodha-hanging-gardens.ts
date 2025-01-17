@@ -80,6 +80,10 @@ export const lodhaHangingGardensSiteConfig = {
         src: "/lodha-hanging-gardens/images/banner-1.webp",
         alt: "Lodha Hanging Gardens Exterior",
       },
+      {
+        src: "/lodha-hanging-gardens/images/banner-2.png",
+        alt: "Lodha Hanging Gardens Exterior",
+      },
     ],
     welcome: {
       cta: {

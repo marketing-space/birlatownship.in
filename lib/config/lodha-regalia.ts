@@ -80,6 +80,10 @@ export const lodhaRegaliaSiteConfig = {
         src: "/lodha-regalia/images/banner-1.webp",
         alt: "Lodha Regalia Exterior",
       },
+      {
+        src: "/lodha-regalia/images/banner-2.png",
+        alt: "Lodha Regalia Exterior",
+      },
     ],
     welcome: {
       cta: {

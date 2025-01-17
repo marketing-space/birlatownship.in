@@ -21,7 +21,7 @@ export const lodhaAmaraSiteConfig = {
     phone: "+919619095795",
     whatsapp: "+919619095795",
     address:
-      "Kolshet Rd, Kolshet Industrial Area, Thane West, Thane, Maharashtra 400607",
+      "Thane West",
   },
   gtmId: "GTM-54RP9RX",
   navbar: {
@@ -77,7 +77,11 @@ export const lodhaAmaraSiteConfig = {
   hero: {
     banners: [
       {
-        src: "/lodha-amara/images/banner-1.webp",
+        src: "/lodha-amara/images/banner-1.png",
+        alt: "Lodha Amara Exterior",
+      },
+      {
+        src: "/lodha-amara/images/banner-2.png",
         alt: "Lodha Amara Exterior",
       },
     ],
@@ -393,7 +397,7 @@ export const lodhaAmaraSiteConfig = {
       description: "Schedule at your convenience",
     },
     image: {
-      src: "/lodha-amara/images/banner-1.webp",
+      src: "/lodha-amara/images/banner-1.png",
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",

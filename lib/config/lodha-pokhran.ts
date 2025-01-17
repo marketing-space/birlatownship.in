@@ -81,6 +81,10 @@ export const lodhaPokhranSiteConfig = {
         src: "/lodha-pokhran/images/banner-1.png",
         alt: "Lodha Bella Vista Exterior",
       },
+      {
+        src: "/lodha-pokhran/images/banner-2.png",
+        alt: "Lodha Bella Vista Exterior",
+      },
     ],
     welcome: {
       cta: {

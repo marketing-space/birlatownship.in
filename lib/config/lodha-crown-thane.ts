@@ -80,6 +80,10 @@ export const lodhaCrownThaneSiteConfig = {
         src: "/lodha-crown-thane/images/banner-1.png",
         alt: "Lodha Crown Kolshet Exterior",
       },
+      {
+        src: "/lodha-crown-thane/images/banner-2.png",
+        alt: "Lodha Crown Kolshet Exterior",
+      },
     ],
     welcome: {
       cta: {
