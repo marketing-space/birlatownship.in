@@ -10,6 +10,7 @@ import { lodhaUpperThaneSiteConfig } from "./lodha-upper-thane";
 import { lodhaMirabelleSiteConfig } from "./Lodha-Mirabelle";
 import { lodhaStellaSiteConfig } from "./Lodha-Stella";
 import { lodhaVillaRoyaleSiteConfig } from "./lodha-villa-royale";
+import { lodhaWakadSiteConfig } from "./lodha-wakad";
 
 const configs = {
   [routes.default]: siteConfig,
@@ -23,6 +24,7 @@ const configs = {
   [routes.LodhaMirabelle]: lodhaMirabelleSiteConfig,
   [routes.LodhaStella]: lodhaStellaSiteConfig,
   [routes.LodhaVillaRoyale]: lodhaVillaRoyaleSiteConfig,
+  [routes.LodhaWakad]: lodhaWakadSiteConfig,
 };
 
 export function getSiteConfig(site?: string) {

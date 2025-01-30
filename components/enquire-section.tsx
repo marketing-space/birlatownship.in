@@ -77,7 +77,6 @@ export default function EnquireSection({
       onSubmit?.();
     } catch (error) {
       console.error("Form submission error:", error);
-      // Show error toast
     } finally {
       setIsSubmitting(false);
     }
@@ -86,163 +85,165 @@ export default function EnquireSection({
   return (
     <aside
       className={cn(
-        "bg-white w-full",
+        "bg-white w-full flex flex-col justify-between",
         isModal
           ? "max-h-[90vh] rounded-lg p-6"
-          : "max-h-[calc(100vh-4rem)] px-4 py-2",
+          : "max-h-[calc(100vh-4rem)] px-4 py-4",
         className
       )}
     >
       <div className="bg-white pb-2 z-10">
-        <h2 className="text-lg font-semibold text-center text-gray-900">{enquire.title}</h2>
+        <h2 className="text-lg font-semibold text-gray-900 text-center">{enquire.title}</h2>
 
         {showCallUsButton && (
           <div
-            className="bg-primary rounded-lg py-2 px-4 flex w-full items-center justify-start gap-2 mt-1 cursor-pointer"
+            className="bg-primary rounded-lg py-3 px-4 flex w-full items-center gap-2 mt-3 cursor-pointer"
             onClick={() => window.open(`tel:${enquire.callUs.phone}`)}
           >
             <div className="flex items-center justify-center rounded-full size-6 bg-white text-primary p-2">
               <PhoneCallIcon className="size-6" />
             </div>
             <div className="flex flex-col items-start text-white">
-              <div className="text-sm">{enquire.callUs.title}</div>
-              <div className="text-xs font-medium">{enquire.callUs.phone}</div>
+              <div className="text-sm font-medium">{enquire.callUs.title}</div>
+              <div className="text-xs">{enquire.callUs.phone}</div>
             </div>
           </div>
         )}
       </div>
 
-      <div className="space-y-1 flex flex-col gap-1 min-h-[calc(100%-2rem)]">
-        <div className="flex-1">
-          <Form {...form}>
-            <form
-              id={formSubmission.crm.formId}
-              name={formSubmission.crm.name}
-              onSubmit={form.handleSubmit(handleSubmit)}
-              className="space-y-4"
-              acceptCharset="utf-8"
-              encType="multipart/form-data"
-            >
-              <FormField
-                control={form.control}
-                name="name"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormControl>
-                      <Input
-                        placeholder="Enter Your Name"
-                        {...field}
-                        required
-                        className="bg-white border-gray-200"
-                      />
-                    </FormControl>
-                  </FormItem>
-                )}
-              />
-
-              <FormField
-                control={form.control}
-                name="phone"
-                render={({ field }) => (
-                  <FormItem className="flex flex-col items-start">
-                    <FormControl className="w-full">
-                      <PhoneInput
-                        defaultCountry="IN"
-                        placeholder="Enter Phone Number"
-                        {...field}
-                        required
-                        className="bg-white border-gray-200"
-                      />
-                    </FormControl>
-                  </FormItem>
-                )}
-              />
-
-              <FormField
-                control={form.control}
-                name="email"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormControl>
-                      <Input
-                        placeholder="Enter Your Email (optional)"
-                        {...field}
-                        type="email"
-                        className="bg-white border-gray-200"
-                      />
-                    </FormControl>
-                  </FormItem>
-                )}
-              />
-
-              <Button
-                type="submit"
-                className="w-full bg-primary mb-4"
-                disabled={isSubmitting}
-              >
-                {isSubmitting ? (
-                  <>
-                    <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                    Submitting...
-                  </>
-                ) : (
-                  "Submit"
-                )}
-              </Button>
-            </form>
-          </Form>
-        </div>
-      </div>
-
-      {showFreeVisitButton && (
-        <div className="flex flex-col gap-8 mt-10">
-          <div className="flex items-center gap-3 bg-gray-100 p-2.5 rounded-lg">
-            <div className="relative flex-shrink-0 w-[60px] h-[60px] sm:w-[80px] sm:h-[80px]">
-              <Image
-                src={enquire.bookFreeVisit.image.src}
-                alt={enquire.bookFreeVisit.image.alt}
-                fill
-                className="rounded-md object-cover"
-                sizes="(max-width: 640px) 60px, 80px"
-              />
-            </div>
-            <div className="flex-1 min-w-0">
-              <h3 className="text-sm font-medium text-gray-900">
-                {enquire.bookFreeVisit.cta.title}
-              </h3>
-              <p className="text-xs text-gray-500 line-clamp-2 mt-0.5">
-                {enquire.bookFreeVisit.cta.description}
-              </p>
-            </div>
-          </div>
-
-          <Button
-            className="w-full bg-primary relative overflow-hidden h-10"
-            onClick={() =>
-              onOpen("enquiry", {
-                title: enquire.bookFreeVisit.cta.title,
-                description: enquire.bookFreeVisit.cta.description,
-              })
-            }
-            disabled={isSubmitting}
+      <div className="flex-1 flex flex-col justify-between gap-4">
+        <Form {...form}>
+          <form
+            id={formSubmission.crm.formId}
+            name={formSubmission.crm.name}
+            onSubmit={form.handleSubmit(handleSubmit)}
+            className="space-y-6 flex flex-col h-full"
+            acceptCharset="utf-8"
+            encType="multipart/form-data"
           >
-            <span className="relative z-10 text-sm font-medium">
-              Book Free Site Visit
-            </span>
-            <motion.div
-              className="absolute inset-0 bg-gradient-to-r from-primary-600/0 via-primary-600/30 to-primary-600/0"
-              animate={{
-                x: ["-100%", "100%"],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                ease: "linear",
-              }}
+            <FormField
+              control={form.control}
+              name="name"
+              render={({ field }) => (
+                <FormItem>
+                  <FormControl>
+                    <Input
+                      placeholder="Enter your name"
+                      {...field}
+                      required
+                      className={cn(
+                        "bg-white border-gray-300",
+                        form.formState.errors.name && "border-red-500"
+                      )}
+                    />
+                  </FormControl>
+                </FormItem>
+              )}
             />
-          </Button>
-        </div>
-      )}
+
+            <FormField
+              control={form.control}
+              name="phone"
+              render={({ field }) => (
+                <FormItem>
+                  <FormControl>
+                    <PhoneInput
+                      defaultCountry="IN"
+                      placeholder="Enter phone number"
+                      {...field}
+                      required
+                      className={cn(
+                        "bg-white border-gray-300",
+                        form.formState.errors.phone && "border-red-500"
+                      )}
+                    />
+                  </FormControl>
+                </FormItem>
+              )}
+            />
+
+            <FormField
+              control={form.control}
+              name="email"
+              render={({ field }) => (
+                <FormItem>
+                  <FormControl>
+                    <Input
+                      placeholder="Enter your email (optional)"
+                      {...field}
+                      type="email"
+                      className="bg-white border-gray-300"
+                    />
+                  </FormControl>
+                </FormItem>
+              )}
+            />
+
+            <Button
+              type="submit"
+              className="w-full bg-primary py-2.5"
+              disabled={isSubmitting}
+            >
+              {isSubmitting ? (
+                <>
+                  <Loader2 className="mr-2 h-4 w-4 animate-spin" /> Submitting...
+                </>
+              ) : (
+                "Submit"
+              )}
+            </Button>
+          </form>
+        </Form>
+
+        {showFreeVisitButton && (
+          <div className="flex flex-col gap-3 mt-4">
+            <div className="flex items-center gap-3 bg-gray-100 p-3 rounded-lg">
+              <div className="relative flex-shrink-0 w-[60px] h-[60px]">
+                <Image
+                  src={enquire.bookFreeVisit.image.src}
+                  alt={enquire.bookFreeVisit.image.alt}
+                  fill
+                  className="rounded-md object-cover"
+                />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-sm font-medium text-gray-900">
+                  {enquire.bookFreeVisit.cta.title}
+                </h3>
+                <p className="text-xs text-gray-500 mt-1">
+                  {enquire.bookFreeVisit.cta.description}
+                </p>
+              </div>
+            </div>
+
+            <Button
+              className="w-full bg-primary h-10 relative overflow-hidden"
+              onClick={() =>
+                onOpen("enquiry", {
+                  title: enquire.bookFreeVisit.cta.title,
+                  description: enquire.bookFreeVisit.cta.description,
+                })
+              }
+              disabled={isSubmitting}
+            >
+              <span className="relative z-10 text-sm font-medium">
+                Book Free Site Visit
+              </span>
+              <motion.div
+                className="absolute inset-0 bg-gradient-to-r from-primary-600/0 via-primary-600/30 to-primary-600/0"
+                animate={{
+                  x: ["-100%", "100%"],
+                }}
+                transition={{
+                  duration: 1.5,
+                  repeat: Infinity,
+                  ease: "linear",
+                }}
+              />
+            </Button>
+          </div>
+        )}
+      </div>
     </aside>
   );
 }

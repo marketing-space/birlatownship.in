@@ -1,3 +1,5 @@
+
+
 export const routes = {
   default: "/",
   LodhaAmara: "Lodha-Amara",
@@ -10,4 +12,5 @@ export const routes = {
   LodhaMirabelle: "Lodha-Mirabelle",
   LodhaStella: "Lodha-Stella",
   LodhaVillaRoyale: "Lodha-Villa-Royale",
+  LodhaWakad:"Lodha-Wakad",
 };
