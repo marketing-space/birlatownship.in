@@ -81,7 +81,7 @@ export const lodhaWakadSiteConfig = {
         alt: "Lodha Wakad Exterior",
       },
       {
-        src: "/lodha-wakad/images/banner-3.webp",
+        src: "/lodha-wakad/images/Banner-3.webp",
         alt: "Lodha Wakad Exterior",
       },
     ],
