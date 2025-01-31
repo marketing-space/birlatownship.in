@@ -90,7 +90,7 @@ export const lodhaWakadSiteConfig = {
         title: "Download Brochure",
         description: "Download the brochure to learn more about Lodha Wakad.",
       },
-      title: "Welcome To Lodha Wakad Thane",
+      title: "Welcome To Lodha Wakad",
       description: `Located in the heart of Wakad, this landmark development by Lodha is the first-ever Grade A project in the area, setting a new standard for luxury living. Spanning 2.70 acres, it offers spacious residences with innovative horizontal living rooms, expansive decks, and exquisite Italian marble finishes. Designed by globally acclaimed architects, the project boasts a 25,000 sq. ft. rooftop clubhouse featuring an infinity pool, lush landscaped spaces, and thoughtfully curated amenities for leisure and recreation, ensuring a truly elevated lifestyle.  
 
       Strategically positioned on the Wakad-Bhosari BRTS road, this development provides seamless connectivity to Pune’s key business hubs, top-tier educational institutions, leading hospitals, and premium retail destinations. With world-class infrastructure, elegant architectural design, and an array of modern conveniences, it redefines luxury living in Wakad, offering an unmatched experience for the discerning elite.`,
@@ -126,7 +126,7 @@ export const lodhaWakadSiteConfig = {
         },
       ],
       price: {
-        title: "Premium 3 BHK, 3.5 BHK, 4 BHK & Penthouse Starts from",
+        title: "Premium 3 BHK, 3.5 BHK, 4 BHK , 5 BHK & Penthouse Starts from",
         value: "₹ 1.89 Cr",
         suffix: "Onwards",
       },
@@ -136,30 +136,36 @@ export const lodhaWakadSiteConfig = {
   pricing: {
     title: "Pricing Plans",
     description:
-      "Choose from our range of Premium 3 BHK, 3.5 BHK, 4 BHK & Penthouse, each designed to offer the perfect blend of comfort and sophistication",
+      "Choose from our range of Premium 3 BHK, 3.5 BHK, 4 BHK , 5 BHK & Penthouse, each designed to offer the perfect blend of comfort and sophistication",
     prices: [
       {
         type: "3 BHK",
         carpetArea: "1100-1250 sq.ft.",
-        price: "₹1.89 Cr*",
+        price: "1.89 Cr*",
         suffix: "Onwards",
       },
       {
         type: "3.5 BHK with Study",
         carpetArea: "1300-1500 sq.ft.",
-        price: "₹2.45 Cr*",
+        price: "2.45 Cr*",
         suffix: "Onwards",
       },
       {
         type: "4 BHK",
         carpetArea: "1500-1750 sq.ft.",
-        price: "₹3.15 Cr*",
+        price: "3.15 Cr*",
+        suffix: "Onwards",
+      },
+      {
+        type: "Limited 5 BHK",
+        carpetArea: "2500 sq.ft.",
+        price: "5 - 6 Cr*",
         suffix: "Onwards",
       },
       {
         type: "Penthouse",
         carpetArea: "4000 sq.ft.",
-        price: "₹9 Cr*",
+        price: "9 Cr*",
         suffix: "Onwards",
       },
     ],
@@ -198,7 +204,7 @@ export const lodhaWakadSiteConfig = {
       },
     },
     floorPlans: {
-      categories: ["All", "3 BHK", "3.5 BHK", "4 BHK", "Penthouse"],
+      categories: ["All", "3 BHK", "3.5 BHK", "4 BHK","5 BHK", "Penthouse"],
       title: "Floor Plans",
       plans: [
         {
@@ -215,6 +221,11 @@ export const lodhaWakadSiteConfig = {
           type: "4 BHK-1500-1750 sq.ft.",
           image: "/lodha-wakad/images/floor-2.jpg",
           category: "4 BHK",
+        },
+        {
+          type: "5 BHK-2500 sq.ft.",
+          image: "/lodha-wakad/images/floor-2.jpg",
+          category: "5 BHK",
         },
         {
           type: "Penthouse-4000 sq.ft.",
