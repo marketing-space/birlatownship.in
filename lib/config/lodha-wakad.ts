@@ -126,8 +126,8 @@ export const lodhaWakadSiteConfig = {
         },
       ],
       price: {
-        title: "Premium 3 BHK, 3.5 BHK, 4 BHK , 5 BHK & Penthouse Starts from",
-        value: "₹ 1.89 Cr",
+        title: `Premium 3, 3.5, 4, 5 BHK & Penthouse Starts from`,
+        value: "1.89 Cr",
         suffix: "Onwards",
       },
     },
