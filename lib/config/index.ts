@@ -11,6 +11,7 @@ import { lodhaMirabelleSiteConfig } from "./Lodha-Mirabelle";
 import { lodhaStellaSiteConfig } from "./Lodha-Stella";
 import { lodhaVillaRoyaleSiteConfig } from "./lodha-villa-royale";
 import { lodhaWakadSiteConfig } from "./lodha-wakad";
+import { lodhaHSRConfig } from "./lodha-hsr";
 
 const configs = {
   [routes.default]: siteConfig,
@@ -25,6 +26,7 @@ const configs = {
   [routes.LodhaStella]: lodhaStellaSiteConfig,
   [routes.LodhaVillaRoyale]: lodhaVillaRoyaleSiteConfig,
   [routes.LodhaWakad]: lodhaWakadSiteConfig,
+  [routes.LodhaHSR]: lodhaHSRConfig,
 };
 
 export function getSiteConfig(site?: string) {

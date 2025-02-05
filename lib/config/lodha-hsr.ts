@@ -11,19 +11,19 @@ import {
 } from "lucide-react";
 import { routes } from "./routes";
 
-const route = routes.LodhaWakad;
+const route = routes.LodhaHSR;
 
-export const lodhaWakadSiteConfig = {
-  name: "Lodha Wakad",
+export const lodhaHSRConfig = {
+  name: "Lodha HSR",
   about:
     "One of India's leading real estate firms, the Lodha Group is renowned for building urban dream homes that offer refined living. The developer caters to all segments, from luxury to budget residences and has built iconic landmarks all across Mumbai, Thane, and Navi Mumbai. Lodha properties are known to feature quality interiors, state-of-the-art amenities, vast open spaces, and manicured green landscapes. A few of their standout properties are Lodha World Towers in Lower Parel, Lodha Palava in Dombivli, Lodha Crown in Thane, and Lodha Bellagio in Powai.",
   contact: {
     phone: "+919619095795",
     whatsapp: "+919619095795",
     address:
-      "Thane West",
+      "Kapurwadi, Thane",
   },
-  gtmId: "GTM-WV85M6VH",
+  gtmId: "GTM-KXPZBNZT",
   navbar: {
     navItems: [
       {
@@ -64,44 +64,44 @@ export const lodhaWakadSiteConfig = {
     ],
     cta: {
       title: "Download Brochure",
-      description: "Download the brochure to learn more about Lodha Wakad",
+      description: "Download the brochure to learn more about Lodha HSR",
     },
   },
 
   branding: {
-    logo: "/lodha-wakad/images/logo.svg",
-    favicon: "/lodha-wakad/images/icon.png",
-    ogImage: "/lodha-wakad/images/og-image.jpg",
+    logo: "/lodha-stella/images/logo.png",
+    favicon: "/lodha-stella/images/Favicon.png",
+    ogImage: "/lodha-stella/images/og-image.jpg",
   },
 
   hero: {
     banners: [
       {
-        src: "/lodha-wakad/images/banner-1.png",
-        alt: "Lodha Wakad Exterior",
+        src: "/lodha-stella/images/banner-1.webp",
+        alt: "Lodha HSR Exterior",
       },
       {
-        src: "/lodha-wakad/images/Banner-3.webp",
-        alt: "Lodha Wakad Exterior",
+        src: "/lodha-stella/images/banner-2.webp",
+        alt: "Lodha HSR Exterior",
       },
     ],
     welcome: {
       cta: {
         title: "Download Brochure",
-        description: "Download the brochure to learn more about Lodha Wakad.",
+        description: "Download the brochure to learn more about Lodha HSR.",
       },
-      title: "Welcome To Lodha Wakad",
-      description: `Located in the heart of Wakad, this landmark development by Lodha is the first-ever Grade A project in the area, setting a new standard for luxury living. Spanning 2.70 acres, it offers spacious residences with innovative horizontal living rooms, expansive decks, and exquisite Italian marble finishes. Designed by globally acclaimed architects, the project boasts a 25,000 sq. ft. rooftop clubhouse featuring an infinity pool, lush landscaped spaces, and thoughtfully curated amenities for leisure and recreation, ensuring a truly elevated lifestyle.  
+      title: "Welcome To Lodha HSR Thane",
+      description: `Discover the epitome of luxury at Lodha Sarjapur**, a premier residential development in the heart of Bangalore. Designed to exceed the expectations of modern homeowners, this exceptional community seamlessly blends contemporary architecture, world-class amenities, and a prime location. Nestled within Bangalore’s thriving landscape, it offers unparalleled access to the city’s vibrant lifestyle, ensuring convenience and connectivity at every turn.  
 
-      Strategically positioned on the Wakad-Bhosari BRTS road, this development provides seamless connectivity to Pune’s key business hubs, top-tier educational institutions, leading hospitals, and premium retail destinations. With world-class infrastructure, elegant architectural design, and an array of modern conveniences, it redefines luxury living in Wakad, offering an unmatched experience for the discerning elite.`,
+      Lodha Sarjapur features meticulously designed apartments that serve as private sanctuaries of comfort and elegance. With expansive layouts, large windows, and a thoughtful approach to space utilization, each home is bathed in natural light, creating an inviting and sophisticated ambiance. Whether you seek style, functionality, or tranquility, these residences offer the perfect balance, elevating your everyday living experience to a new level of opulence.`,
     },
     offer: {
       title: "Booking Open",
-      location: "Lodha Wakad By Lodha Group",
+      location: "At Silver County Road, Bangalore",
       points: [
         { text: "Spot Booking Offers" },
-        { text: "Avail EOI Offers" },
-        { text: "Tallest Tower In Wakad" },
+        { text: "Early Buy Discounts" },
+        { text: "Guaranteed Best Rate" },
       ],
       cta: {
         title: "Book A Free Site Visit",
@@ -110,24 +110,24 @@ export const lodhaWakadSiteConfig = {
       features: [
         {
           title: "Land Parcel",
-          value: "2.70 acres",
+          value: "10 Acres",
         },
         {
           title: "Floors",
-          value: "G+37 Storeys",
+          value: "2B + G + 28 Storeys",
         },
         {
           title: "Total Towers",
-          value: "3",
+          value: "7 Towers",
         },
         {
           title: "Possession",
-          value: "2028",
+          value: "Mar 2027",
         },
       ],
       price: {
-        title: "Premium 3 BHK, 3.5 BHK, 4 BHK , 5 BHK & Penthouse Starts from",
-        value: "₹ 1.89 Cr",
+        title: "Luxurious 3, 3.5 & 4 BHK Starts from",
+        value: "2.5 Cr*",
         suffix: "Onwards",
       },
     },
@@ -136,36 +136,30 @@ export const lodhaWakadSiteConfig = {
   pricing: {
     title: "Pricing Plans",
     description:
-      "Choose from our range of Premium 3 BHK, 3.5 BHK, 4 BHK , 5 BHK & Penthouse, each designed to offer the perfect blend of comfort and sophistication",
+      "Choose from our range of luxurious 3, 4 & 5 BHK residences, each designed to offer the perfect blend of comfort and sophistication",
     prices: [
       {
         type: "3 BHK",
-        carpetArea: "1100-1250 sq.ft.",
-        price: "1.89 Cr*",
+        carpetArea: "1600 - 1700 Sq.Ft.",
+        price: "2.5 Cr",
         suffix: "Onwards",
       },
       {
-        type: "3.5 BHK with Study",
-        carpetArea: "1300-1500 sq.ft.",
-        price: "2.45 Cr*",
+        type: "3.5 BHK",
+        carpetArea: "2000 - 2100 Sq.Ft",
+        price: "3.1 Cr",
+        suffix: "Onwards",
+      },
+      {
+        type: "3 BHK Luxe",
+        carpetArea: "2400 - 2500 Sq.Ft",
+        price: "3.6 Cr",
         suffix: "Onwards",
       },
       {
         type: "4 BHK",
-        carpetArea: "1500-1750 sq.ft.",
-        price: "3.15 Cr*",
-        suffix: "Onwards",
-      },
-      {
-        type: "Limited 5 BHK",
-        carpetArea: "2500 sq.ft.",
-        price: "5 - 6 Cr*",
-        suffix: "Onwards",
-      },
-      {
-        type: "Penthouse",
-        carpetArea: "4000 sq.ft.",
-        price: "9 Cr*",
+        carpetArea: "3300 - 3400 Sq.Ft",
+        price: "5 Cr",
         suffix: "Onwards",
       },
     ],
@@ -175,8 +169,8 @@ export const lodhaWakadSiteConfig = {
     },
     detailPricing: {
       image: {
-        src: "/lodha-wakad/images/costing.jpg",
-        alt: "Lodha Wakad Costing",
+        src: "/lodha-stella/images/costing.webp",
+        alt: "Lodha HSR Costing",
       },
       title: "Need Complete Costing Details?",
       description:
@@ -195,47 +189,62 @@ export const lodhaWakadSiteConfig = {
     masterPlan: {
       title: "Master Plan",
       image: {
-        src: "/lodha-wakad/images/master-plan.png",
+        src: "/lodha-stella/images/master-plan.jpg",
         alt: "Master Plan",
       },
       cta: {
         title: "View Master Plan",
-        description: "Explore the layout of Lodha Wakad",
+        description: "Explore the layout of Lodha HSR",
       },
     },
     floorPlans: {
-      categories: ["All", "3 BHK", "3.5 BHK", "4 BHK","5 BHK", "Penthouse"],
+      categories: ["All", "3 BHK", "4 BHK", "5 BHK"],
       title: "Floor Plans",
       plans: [
         {
-          type: "3 BHK-1100-1250 sq.ft.",
-          image: "/lodha-wakad/images/plancommingsoon.png",
-          category: "3 BHK",  
+          type: "3 BHK-1319 Sq.ft.",
+          image: "/lodha-stella/images/floor-1.jpg",
+          category: "3 BHK",
         },
         {
-          type: "3.5 BHK-1300-1500 sq.ft.",
-          image: "/lodha-wakad/images/floor-2.jpg",
-          category: "3.5 BHK",
-        },
-        {
-          type: "4 BHK-1500-1750 sq.ft.",
-          image: "/lodha-wakad/images/floor-2.jpg",
+          type: "4 BHK-1585 Sq.ft.",
+          image: "/lodha-stella/images/floor-2.jpg",
           category: "4 BHK",
         },
         {
-          type: "5 BHK-2500 sq.ft.",
-          image: "/lodha-wakad/images/floor-2.jpg",
+          type: "4 BHK-2568 + 453 Sq.ft.",
+          image: "/lodha-stella/images/floor-3.jpg",
+          category: "4 BHK",
+        },
+        {
+          type: "4 BHK-3172 + 533 Sq.ft.",
+          image: "/lodha-stella/images/floor-4.jpg",
+          category: "4 BHK",
+        },
+        {
+          type: "4 BHK-2638 Sq.ft.",
+          image: "/lodha-stella/images/floor-1.jpg",
+          category: "4 BHK",
+        },
+        {
+          type: "5 BHK-3170 Sq.ft.",
+          image: "/lodha-stella/images/floor-2.jpg",
           category: "5 BHK",
         },
         {
-          type: "Penthouse-4000 sq.ft.",
-          image: "/lodha-wakad/images/floor-5.png",
-          category: "Penthouse",
+          type: "4 BHK-3313 Sq.ft.",
+          image: "/lodha-stella/images/floor-1.jpg",
+          category: "4 BHK",
+        },
+        {
+          type: "5 BHK-3849 Sq.ft.",
+          image: "/lodha-stella/images/floor-2.jpg",
+          category: "5 BHK",
         },
       ],
       cta: {
         title: "Enquire Now",
-        description: "Explore the layout of Lodha Wakad",
+        description: "Explore the layout of Lodha HSR",
       },
     },
   },
@@ -246,72 +255,72 @@ export const lodhaWakadSiteConfig = {
       "Discover a lifestyle enriched with premium amenities and facilities",
     cta: {
       title: "Download Amenities",
-      description: "Download the amenities of Lodha Wakad",
+      description: "Download the amenities of Lodha HSR",
     },
     amenities: [
       {
         title: "Badminton Court",
-        image: "/lodha-wakad/images/amenities/BADMINTONCOURT.webp",
+        image: "/lodha-stella/images/amenities/6.png",
         description: "",
       },
       {
         title: "Cricket Pitch",
-        image: "/lodha-wakad/images/amenities/CRICKETPITCH.webp",
+        image: "/lodha-stella/images/amenities/1.png",
         description: "",
       },
       {
-        title: "Ganesha Temple",
-        image: "/lodha-wakad/images/amenities/GANESHATEMPLE.webp",
+        title: "Indoor Games Room",
+        image: "/lodha-stella/images/amenities/2.png",
         description: "",
       },
       {
-        title: "Lawn Party",
-        image: "/lodha-wakad/images/amenities/party.webp",
+        title: "Grand Clubhouse",
+        image: "/lodha-stella/images/amenities/3.png",
         description: "",
       },
       {
         title: "Kids Play Area",
-        image: "/lodha-wakad/images/amenities/KIDSPLAYAREA.webp",
+        image: "/lodha-stella/images/amenities/5.png",
         description: "",
       },
       {
         title: "Gym",
-        image: "/lodha-wakad/images/amenities/GYM.webp",
+        image: "/lodha-stella/images/amenities/8.png",
         description: "",
       },
       {
         title: "Indoor Pool",
-        image: "/lodha-wakad/images/amenities/INDOORPOOL.webp",
+        image: "/lodha-stella/images/amenities/1.png",
         description: "",
       },
       {
         title: "Multiple Party Hall",
-        image: "/lodha-wakad/images/amenities/MULTIPLEPARTYHALL.webp",
+        image: "/lodha-stella/images/amenities/7.png",
         description: "",
       },
       {
         title: "Pool Side Cafe",
-        image: "/lodha-wakad/images/amenities/POOLSIDECAFE.webp",
+        image: "/lodha-stella/images/amenities/9.png",
         description: "",
       },
       {
         title: "Pool Side Deck",
-        image: "/lodha-wakad/images/amenities/POOLSIDEDECK.webp",
+        image: "/lodha-stella/images/amenities/4.png",
         description: "",
       },
       {
-        title: "Private Theatre",
-        image: "/lodha-wakad/images/amenities/PRIVATETHEATRE.webp",
+        title: "Lawn party",
+        image: "/lodha-stella/images/amenities/party.webp",
         description: "",
       },
       {
         title: "Carrom & Chess Room",
-        image: "/lodha-wakad/images/amenities/Carrom & Chess Room.png",
+        image: "/lodha-stella/images/amenities/Carrom & Chess Room.png",
         description: "",
       },
     ],
     stats: {
-      title: "40+ World-Class Amenities",
+      title: "32+ World-Class Amenities",
       description: "Everything you need for a luxurious lifestyle",
     },
   },
@@ -322,27 +331,27 @@ export const lodhaWakadSiteConfig = {
       "Experience luxury living through our carefully curated spaces",
     cta: {
       title: "Download Gallery",
-      description: "Download the gallery of Lodha Wakad",
+      description: "Download the gallery of Lodha HSR",
     },
     images: [
       {
         title: "",
-        image: "/lodha-wakad/images/gallery/g11.webp",
+        image: "/lodha-stella/images/gallery/g1.png",
         description: "Elegantly designed living spaces with premium finishes",
       },
       {
         title: "",
-        image: "/lodha-wakad/images/gallery/g22.webp",
+        image: "/lodha-stella/images/gallery/g2.png",
         description: "Breathtaking views of landscaped gardens",
       },
       {
         title: "",
-        image: "/lodha-wakad/images/gallery/gallery-3.webp",
+        image: "/lodha-stella/images/gallery/g3.png",
         description: "Resort-style pool with premium amenities",
       },
       {
         title: "",
-        image: "/lodha-wakad/images/gallery/gallery-4.webp",
+        image: "/lodha-stella/images/gallery/g4.png",
         description: "Spacious bedrooms with modern aesthetics",
       },
     ],
@@ -352,35 +361,23 @@ export const lodhaWakadSiteConfig = {
     title: "Location",
     description: "Strategically located for your convenience",
     googleMapIframe:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23043.32149615698!2d73.76115094999999!3d18.5980019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b97aaf571bed%3A0xc67346ba5a76673!2sWakad%2C%20Pimpri-Chinchwad%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1737805391230!5m2!1sen!2sin",
+    "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7534.965801111333!2d72.977762!3d19.217775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9e06c39cf9f%3A0x28d4cfaf9873e170!2sLodha%20Stella%2C%20Kapurbawdi%2C%20Thane!5e0!3m2!1sen!2sin!4v1736423989717!5m2!1sen!2sin",
     image: {
-      src: "/lodha-wakad/images/map.webp",
+      src: "/lodha-stella/images/map.webp",
       alt: "Location Map",
     },
     landmarks: [
       {
-        title: "Phoenix Mall of the Millennium",
-        description: "5 Mins",
+        title: "Elements Mall",
+        description: "650m",
       },
       {
-        title: "Hilton Garden Inn",
-        description: "8 Mins",
+        title: "Nagawara Metro Station",
+        description: "1.3km",
       },
       {
-        title: "Balewadi Stadium/Shree Shiv Chhatrapati Sports Complex",
-        description: "10 Mins",
-      },
-      {
-        title: "Aditya Birla Memorial Hospital",
-        description: "10 Mins",
-      },
-      {
-        title: "Westend Mall",
-        description: "10 Mins",
-      },
-      {
-        title: "Balewadi High Street",
-        description: "10 Mins",
+        title: "Thanisandra Railway Station",
+        description: "2.7km",
       },
     ],
     location: {
@@ -394,17 +391,17 @@ export const lodhaWakadSiteConfig = {
 
   virtualTour: {
     title: "Virtual Tour Request",
-    description: "Experience Lodha Wakad from the comfort of your home",
+    description: "Experience Lodha HSR from the comfort of your home",
     cta: {
       title: "Request Virtual Tour",
       description: "Schedule at your convenience",
     },
     image: {
-      src: "/lodha-wakad/images/banner-1.png",
+      src: "/lodha-stella/images/banner-1.webp",
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",
-    videoDescription: "Experience Lodha Wakad from the comfort of your home",
+    videoDescription: "Experience Lodha HSR from the comfort of your home",
     features: [
       {
         title: "360° Views",
@@ -425,7 +422,7 @@ export const lodhaWakadSiteConfig = {
     title: "Get The Best Quote",
     bookFreeVisit: {
       image: {
-        src: "/lodha-wakad/images/ride.png",
+        src: "/lodha-stella/images/ride.png",
         alt: "Book a Site Visit",
       },
       cta: {
@@ -465,8 +462,8 @@ export const lodhaWakadSiteConfig = {
       details: [
         {
           title: "",
-          reraNumber: "Comming Soon",
-          qrCode: "/lodha-wakad/images/commingsoon.png",
+          reraNumber: "Rera No. P51700053017",
+          qrCode: "/lodha-stella/images/barcode-1.webp",
         },
       ],
     },
@@ -484,12 +481,12 @@ export const lodhaWakadSiteConfig = {
       {
         title: "RERA Numbers",
         description:
-          "RERA Project Registration No.: Comming Soon",
+          "RERA Project Registration No.:P51700053017",
       },
       {
         title: "Site Address",
         description:
-          "Lodha Wakad: GANGA OSIAN SQUARE, Wakad Rd, Kaspate Wasti, Wakad, Pimpri-Chinchwad, Maharashtra 411057",
+          "Lodha HSR: Kolshet Rd, Kolshet Industrial Area, Thane West, Thane, Maharashtra 400607",
       },
     ],
     disclaimer:
@@ -498,9 +495,9 @@ export const lodhaWakadSiteConfig = {
 
   seo: {
     title:
-      "Lodha Wakad by Lodha Group | Price, Floor Plans, Amenities | Request Brochure",
+      "Lodha HSR by Lodha Group | Price, Floor Plans, Amenities | Request Brochure",
     description:
-      "Experience luxury living at Lodha Wakad, 2 & 3 BHK apartments with world-class amenities.",
+      "Experience luxury living at Lodha HSR, 3,4 & 5 BHK apartments with world-class amenities.",
     keywords: ["luxury apartments", "lodha group", "2 bhk", "3 bhk"],
   },
 
@@ -512,7 +509,7 @@ export const lodhaWakadSiteConfig = {
 
   termsAndConditions: {
     seo: {
-      title: "Terms & Conditions | Lodha Wakad",
+      title: "Terms & Conditions | Lodha HSR",
       description:
         "Please read these terms and conditions carefully before using our website.",
     },
@@ -540,7 +537,7 @@ export const lodhaWakadSiteConfig = {
 
   privacyPolicy: {
     seo: {
-      title: "Privacy Policy | Lodha Wakad",
+      title: "Privacy Policy | Lodha HSR",
       description: "This policy explains how we use your personal information.",
     },
     title: "Privacy Policy",
@@ -561,7 +558,7 @@ export const lodhaWakadSiteConfig = {
 
   cookiesPolicy: {
     seo: {
-      title: "Cookies Policy | Lodha Wakad",
+      title: "Cookies Policy | Lodha HSR",
       description:
         "This policy explains how we use cookies and similar technologies on our website.",
     },
@@ -584,19 +581,19 @@ export const lodhaWakadSiteConfig = {
 
   thankYou: {
     seo: {
-      title: "Lodha Wakad | Thank You",
-      description: "Thank you for your interest in Lodha Wakad",
+      title: "Lodha HSR | Thank You",
+      description: "Thank you for your interest in Lodha HSR",
     },
   },
 
   formSubmission: {
     crm: {
-      formId: "__vtigerWebForm_91",
-      publicId: "beb2c73da167c6766e106c098b547e3e",
+      formId: "__vtigerWebForm_88",
+      publicId: "35ddedb2a4dbe2acce4d1782ef0ac751",
       baseUrl: "https://company133638.od2.vtiger.com",
       __vtrftk: "sid:d0b203e8fb8ff53c5b3673fb24119e03ae930517,1680088576",
       __vtCurrency: "1",
-      name: "Lodha Wakad",
+      name: "Lodha HSR",
       cfLeadsProjectSite: "Swaminarayan City",
       leadSource: "Web",
       emailOptin: "1",
@@ -604,10 +601,10 @@ export const lodhaWakadSiteConfig = {
     email: {
       apiEndpoint: "/api/send-email",
       template: {
-        subject: "New Enquiry from Lodha Wakad",
+        subject: "New Enquiry from Lodha HSR",
       },
     },
   },
 };
 
-export type LodhaWakadSiteConfig = typeof lodhaWakadSiteConfig;
+export type LodhaHSRConfig = typeof lodhaHSRConfig;

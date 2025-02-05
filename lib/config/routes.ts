@@ -13,4 +13,5 @@ export const routes = {
   LodhaStella: "Lodha-Stella",
   LodhaVillaRoyale: "Lodha-Villa-Royale",
   LodhaWakad:"Lodha-Wakad",
+  LodhaHSR:"Lodha-HSR",
 };
