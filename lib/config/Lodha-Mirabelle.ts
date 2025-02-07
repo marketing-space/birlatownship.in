@@ -69,7 +69,7 @@ export const lodhaMirabelleSiteConfig = {
   },
 
   branding: {
-    logo: "/lodha-mirabelle/images/logo.png",
+    logo: "/lodha-mirabelle/images/logo.svg",
     favicon: "/lodha-mirabelle/images/icon.png",
     ogImage: "/lodha-mirabelle/images/og-image.jpg",
   },

@@ -68,7 +68,7 @@ export const lodhaPremierSiteConfig = {
   },
 
   branding: {
-    logo: "/lodha-premier/images/logo.png",
+    logo: "/lodha-premier/images/logo.svg",
     favicon: "/lodha-premier/images/favicon.png",
     ogImage: "/lodha-premier/images/og-image.jpg",
   },

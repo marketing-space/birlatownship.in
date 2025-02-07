@@ -70,7 +70,7 @@ export const lodhaPokhranSiteConfig = {
   },
 
   branding: {
-    logo: "/lodha-pokhran/images/logo.png",
+    logo: "/lodha-pokhran/images/logo.svg",
     favicon: "/lodha-pokhran/images/favicon.png",
     ogImage: "/lodha-pokhran/images/og-image.jpg",
   },

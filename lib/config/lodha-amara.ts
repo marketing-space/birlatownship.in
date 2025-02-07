@@ -69,7 +69,7 @@ export const lodhaAmaraSiteConfig = {
   },
 
   branding: {
-    logo: "/lodha-amara/images/logo.png",
+    logo: "/lodha-amara/images/logo.svg",
     favicon: "/lodha-amara/images/icon.png",
     ogImage: "/lodha-amara/images/og-image.jpg",
   },

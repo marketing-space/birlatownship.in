@@ -69,7 +69,7 @@ export const lodhaRegaliaSiteConfig = {
   },
 
   branding: {
-    logo: "/lodha-regalia/images/logo.png",
+    logo: "/lodha-regalia/images/logo.svg",
     favicon: "/lodha-regalia/images/favicon.png",
     ogImage: "/lodha-regalia/images/og-image.jpg",
   },

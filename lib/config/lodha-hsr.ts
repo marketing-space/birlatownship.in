@@ -69,7 +69,7 @@ export const lodhaHSRConfig = {
   },
 
   branding: {
-    logo: "/lodha-stella/images/logo.png",
+    logo: "/lodha-stella/images/logo.svg",
     favicon: "/lodha-stella/images/Favicon.png",
     ogImage: "/lodha-stella/images/og-image.jpg",
   },

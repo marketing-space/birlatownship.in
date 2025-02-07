@@ -70,7 +70,7 @@ export const lodhaUpperThaneSiteConfig = {
   },
 
   branding: {
-    logo: "/lodha-upper-thane/images/logo.png",
+    logo: "/lodha-upper-thane/images/logo.svg",
     favicon: "/lodha-upper-thane/images/icon.png",
     ogImage: "/lodha-upper-thane/images/og-image.jpg",
   },

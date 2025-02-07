@@ -69,7 +69,7 @@ export const lodhaCrownThaneSiteConfig = {
   },
 
   branding: {
-    logo: "/lodha-crown-thane/images/logo.png",
+    logo: "/lodha-crown-thane/images/logo.svg",
     favicon: "/lodha-crown-thane/images/favicon.png",
     ogImage: "/lodha-crown-thane/images/og-image.jpg",
   },
