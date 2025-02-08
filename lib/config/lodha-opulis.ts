@@ -21,7 +21,7 @@ export const lodhaOpulisSiteConfig = {
     phone: "+919619095795",
     whatsapp: "+919619095795",
     address:
-      "Thane West",
+      "Kalyan Shilphata Road, Dombivli",
   },
   gtmId: "GTM-NZXXNBG4",
   navbar: {
