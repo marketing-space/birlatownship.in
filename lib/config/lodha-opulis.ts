@@ -21,7 +21,7 @@ export const lodhaOpulisSiteConfig = {
     phone: "+919619095795",
     whatsapp: "+919619095795",
     address:
-      "Kalyan Shilphata Road, Dombivli",
+      "Dombivli, Mumbai",
   },
   gtmId: "GTM-NZXXNBG4",
   navbar: {
