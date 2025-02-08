@@ -14,4 +14,5 @@ export const routes = {
   LodhaVillaRoyale: "Lodha-Villa-Royale",
   LodhaWakad:"Lodha-Wakad",
   LodhaHSR:"Lodha-HSR",
+  LodhaOpulis:"Lodha-Opulis",
 };
