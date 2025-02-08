@@ -14,7 +14,7 @@ import { routes } from "./routes";
 const route = routes.LodhaOpulis;
 
 export const lodhaOpulisSiteConfig = {
-  name: "Lodha Opulis Palava",
+  name: "Lodha Opulis",
   about:
     "One of India's leading real estate firms, the Lodha Group is renowned for building urban dream homes that offer refined living. The developer caters to all segments, from luxury to budget residences and has built iconic landmarks all across Mumbai, Thane, and Navi Mumbai. Lodha properties are known to feature quality interiors, state-of-the-art amenities, vast open spaces, and manicured green landscapes. A few of their standout properties are Lodha World Towers in Lower Parel, Lodha Palava in Dombivli, Lodha Crown in Thane, and Lodha Bellagio in Powai.",
   contact: {
@@ -64,7 +64,7 @@ export const lodhaOpulisSiteConfig = {
     ],
     cta: {
       title: "Download Brochure",
-      description: "Download the brochure to learn more about Lodha Opulis Palava",
+      description: "Download the brochure to learn more about Lodha Opulis",
     },
   },
 
@@ -78,20 +78,20 @@ export const lodhaOpulisSiteConfig = {
     banners: [
       {
         src: "/lodha-opulis/images/banner-1.png",
-        alt: "Lodha Opulis Palava Exterior",
+        alt: "Lodha Opulis Exterior",
       },
       {
         src: "/lodha-opulis/images/banner-2.png",
-        alt: "Lodha Opulis Palava Exterior",
+        alt: "Lodha Opulis Exterior",
       },
     ],
     welcome: {
       cta: {
         title: "Download Brochure",
-        description: "Download the brochure to learn more about Lodha Opulis Palava.",
+        description: "Download the brochure to learn more about Lodha Opulis.",
       },
-      title: "Welcome To Lodha Opulis Palava Thane",
-      description: `Lodha Opulis Palava is a 50-acre masterpiece that redefines luxury living in MMR. Designed by renowned architect Hafeez Contractor, this Art Deco-inspired landmark features the region’s largest 1 lakh sq. ft. clubhouse, seamlessly integrated with over 30 acres of lush open spaces. Offering a perfect balance of elegance and tranquility, it provides a serene escape from the city's hustle while embodying sophistication at its finest.  
+      title: "Welcome To Lodha Opulis Thane",
+      description: `Lodha Opulis is a 50-acre masterpiece that redefines luxury living in MMR. Designed by renowned architect Hafeez Contractor, this Art Deco-inspired landmark features the region’s largest 1 lakh sq. ft. clubhouse, seamlessly integrated with over 30 acres of lush open spaces. Offering a perfect balance of elegance and tranquility, it provides a serene escape from the city's hustle while embodying sophistication at its finest.  
 
       Designed for the elite, Lodha Opulis presents exquisite 3 BHK residences, penthouses, and duplexes, each featuring expansive private decks and state-of-the-art amenities. From an indoor swimming pool to private dining rooms and grand double-height lobbies, every detail is meticulously curated to offer an exclusive and refined lifestyle.`,
     },
@@ -151,7 +151,7 @@ export const lodhaOpulisSiteConfig = {
     detailPricing: {
       image: {
         src: "/lodha-opulis/images/costing.jpg",
-        alt: "Lodha Opulis Palava Costing",
+        alt: "Lodha Opulis Costing",
       },
       title: "Need Complete Costing Details?",
       description:
@@ -175,7 +175,7 @@ export const lodhaOpulisSiteConfig = {
       },
       cta: {
         title: "View Master Plan",
-        description: "Explore the layout of Lodha Opulis Palava",
+        description: "Explore the layout of Lodha Opulis",
       },
     },
     floorPlans: {
@@ -195,7 +195,7 @@ export const lodhaOpulisSiteConfig = {
       ],
       cta: {
         title: "Enquire Now",
-        description: "Explore the layout of Lodha Opulis Palava",
+        description: "Explore the layout of Lodha Opulis",
       },
     },
   },
@@ -206,7 +206,7 @@ export const lodhaOpulisSiteConfig = {
       "Discover a lifestyle enriched with premium amenities and facilities",
     cta: {
       title: "Download Amenities",
-      description: "Download the amenities of Lodha Opulis Palava",
+      description: "Download the amenities of Lodha Opulis",
     },
     amenities: [
       {
@@ -282,7 +282,7 @@ export const lodhaOpulisSiteConfig = {
       "Experience luxury living through our carefully curated spaces",
     cta: {
       title: "Download Gallery",
-      description: "Download the gallery of Lodha Opulis Palava",
+      description: "Download the gallery of Lodha Opulis",
     },
     images: [
       {
@@ -354,7 +354,7 @@ export const lodhaOpulisSiteConfig = {
 
   virtualTour: {
     title: "Virtual Tour Request",
-    description: "Experience Lodha Opulis Palava from the comfort of your home",
+    description: "Experience Lodha Opulis from the comfort of your home",
     cta: {
       title: "Request Virtual Tour",
       description: "Schedule at your convenience",
@@ -364,7 +364,7 @@ export const lodhaOpulisSiteConfig = {
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",
-    videoDescription: "Experience Lodha Opulis Palava from the comfort of your home",
+    videoDescription: "Experience Lodha Opulis from the comfort of your home",
     features: [
       {
         title: "360° Views",
@@ -449,7 +449,7 @@ export const lodhaOpulisSiteConfig = {
       {
         title: "Site Address",
         description:
-          "Lodha Opulis Palava:Kalyan Shilphata Road, Dombivli, Maharashtra",
+          "Lodha Opulis:Kalyan Shilphata Road, Dombivli, Maharashtra",
       },
     ],
     disclaimer:
@@ -458,9 +458,9 @@ export const lodhaOpulisSiteConfig = {
 
   seo: {
     title:
-      "Lodha Opulis Palava by Lodha Group | Price, Floor Plans, Amenities | Request Brochure",
+      "Lodha Opulis by Lodha Group | Price, Floor Plans, Amenities | Request Brochure",
     description:
-      "Experience luxury living at Lodha Opulis Palava, 3 BHK apartments with world-class amenities.",
+      "Experience luxury living at Lodha Opulis, 3 BHK apartments with world-class amenities.",
     keywords: ["luxury apartments", "lodha group","3 bhk"],
   },
 
@@ -472,7 +472,7 @@ export const lodhaOpulisSiteConfig = {
 
   termsAndConditions: {
     seo: {
-      title: "Terms & Conditions | Lodha Opulis Palava",
+      title: "Terms & Conditions | Lodha Opulis",
       description:
         "Please read these terms and conditions carefully before using our website.",
     },
@@ -500,7 +500,7 @@ export const lodhaOpulisSiteConfig = {
 
   privacyPolicy: {
     seo: {
-      title: "Privacy Policy | Lodha Opulis Palava",
+      title: "Privacy Policy | Lodha Opulis",
       description: "This policy explains how we use your personal information.",
     },
     title: "Privacy Policy",
@@ -521,7 +521,7 @@ export const lodhaOpulisSiteConfig = {
 
   cookiesPolicy: {
     seo: {
-      title: "Cookies Policy | Lodha Opulis Palava",
+      title: "Cookies Policy | Lodha Opulis",
       description:
         "This policy explains how we use cookies and similar technologies on our website.",
     },
@@ -544,8 +544,8 @@ export const lodhaOpulisSiteConfig = {
 
   thankYou: {
     seo: {
-      title: "Lodha Opulis Palava | Thank You",
-      description: "Thank you for your interest in Lodha Opulis Palava",
+      title: "Lodha Opulis | Thank You",
+      description: "Thank you for your interest in Lodha Opulis",
     },
   },
 
@@ -564,7 +564,7 @@ export const lodhaOpulisSiteConfig = {
     email: {
       apiEndpoint: "/api/send-email",
       template: {
-        subject: "New Enquiry from Lodha Opulis Palava",
+        subject: "New Enquiry from Lodha Opulis",
       },
     },
   },
