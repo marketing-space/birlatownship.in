@@ -90,7 +90,7 @@ export const lodhaOpulisSiteConfig = {
         title: "Download Brochure",
         description: "Download the brochure to learn more about Lodha Opulis.",
       },
-      title: "Welcome To Lodha Opulis Thane",
+      title: "Welcome To Lodha Opulis",
       description: `Lodha Opulis is a 50-acre masterpiece that redefines luxury living in MMR. Designed by renowned architect Hafeez Contractor, this Art Deco-inspired landmark features the region’s largest 1 lakh sq. ft. clubhouse, seamlessly integrated with over 30 acres of lush open spaces. Offering a perfect balance of elegance and tranquility, it provides a serene escape from the city's hustle while embodying sophistication at its finest.  
 
       Designed for the elite, Lodha Opulis presents exquisite 3 BHK residences, penthouses, and duplexes, each featuring expansive private decks and state-of-the-art amenities. From an indoor swimming pool to private dining rooms and grand double-height lobbies, every detail is meticulously curated to offer an exclusive and refined lifestyle.`,
