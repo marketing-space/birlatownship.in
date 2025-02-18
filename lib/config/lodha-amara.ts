@@ -23,7 +23,7 @@ export const lodhaAmaraSiteConfig = {
     address:
       "Thane West",
   },
-  gtmId: "GTM-54RP9RX",
+  gtmId: "GTM-5ZG8PDVB",
   navbar: {
     navItems: [
       {

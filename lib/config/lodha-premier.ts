@@ -22,7 +22,7 @@ export const lodhaPremierSiteConfig = {
     whatsapp: "+919619095795",
     address: "Kalyan- Shil Road Dombivli East",
   },
-  gtmId: "GTM-TSFFTV9",
+  gtmId: "GTM-PK566BTG",
   navbar: {
     navItems: [
       {
@@ -76,7 +76,11 @@ export const lodhaPremierSiteConfig = {
   hero: {
     banners: [
       {
-        src: "/lodha-premier/images/banner-1.webp",
+        src: "/lodha-premier/images/ban1.png",
+        alt: "Lodha Premier Exterior",
+      },
+      {
+        src: "/lodha-premier/images/ban2.png",
         alt: "Lodha Premier Exterior",
       },
     ],
@@ -397,7 +401,7 @@ export const lodhaPremierSiteConfig = {
       description: "Schedule at your convenience",
     },
     image: {
-      src: "/lodha-premier/images/banner-1.webp",
+      src: "/lodha-premier/images/ban1.png",
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",
