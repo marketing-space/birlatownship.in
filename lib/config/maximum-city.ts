@@ -185,7 +185,7 @@ export const maxmiumCityConfig = {
     masterPlan: {
       title: "Master Plan",
       image: {
-        src: "/maximum-city/images/masterplan.webp",
+        src: "/maximum-city/images/Masterplan.webp",
         alt: "Master Plan",
       },
       cta: {
