@@ -8,9 +8,7 @@ import { useEffect, useState } from "react";
 import { getSiteConfig } from "@/lib/config";
 import { useSite } from "@/lib/context/site-context";
 import { GoogleTagManager } from "@next/third-parties/google";
-import { developer } from "@/components/navbar";
 
-const brand = developer;
 // Animation variants
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -72,12 +70,12 @@ export default function ThankYouPage() {
   // Add redirect effect
   useEffect(() => {
     const redirectTimer = setTimeout(() => {
-      router.push(`/${brand}/${site}/#home`);
+      router.push(`/${site}/#home`);
     }, countdown * 1000);
 
     // Cleanup timer
     return () => clearTimeout(redirectTimer);
-  }, [countdown, router]);
+  }, [countdown, router ,site]);
 
   // Add countdown effect
   useEffect(() => {
@@ -148,7 +146,7 @@ export default function ThankYouPage() {
         >
           <Button
             className="gap-2 group relative overflow-hidden"
-            onClick={() => router.push(`/${brand}/${site}/#home`)}
+            onClick={() => router.push(`/${site}/#home`)}
           >
             <motion.div
               className="absolute inset-0 bg-primary/10"
