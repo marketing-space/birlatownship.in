@@ -78,11 +78,11 @@ export const evaraHeightsConfig = {
   hero: {
     banners: [
       {
-        src: "/evaraheights/images/Webbanner.webp",
-        alt: "L&T Evara Heights.", 
+        src: "/evaraheights/images/banner-1.webp",
+        alt: "L&T Evara Heights.",
       },
       {
-        src: "/evaraheights/images/Phonebanner.webp",
+        src: "/evaraheights/images/banner-2.webp",
         alt: "L&T Evara Heights Interior",
       },
     ],
@@ -93,9 +93,19 @@ export const evaraHeightsConfig = {
           "Download the brochure to learn more about L&T Evara Heights.",
       },
       title: "Welcome to L&T Evara Heights",
-      description: `L&T Evara Heights, situated behind Viviana Mall on Pokhran Road, Thane, offers meticulously designed 2, 3, and 4 BHK apartments that maximize functionality and efficiency. These Vastu-compliant homes are well-ventilated, naturally lit, and provide stunning views of the Thane skyline and Yeoor Hills. The IGBC Gold-certified community features a host of lifestyle amenities, including a cycling track, banquet hall, gymnasium, pickleball court, infinity swimming pool, indoor games, jogging track, yoga and meditation area, and a kids' play area, catering to all age groups.
+      description: `L&T Evara Heights is a thoughtfully designed gated community nestled just behind Viviana Mall on Pokhran Road, Thane. Offering spacious 2, 3, and 4 BHK residences with private sundecks, the homes provide captivating views of the Yeoor Hills and the Thane skyline. Each tower features modern elevations with an east-west orientation to ensure ample natural light and cross-ventilation throughout the day.
 
-      The prime location of L&T Evara Heights ensures seamless access to top schools like DAV Public School, Lodha World School, and New Horizon Scholars School, as well as healthcare facilities such as Jupiter Hospital and Infinity Medisurge Speciality Hospital. Retail and entertainment options abound with High Street Mall, Viviana Mall, and Dmart nearby. Connectivity is enhanced by the Eastern Express Highway, Ghodbunder Road, LBS Marg, and Thane-Belapur Road, linking residents to key areas in South Mumbai, Western Suburbs, Powai, Vikhroli, and Navi Mumbai. The upcoming Cadbury Junction metro station will further improve accessibility, making L&T Evara Heights an ideal choice for modern living.`,
+Every apartment is intelligently planned to maximise space, privacy, and functionality. These fully air-conditioned homes are equipped with smart home automation, elegant marble flooring, premium fittings, and impressive floor-to-ceiling heights for a truly luxurious living experience.
+
+As an IGBC Gold Certified development, L&T Evara Heights boasts over 1 lakh sq. ft. of world-class amenities. Residents can enjoy a banquet hall, infinity-edge swimming pool, yoga and meditation zones, gymnasium, jogging and cycling tracks, pickleball court, indoor games, and more — all designed to foster an active and balanced lifestyle.
+
+Located in one of Thane’s most sought-after neighbourhoods, the community offers excellent social infrastructure. Renowned schools like DAV Public School, New Horizon Scholars School, and Lodha World School, along with top medical centres such as Jupiter Hospital and Infinity Medisurge, are all close by. Premier retail and commercial hubs including Viviana Mall, High Street Mall, ThaneOne Corporate Park, and NaMo Grand Central Park are within easy reach.
+
+Connectivity is another strong advantage. The project enjoys seamless access to the Eastern Express Highway and Ghodbunder Road, linking residents to the Western Express Highway, South Mumbai, Powai, and the Central Suburbs via LBS Marg. Thane Railway Station is easily accessible, and the upcoming Cadbury Junction Metro Station is just 5 minutes away.
+
+L&T Evara Heights is more than a residential complex — it’s an exclusive address for a refined community, set in the privileged locale of Pokhran Road, Thane.
+
+`,
     },
     offer: {
       title: "Booking Open: Limited Time Only",
@@ -125,7 +135,7 @@ export const evaraHeightsConfig = {
       ],
       price: {
         title: "Luxurious 2, 3 & 4 BHK Starts At",
-        value: "₹ 1.78 Cr",
+        value: "1.86  Cr",
         suffix: "Onwards",
       },
     },
@@ -139,32 +149,44 @@ export const evaraHeightsConfig = {
       {
         type: "2 BHK",
         carpetArea: "750 Sq.ft.",
-        price: "1.65 Cr",
+        price: "1.86 Cr",
         suffix: "Onwards",
       },
       {
         type: "2 BHK",
         carpetArea: "850 Sq.ft.",
-        price: "1.95 Cr",
+        price: "2.08 Cr",
         suffix: "Onwards",
       },
       {
         type: "3 BHK",
-        carpetArea: "1050 Sq.ft.",
-        price: "2.95 Cr",
+        carpetArea: "1057 Sq.ft.",
+        price: "2.45 Cr",
+        suffix: "Onwards",
+      },
+      {
+        type: "3 BHK",
+        carpetArea: "1088 Sq.ft.",
+        price: "2.54 Cr",
+        suffix: "Onwards",
+      },
+      {
+        type: "3 BHK",
+        carpetArea: "1214 Sq.ft.",
+        price: "2.63 Cr",
         suffix: "Onwards",
       },
       {
         type: "4 BHK",
-        carpetArea: "1950 Sq.ft.",
-        price: "4.98 Cr",
-        suffix: "Onwards",
+        carpetArea: "1930 Sq.ft.",
+        price: "On Request",
+        suffix: "",
       },
       {
         type: "4 BHK",
-        carpetArea: "2250 Sq.ft.",
-        price: "5.76 Cr",
-        suffix: "Onwards",
+        carpetArea: "2235 Sq.ft.",
+        price: "On Request",
+        suffix: "",
       },
     ],
     cta: {
@@ -211,17 +233,17 @@ export const evaraHeightsConfig = {
           category: "2 BHK",
         },
         {
-          type: "2 BHK-1050 Sq.ft.",
+          type: "2 BHK-850 Sq.ft.",
           image: "/evaraheights/images/plan2.jpg",
           category: "2 BHK",
         },
         {
-          type: "3 BHK-1050 Sq.ft.",
+          type: "3 BHK-1057 Sq.ft.",
           image: "/evaraheights/images/plan3.jpg",
           category: "3 BHK",
         },
         {
-          type: "3 BHK-1250 Sq.ft.",
+          type: "3 BHK-1214 Sq.ft.",
           image: "/evaraheights/images/plan4.jpg",
           category: "3 BHK",
         },
@@ -243,63 +265,58 @@ export const evaraHeightsConfig = {
     },
     amenities: [
       {
-        title: "Badminton Court",
-        image: "/evaraheights/images/amenities/BADMINTONCOURT.webp",
+        title: "Jogging Track",
+        image: "/evaraheights/images/amenities/joggingpath_1.webp",
         description: "",
       },
       {
-        title: "Cricket Pitch",
-        image: "/evaraheights/images/amenities/CRICKETPITCH.webp",
-        description: "",
-      },
-      {
-        title: "Carrom & Chess Room",
-        image: "/evaraheights/images/amenities/Carrom & Chess Room.png",
-        description: "",
-      },
-      {
-        title: "Royal Garden",
-        image: "/evaraheights/images/amenities/garden-3.webp",
+        title: "Banquet Hall",
+        image: "/evaraheights/images/amenities/BanquetHall.webp",
         description: "",
       },
       {
         title: "Gymnasium",
-        image: "/evaraheights/images/amenities/Gymnasium.png",
-        description: "",
-      },
-      {
-        title: "Indoor pool",
-        image: "/evaraheights/images/amenities/pool.png",
-        description: "",
-      },
-      {
-        title: "Kids Play Area",
-        image: "/evaraheights/images/amenities/KIDSPLAYAREA.webp",
-        description: "",
-      },
-      {
-        title: "Yoga & Meditation Club",
-        image: "/evaraheights/images/amenities/yoga-1.webp",
-        description: "",
-      },
-      {
-        title: "Multipurpose Hall",
-        image: "/evaraheights/images/amenities/MULTIPLEPARTYHALL.webp",
-        description: "",
-      },
-      {
-        title: "Poolside Cafe",
-        image: "/evaraheights/images/amenities/POOLSIDECAFE.webp",
-        description: "",
-      },
-      {
-        title: "Private Theatre",
-        image: "/evaraheights/images/amenities/PRIVATETHEATRE.webp",
+        image: "/evaraheights/images/amenities/gym_01.webp",
         description: "",
       },
       {
         title: "Pickleball Court",
         image: "/evaraheights/images/amenities/pickleballcourt.webp",
+        description: "",
+      },
+      {
+        title: "Infinity Swimming Pool",
+        image: "/evaraheights/images/amenities/InfinitySwimmingPool.webp",
+        description: "",
+      },
+      {
+        title: "Cycling Track",
+        image: "/evaraheights/images/amenities/cycling20path_1.webp",
+        description: "",
+      },
+      {
+        title: "Landscaped Gardens",
+        image: "/evaraheights/images/amenities/landscapedgreens.webp",
+        description: "",
+      },
+      {
+        title: "Kids Play Area",
+        image: "/evaraheights/images/amenities/kidsplayarea1.webp",
+        description: "",
+      },
+      {
+        title: "Multipurpose Hall",
+        image: "/evaraheights/images/amenities/multipurposehall.webp",
+        description: "",
+      },
+      {
+        title: "Indoor Games",
+        image: "/evaraheights/images/amenities/IndoorGameRoom.webp",
+        description: "",
+      },
+      {
+        title: "Yoga & Meditation Zone",
+        image: "/evaraheights/images/amenities/yogazone_1.webp",
         description: "",
       },
     ],
@@ -345,7 +362,7 @@ export const evaraHeightsConfig = {
     title: "Location",
     description: "Strategically located for your convenience",
     googleMapIframe:
-    "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d45839.94641954619!2d72.97072!3d19.209749!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b920b01f1a55%3A0x61761321577e7e16!2sL%26T%20Realty%20Evara%20Heights%20Thane%20Sales%20Office!5e1!3m2!1sen!2sin!4v1736597128585!5m2!1sen!2sin" ,
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d45839.94641954619!2d72.97072!3d19.209749!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b920b01f1a55%3A0x61761321577e7e16!2sL%26T%20Realty%20Evara%20Heights%20Thane%20Sales%20Office!5e1!3m2!1sen!2sin!4v1736597128585!5m2!1sen!2sin",
     image: {
       src: "/evaraheights/images/LocationMap.webp",
       alt: "Location Map",
@@ -393,7 +410,7 @@ export const evaraHeightsConfig = {
       description: "Schedule at your convenience",
     },
     image: {
-      src: "/evaraheights/images/Webbanner.webp",
+      src: "/evaraheights/images/banner-1.webp",
       alt: "Virtual Tour",
     },
     videoTitle: "Virtual Tour",
