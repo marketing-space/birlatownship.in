@@ -215,8 +215,8 @@ export const mahimConfig = {
     },
     amenities: [
       {
-        title: "Badminton Court",
-        image: "/mahim/images/amenities/BADMINTONCOURT.webp",
+        title: "Convenience Store",
+        image: "/mahim/images/amenities/conveniencestore1.webp",
         description: "",
       },
       {
@@ -225,33 +225,13 @@ export const mahimConfig = {
         description: "",
       },
       {
-        title: "Indoor Games Room",
-        image: "/mahim/images/amenities/Carrom & Chess Room.png",
-        description: "",
-      },
-      {
-        title: "Senior Citizen Corner",
-        image: "/mahim/images/amenities/seniorcitizencorner.webp",
-        description: "",
-      },
-      {
-        title: "Gymnasium",
-        image: "/mahim/images/amenities/Gymnasium.png",
-        description: "",
-      },
-      {
-        title: "Indoor pool",
-        image: "/mahim/images/amenities/pool.png",
-        description: "",
-      },
-      {
         title: "Kids Play Area",
         image: "/mahim/images/amenities/KIDSPLAYAREA.webp",
         description: "",
       },
       {
-        title: "Yoga & Meditation Club",
-        image: "/mahim/images/amenities/yoga-1.webp",
+        title: "Gym",
+        image: "/mahim/images/amenities/Gymnasium.png",
         description: "",
       },
       {
@@ -260,18 +240,39 @@ export const mahimConfig = {
         description: "",
       },
       {
-        title: "Poolside Cafe",
+        title: "Reflexology Track",
+        image: "/mahim/images/amenities/reflexologytrack6.webp",
+        description: "",
+      },
+      {
+        title: "Spa",
+        image: "/mahim/images/amenities/seniorcitizencorner.webp",
+        description: "",
+      },
+      {
+        title: "Swimming Pool",
+        image: "/mahim/images/amenities/pool.png",
+        description: "",
+      },
+      {
+        title: "Walking Path",
+        image: "/mahim/images/amenities/yoga-1.webp",
+        description: "",
+      },
+      
+      {
+        title: "Yoga Zone",
         image: "/mahim/images/amenities/POOLSIDECAFE.webp",
         description: "",
       },
       {
-        title: "Private Theatre",
+        title: "Mini Theatre",
         image: "/mahim/images/amenities/PRIVATETHEATRE.webp",
         description: "",
       },
       {
-        title: "Clubhouse",
-        image: "/mahim/images/amenities/clubhouse.webp",
+        title: "Library ",
+        image: "/mahim/images/amenities/library_01.webp",
         description: "",
       },
     ],
