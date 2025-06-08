@@ -128,7 +128,7 @@ export default function EnquireSection({
                 <FormItem>
                   <FormControl>
                     <Input
-                      placeholder="Enter your name"
+                      placeholder="Enter Your Name"
                       {...field}
                       required
                       className={cn(
@@ -149,7 +149,7 @@ export default function EnquireSection({
                   <FormControl>
                     <PhoneInput
                       defaultCountry="IN"
-                      placeholder="Enter phone number"
+                      placeholder="Enter Phone Number"
                       {...field}
                       required
                       className={cn(
@@ -169,7 +169,7 @@ export default function EnquireSection({
                 <FormItem>
                   <FormControl>
                     <Input
-                      placeholder="Enter your email (optional)"
+                      placeholder="Enter Your Email (optional)"
                       {...field}
                       type="email"
                       className="bg-white border-gray-300"
