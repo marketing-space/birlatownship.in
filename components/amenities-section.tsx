@@ -49,7 +49,7 @@ export default function AmenitiesSection() {
           <span className="text-primary">
             {amenities.stats.title.split(" ")[0]}
           </span>{" "}
-          {amenities.stats.title.split(" ")[1]}
+          {amenities.stats.title.split(" ").splice(1).join(" ")}
         </p>
         <p className="text-sm text-gray-600 mt-1">
           {amenities.stats.description}

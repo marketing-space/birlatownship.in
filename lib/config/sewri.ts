@@ -101,9 +101,9 @@ export const sewriConfig = {
       title: "Booking Open: Limited Time Only",
       location: "At Sewri by L&T Realty",
       points: [
-        { text: "Every Booking:50% Stamp Duty Refund" },
-        { text: "Book Now & Save Up To ₹24 Lacs*" },
-        { text: "20:80 Payment Plan : 1st 18 Units" },
+        { text: "Get Offers for Limited Inventory" },
+        { text: "Book Now For Big Savings upto ₹45L*" },
+        { text: "Avail Payment Plan of 20:40:40" },
       ],
       cta: {
         title: "Book A Free Site Visit",
@@ -339,7 +339,7 @@ export const sewriConfig = {
     title: "Location",
     description: "Strategically located for your convenience",
     googleMapIframe:
-    "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d873974.6926092161!2d72.855778!3d18.995355!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cfc2fa220e3d%3A0x261d0adfc3e0f9c3!2sLnT%20MTHL%20-%20Pk1%20-%20New%20Project%20Office!5e1!3m2!1sen!2sin!4v1741519017681!5m2!1sen!2sin",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.1050135490233!2d72.85286407221373!3d19.001203300000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cfb19bcaa7f9%3A0x7e82e2d83a779a90!2sL%26T%20Realty%20The%20Gateway%2C%20Parel%20Ext.!5e0!3m2!1sen!2sin!4v1752214249806!5m2!1sen!2sin",
     image: {
       src: "/sewri/images/LocationMap.webp",
       alt: "Location Map",

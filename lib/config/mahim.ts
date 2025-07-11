@@ -112,7 +112,7 @@ export const mahimConfig = {
       features: [
         {
           title: "Land Parcel",
-          value: "At Mahim by L&T Realty",
+          value: "5.5 Acres",
         },
         {
           title: "Floors",
@@ -125,7 +125,7 @@ export const mahimConfig = {
       ],
       price: {
         title: "Newly Launched 2 & 3 BHK Starts from",
-        value: "2.90 Cr",
+        value: "2.75 Cr",
         suffix: "Onwards",
       },
     },
@@ -138,8 +138,8 @@ export const mahimConfig = {
     prices: [
       {
         type: "2 BHK",
-        carpetArea: "733 - 880 Sq.ft.",
-        price: "2.90 Cr",
+        carpetArea: "687 - 810 Sq.ft.",
+        price: "2.75 Cr",
         suffix: "Onwards",
       },
       {
@@ -435,7 +435,7 @@ export const mahimConfig = {
     rera: {
       title: "RERA Information",
       description:
-        "L and T Realty Evara Heights is available on the website <a href='https://maharera.mahaonline.gov.in/'>https://maharera.mahaonline.gov.in/</a> under registered projects.",
+        "L and T Realty Evara Heights has been registered via MahaRERA registration number: P51900046369 and is available on the website https://maharera.mahaonline.gov.in/ under registered projects.",
       details: [
         {
           title: "L&T Island Cove MahaRERA ",

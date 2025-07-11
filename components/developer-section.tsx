@@ -17,7 +17,7 @@ export default function DeveloperSection() {
         </div>
         <div className="rounded-xl mb-4">
           <h2 className="text-2xl font-bold text-gray-900 mb-2">
-            About {name}
+            About {name.split(" ")[0]} Group
           </h2>
           <p className="text-gray-600 leading-relaxed">{about}</p>
         </div>

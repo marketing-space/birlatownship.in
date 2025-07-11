@@ -45,7 +45,7 @@ export default function MobileActionBar() {
           className="flex gap-2 items-center justify-center h-14 rounded-none bg-primary text-white hover:bg-gray-50 rounded-r-full"
           onClick={() =>
             window.open(
-              `https://api.whatsapp.com/send?phone=${contact.whatsapp}&text=I am Interested in ${name} at ${contact.address}. Please Send me details.`
+              `https://api.whatsapp.com/send?phone=${contact.whatsapp}&text=${encodeURIComponent(`I am Interested in ${name} at ${contact.address}. Please Send me details.`)}`
             )
           }
         >
