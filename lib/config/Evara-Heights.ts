@@ -126,7 +126,7 @@ L&T Evara Heights is more than a residential complex — it’s an exclusive add
         },
         {
           title: "Floors",
-          value: "56 Floors",
+          value: "G +56 Floors",
         },
         {
           title: "Possession",
