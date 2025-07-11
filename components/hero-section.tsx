@@ -65,7 +65,7 @@ export default function HeroSection() {
             </div>
 
             <motion.div
-              className="border-t border-gray-200 p-3 rounded-xl bg-gradient-to-r from-primary/20 to-primary/60 relative overflow-hidden"
+              className="border-t border-gray-200 p-3 rounded-xl bg-gradient-to-r from-red-700/60 to-primary/60 relative overflow-hidden"
               animate={{
                 backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
               }}
@@ -95,7 +95,7 @@ export default function HeroSection() {
                 {hero.offer.points.map((point, index) => (
                   <div
                     key={index}
-                    className="flex items-center text-sm text-primary"
+                    className="flex items-center text-sm text-white font-bold"
                   >
                     <span className="inline-block w-2 h-2 bg-primary rounded-full mr-2" />
                     <span>{point.text}</span>
