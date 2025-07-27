@@ -81,7 +81,7 @@ export const evamConfig = {
         alt: "Birla Evam Manjri.", 
       },
       {
-        src: "/evam/images/B  2.webp",
+        src: "/evam/images/B2.webp",
         alt: "Birla Evam Manjri Interior",
       },
     ],
