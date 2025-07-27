@@ -16,7 +16,7 @@ const route = routes.Evam;
 export const evamConfig = {
   name: "Birla Evam Manjri",
   about:
-    "The real estate arm of Larsen and Toubro, L&T Realty, was established in 2011. The firm is famous for developing residential, retail, and commercial real estate buildings that stand out for their unique and sleek designs. Besides building the Grand Central Mall in Seawoods, it is famous for its beautiful residential complexes across popular locales such as Powai, South Bombay, and Navi Mumbai.",
+    "Birla Estates, the real estate arm of the Aditya Birla Group, is renowned for developing world-class residential, commercial, and mixed-use projects across India. With a strong presence in key metropolitan cities like **Mumbai, Bangalore, and Gurugram (NCR)**, the company has earned a reputation for quality, innovation, and trust.In **November 2024**, Birla Estates was officially rebranded as **Aditya Birla Real Estate**, marking a new chapter in its journey of excellence. Headquartered in **Mumbai**, the company also operates premium regional offices in **Mumbai**, **Bangalore**, and the **NCR** region.A wholly owned subsidiary of **Century Textiles and Industries Ltd.**, the firm is led by CEO **K. T. Jithendran**. As part of the prestigious **Aditya Birla Group**, a global conglomerate founded in **1875**, Birla Estates continues to shape the future of real estate in India with integrity, vision, and innovation.",
   contact: {
     phone: "+919619095795",
     whatsapp: "+919619095795",
