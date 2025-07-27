@@ -22,7 +22,7 @@ export const evamConfig = {
     whatsapp: "+919619095795",
     address: "Manjiri-Hadapsar, Pune",
   },
-  gtmId: "GTM-MF3LMKVW",
+  gtmId: "GTM-P7ST6K6T",
   navbar: {
     navItems: [
       {
@@ -77,11 +77,11 @@ export const evamConfig = {
   hero: {
     banners: [
       {
-        src: "/evam/images/b1.webp",
+        src: "/evam/images/B1.webp",
         alt: "Birla Evam Manjri.", 
       },
       {
-        src: "/evam/images/b2.webp",
+        src: "/evam/images/B  2.webp",
         alt: "Birla Evam Manjri Interior",
       },
     ],
@@ -568,12 +568,12 @@ Nestled in the rapidly developing **Hadapsar Annex**, Birla Manjri enjoys seamle
 
   formSubmission: {
     crm: {
-      formId: "__vtigerWebForm_117",
-      publicId: "b1503e3ac69fef4d945f8b5abd31559c",
+      formId: "__vtigerWebForm_134",
+      publicId: "1af87c30bb3d17bc3239f59cb9c1e187",
       baseUrl: "https://company133638.od2.vtiger.com",
       __vtrftk: "sid:d0b203e8fb8ff53c5b3673fb24119e03ae930517,1680088576",
       __vtCurrency: "1",
-      name: "LT Island Cove",
+      name: "Birla Evam",
       cfLeadsProjectSite: "Swaminarayan City",
       leadSource: "Web",
       emailOptin: "1",
