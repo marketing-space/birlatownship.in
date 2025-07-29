@@ -475,12 +475,12 @@ Nestled in the rapidly developing **Hadapsar Annex**, Birla Manjri enjoys seamle
   },
 
   seo: {
-    title: "Birla Evam Manjri | Luxury Apartments in Thane",
+    title: "Birla Evam Manjri | Luxury Apartments in Pune",
     description:
-      "Experience luxury living at Birla Evam Manjri, Thane. 2 & 3 BHK apartments with world-class amenities.",
+      "Experience luxury living at Birla Evam Manjri, Pune. 2 & 3 BHK apartments with world-class amenities.",
     keywords: [
       "luxury apartments",
-      "thane west",
+      "pune",
       "Birla Evam Manjri",
       "2 bhk",
       "3 bhk",
