@@ -464,11 +464,6 @@ Nestled in the rapidly developing **Hadapsar Annex**, Birla Manjri enjoys seamle
         description:
           "Site Address: Birla Evam Manjri: evam West, Mumbai, Maharashtra 400016",
       },
-      {
-        title: "Corporate Office",
-        description:
-          "Corporate Office: L&T Realty: L&T House, Ballard Estate, Mumbai, India",
-      },
     ],
     disclaimer:
       "The content is for information purposes only and does not constitute an offer to avail of any service. Prices mentioned are subject to change without notice and properties mentioned are subject to availability. Images for representation purposes only. This is the official website of authorized marketing partner. We may also send updates to the mobile number/email id registered with us. All Rights Reserved.",
