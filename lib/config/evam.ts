@@ -100,9 +100,9 @@ Nestled in the rapidly developing **Hadapsar Annex**, Birla Manjri enjoys seamle
       title: "Booking Open: Limited Time Only",
       location: "At Manjri-Hadapsar by Birla Estates",
       points: [
-        { text: "PRE-Launch discount ₹2 Lacs" },
-        { text: "Spot Booking Offer Upto ₹2 Lacs" },
-        { text: "Token Amount Starts from ₹50,000" },
+        { text: "Get Instant Benefits On Spot Booking" },
+        { text: "Save Big With Early Buy Discounts" },
+        { text: "Flexipay For First 100 Customers" },
       ],
       cta: {
         title: "Book A Free Site Visit",
@@ -119,12 +119,12 @@ Nestled in the rapidly developing **Hadapsar Annex**, Birla Manjri enjoys seamle
         },
         {
           title: "Possession",
-          value: "December 2029",
+          value: "June 2031",
         },
       ],
       price: {
         title: "Premium 2 & 3 BHK Starts from",
-        value: "75 Lacs*",
+        value: "71.55 Lacs*",
         suffix: "Onwards",
       },
     },
@@ -136,15 +136,39 @@ Nestled in the rapidly developing **Hadapsar Annex**, Birla Manjri enjoys seamle
       "Choose from our range of Newly Launched 2 & 3 BHK residences, each designed to offer the perfect blend of comfort and sophistication",
     prices: [
       {
-        type: "2 BHK",
-        carpetArea: "707 Sq.ft.",
-        price: "75 Lacs*",
+        type: "2 BHK Large",
+        carpetArea: "707-723 Sq.ft.",
+        price: "71.55-78.55 Lacs",
         suffix: "Onwards",
       },
       {
-        type: "3 BHK",
-        carpetArea: "962 Sq.ft.",
-        price: "1.05 Cr*",
+        type: "2 BHK XL",
+        carpetArea: "789–805 Sq.ft.",
+        price: "79.75-89.45 Lacs",
+        suffix: "Onwards",
+      },
+      {
+        type: "2 BHK + Private Garden",
+        carpetArea: "909–1275 Sq.ft.",
+        price: "78.41-92.03 Lacs",
+        suffix: "Onwards",
+      },
+      {
+        type: "3 BHK Large",
+        carpetArea: "962–975 Sq.ft.",
+        price: "97.25 Lacs-1.07 Cr",
+        suffix: "Onwards",
+      },
+      {
+        type: "3 BHK XL",
+        carpetArea: "1122 Sq.ft.",
+        price: "1.20-1.24 Cr",
+        suffix: "Onwards",
+      },
+      {
+        type: "3 BHK + Private Garden",
+        carpetArea: "1257–2449 Sq.ft.",
+        price: "1.07-1.49 Cr",
         suffix: "Onwards",
       },
     ],
@@ -187,12 +211,12 @@ Nestled in the rapidly developing **Hadapsar Annex**, Birla Manjri enjoys seamle
       title: "Floor Plans",
       plans: [
         {
-          type: "2 BHK-707 Sq.ft.",
+          type: "2 BHK-909–1275 Sq.ft.",
           image: "/evam/images/floor.jpg",
           category: "2 BHK",
         },
         {
-          type: "3 BHK-962 Sq.ft.",
+          type: "3 BHK-1257–2449 Sq.ft.",
           image: "/evam/images/floor2.jpg",
           category: "3 BHK",
         },
