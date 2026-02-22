@@ -45,27 +45,30 @@ export default function HeroSection() {
             ))}
           </CarouselContent>
         </Carousel>
-        <div className="absolute hidden lg:block top-4 left-4 z-10 max-w-sm bg-white/95 backdrop-blur-sm rounded-lg shadow-lg overflow-hidden">
-          <div className="bg-primary text-white px-4 py-2 text-sm font-semibold">
+        <div className="absolute hidden lg:flex flex-col top-0 left-0 z-10 w-[270px] h-full bg-white/90 backdrop-blur-sm rounded-none shadow-lg overflow-y-auto">
+          <div className="bg-primary text-white px-4 py-2 text-[13px] font-semibold text-center">
             {hero.offer.title}
           </div>
           <div className="px-4 py-3 space-y-2">
             <div className="flex flex-col">
-              <h2 className="text-2xl font-bold text-gray-900">{name}</h2>
-              <p className="text-sm text-gray-600">{hero.offer.location}</p>
+              <h2 className="text-2xl font-bold text-gray-900 text-center">{name}</h2>
+              <hr className="my-1" />
+              <p className="text-sm text-gray-600 text-center tracking-wide">{hero.offer.location}</p>
             </div>
 
-            <div className="grid grid-cols-2 gap-2 text-sm">
-              {hero.offer.features.map((feature, index) => (
-                <div key={index}>
-                  <p className="font-semibold">{feature.title}</p>
-                  <p className="text-gray-600 w-full">{feature.value}</p>
-                </div>
-              ))}
+            <div className="bg-gray-300/80 p-3 rounded-lg">
+              <div className="grid grid-cols-1 gap-2 text-sm">
+                {hero.offer.features.map((feature, index) => (
+                  <div key={index} className="flex items-center">
+                    <p className="font-semibold mr-2">{feature.title}</p>:
+                    <p className="text-gray-600 ml-2">{feature.value}</p>
+                  </div>
+                ))}
+              </div>
             </div>
 
             <motion.div
-              className="border-t border-gray-200 p-3 rounded-xl bg-gradient-to-r from-red-700/60 to-primary/60 relative overflow-hidden"
+              className="border-t border-gray-200 p-3 rounded-xl bg-gradient-to-r from-red-600/60 to-primary/80 relative overflow-hidden"
               animate={{
                 backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
               }}
@@ -95,7 +98,7 @@ export default function HeroSection() {
                 {hero.offer.points.map((point, index) => (
                   <div
                     key={index}
-                    className="flex items-center text-sm text-white font-bold"
+                    className="flex items-center text-sm text-white"
                   >
                     <span className="inline-block w-2 h-2 bg-primary rounded-full mr-2" />
                     <span>{point.text}</span>
@@ -149,7 +152,7 @@ export default function HeroSection() {
             </div>
 
             <motion.div
-              className="border-t border-gray-200 p-3 rounded-xl bg-gradient-to-r from-primary/20 to-primary/60 relative overflow-hidden"
+              className="border-t border-gray-200 p-3 rounded-xl bg-gradient-to-r from-red-600/60 to-primary/80 relative overflow-hidden"
               animate={{
                 backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
               }}
@@ -179,7 +182,7 @@ export default function HeroSection() {
                 {hero.offer.points.map((point, index) => (
                   <div
                     key={index}
-                    className="flex items-center text-sm text-primary"
+                    className="flex items-center text-sm text-primary text-white"
                   >
                     <span className="inline-block w-2 h-2 bg-primary rounded-full mr-2" />
                     <span>{point.text}</span>
@@ -230,9 +233,8 @@ export default function HeroSection() {
           <div className="space-y-4 flex flex-col">
             <div className="relative">
               <p
-                className={`text-sm sm:text-base text-gray-600 ${
-                  !isExpanded && "line-clamp-4"
-                }`}
+                className={`text-sm sm:text-base text-gray-600 ${!isExpanded && "line-clamp-4"
+                  }`}
               >
                 {hero.welcome.description}
               </p>
