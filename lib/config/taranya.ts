@@ -458,13 +458,13 @@ Birla Taranya presents a promising address for those seeking an upgraded lifesty
   },
 
   seo: {
-    title: "Birla Taranya | Luxury Apartments in Pune",
+    title: "Birla Taranya | Luxury Apartments in Thane",
     description:
-      "Experience luxury living at Birla Taranya, Pune. 2 & 3 BHK apartments with world-class amenities.",
+      "Experience luxury living at Birla Taranya, Thane. 2 & 3 BHK apartments with world-class amenities.",
     keywords: [
       "luxury apartments",
-      "pune",
       "Birla Taranya",
+      "1 bhk",
       "2 bhk",
       "3 bhk",
     ],
