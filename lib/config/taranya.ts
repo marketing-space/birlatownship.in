@@ -22,7 +22,7 @@ export const taranyaConfig = {
     whatsapp: "+919619095795",
     address: "Thane Belapur Road",
   },
-  gtmId: "GTM-P7ST6K6T",
+  gtmId: "GTM-T59BCL9J",
   navbar: {
     navItems: [
       {
